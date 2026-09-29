@@ -1,0 +1,2402 @@
+[
+  {
+    "id": 1,
+    "question": "What is the primary international legal framework for civil aviation established in 1944?",
+    "choices": [
+      "Chicago Convention",
+      "Paris Convention",
+      "Tokyo Convention",
+      "Warsaw Convention"
+    ],
+    "answer": "A",
+    "explanation": "The Chicago Convention provides the main international legal framework for civil aviation established in 1944."
+  },
+  {
+    "id": 2,
+    "question": "On what date was the Convention on International Civil Aviation signed?",
+    "choices": [
+      "1 November 1944",
+      "7 December 1947",
+      "7 December 1944",
+      "4 April 1947"
+    ],
+    "answer": "C",
+    "explanation": "The Convention on International Civil Aviation was signed on 7 December 1944."
+  },
+  {
+    "id": 3,
+    "question": "Which principle is fundamental to the Chicago Convention framework?",
+    "choices": [
+      "State sovereignty over airspace",
+      "Common ownership of international airspace",
+      "Freedom of the high seas applied to airspace",
+      "Unrestricted innocent passage for all aircraft"
+    ],
+    "answer": "A",
+    "explanation": "The Chicago Convention is based on the sovereignty of each State over its own airspace."
+  },
+  {
+    "id": 4,
+    "question": "Which ICAO document is the Convention on International Civil Aviation?",
+    "choices": [
+      "Doc 7300/9",
+      "Doc 9859",
+      "Doc 4444",
+      "Doc 8168"
+    ],
+    "answer": "A",
+    "explanation": "Doc 7300 is the Convention on International Civil Aviation; this question bank identifies the edition as Doc 7300/9."
+  },
+  {
+    "id": 5,
+    "question": "What is the principal purpose of ICAO in the Chicago Convention system?",
+    "choices": [
+      "Promote safe and orderly development of international civil aviation",
+      "Regulate domestic air transport within each Contracting State",
+      "Promote the commercial interests of member airlines worldwide",
+      "Set fares and ticketing rules for international air carriers"
+    ],
+    "answer": "A",
+    "explanation": "ICAO promotes the safe and orderly development of international civil aviation."
+  },
+  {
+    "id": 6,
+    "question": "What is the key purpose of ICAO Standards and Recommended Practices (SARPs)?",
+    "choices": [
+      "Replace national aviation legislation with a single ICAO rulebook",
+      "Provide a harmonised framework for State and military aircraft",
+      "Provide an internationally harmonised framework for civil aviation",
+      "Provide binding commercial rules for international airline pricing"
+    ],
+    "answer": "C",
+    "explanation": "SARPs provide common international standards and recommended practices to harmonise civil aviation."
+  },
+  {
+    "id": 7,
+    "question": "When a State cannot comply with an applicable ICAO Standard, what is the Convention mechanism relevant to that difference?",
+    "choices": [
+      "Notify the difference to ICAO",
+      "Request an exemption by vote of the ICAO Assembly",
+      "Obtain prior approval of the difference from IATA",
+      "Withdraw from the Convention for that Annex only"
+    ],
+    "answer": "A",
+    "explanation": "A State that cannot comply with an ICAO Standard must notify ICAO of the difference."
+  },
+  {
+    "id": 8,
+    "question": "Which body is responsible for the international civil aviation framework rather than representing airlines as an industry association?",
+    "choices": [
+      "IATA",
+      "IFALPA",
+      "ICAO",
+      "ACI"
+    ],
+    "answer": "C",
+    "explanation": "ICAO is the intergovernmental organisation responsible for the international civil aviation framework."
+  },
+  {
+    "id": 9,
+    "question": "Which organisation is identified in the syllabus as an airline industry association?",
+    "choices": [
+      "IATA",
+      "ECAC",
+      "IFALPA",
+      "ICAO"
+    ],
+    "answer": "A",
+    "explanation": "IATA is the airline industry association identified in the syllabus."
+  },
+  {
+    "id": 10,
+    "question": "What is the First Freedom of the Air?",
+    "choices": [
+      "The right to carry traffic between two foreign States",
+      "The right to overfly another State and land to refuel",
+      "The right to land in another State for non-traffic purposes",
+      "The right to overfly another State without landing"
+    ],
+    "answer": "D",
+    "explanation": "The First Freedom permits overflight of another State without landing."
+  },
+  {
+    "id": 11,
+    "question": "What is the Second Freedom of the Air?",
+    "choices": [
+      "The right to overfly another State without landing",
+      "The right to land for non-traffic purposes",
+      "The right to land and set down traffic from the home State",
+      "The right to land for traffic purposes only"
+    ],
+    "answer": "B",
+    "explanation": "The Second Freedom permits a technical landing in another State without traffic purposes."
+  },
+  {
+    "id": 12,
+    "question": "Which statement best describes the Third Freedom of the Air?",
+    "choices": [
+      "Carry traffic between two points within another State",
+      "Carry traffic from the carrier's home State to another State",
+      "Carry traffic from another State back to the carrier's home State",
+      "Carry traffic between two foreign States via the home State"
+    ],
+    "answer": "B",
+    "explanation": "The Third Freedom permits carrying traffic from the carrier's home State to another State."
+  },
+  {
+    "id": 13,
+    "question": "Which statement best describes the Fourth Freedom of the Air?",
+    "choices": [
+      "Carry traffic from another State back to the carrier's home State",
+      "Carry traffic between two points within another State",
+      "Carry traffic between two foreign States via the home State",
+      "Carry traffic from the carrier's home State to another State"
+    ],
+    "answer": "A",
+    "explanation": "The Fourth Freedom permits carrying traffic from another State back to the carrier's home State."
+  },
+  {
+    "id": 14,
+    "question": "Which freedom is a commercial freedom rather than a technical freedom?",
+    "choices": [
+      "Second Freedom",
+      "Third Freedom",
+      "Both the First and Second Freedoms",
+      "First Freedom"
+    ],
+    "answer": "B",
+    "explanation": "The Third Freedom is a commercial traffic right, while the First and Second Freedoms are technical freedoms."
+  },
+  {
+    "id": 15,
+    "question": "Which convention is specifically associated with offences and certain other acts committed on board aircraft?",
+    "choices": [
+      "Hague Convention 1970",
+      "Warsaw Convention 1929",
+      "Tokyo Convention 1963",
+      "Montreal Convention 1971"
+    ],
+    "answer": "C",
+    "explanation": "The Tokyo Convention 1963 concerns offences and certain other acts committed on board aircraft."
+  },
+  {
+    "id": 16,
+    "question": "What is the legal significance of issuing a passenger ticket or baggage/cargo document in the private international law context?",
+    "choices": [
+      "It is evidence of the carrier's traffic rights on that route",
+      "It is evidence that the passenger has cleared customs",
+      "It waives the carrier's liability for loss of baggage",
+      "It is evidence of a contract of carriage"
+    ],
+    "answer": "D",
+    "explanation": "A passenger ticket or baggage/cargo document is evidence of a contract of carriage."
+  },
+  {
+    "id": 17,
+    "question": "Which convention is identified in the syllabus as the modern framework for international carriage by air?",
+    "choices": [
+      "Guadalajara Convention 1961",
+      "Montreal Convention 1971",
+      "Warsaw Convention 1929",
+      "Montreal Convention 1999"
+    ],
+    "answer": "D",
+    "explanation": "The Montreal Convention 1999 is the international carriage framework identified in the syllabus."
+  },
+  {
+    "id": 18,
+    "question": "What is the main regulatory distinction between ICAO and IATA?",
+    "choices": [
+      "ICAO is an airline industry association; IATA is an intergovernmental organisation",
+      "ICAO is an intergovernmental organisation; IATA is an airline industry association",
+      "ICAO and IATA are both intergovernmental bodies with regulatory powers",
+      "ICAO regulates domestic aviation; IATA regulates international aviation"
+    ],
+    "answer": "B",
+    "explanation": "ICAO is an intergovernmental organisation; IATA is an airline industry association."
+  },
+  {
+    "id": 19,
+    "question": "Which statement best reflects the role of a national aviation authority such as CAAT?",
+    "choices": [
+      "It drafts ICAO Standards and Recommended Practices on behalf of the States in its region",
+      "It provides air traffic services only, with no regulatory role",
+      "It represents the national airlines as a commercial trade body",
+      "It implements and oversees the national civil aviation regulatory system"
+    ],
+    "answer": "D",
+    "explanation": "A national aviation authority such as CAAT implements and oversees its national civil aviation regulatory system."
+  },
+  {
+    "id": 20,
+    "question": "A pilot plans to cross the airspace of another sovereign State. Which principle should be considered first?",
+    "choices": [
+      "The right of innocent passage as applied under the law of the sea",
+      "The First Freedom, which permits overflight without any permission",
+      "The State's sovereignty and applicable entry/flight requirements",
+      "The operator's route preference and the fuel plan for the flight"
+    ],
+    "answer": "C",
+    "explanation": "States have sovereignty over their airspace, so applicable entry and flight requirements must be considered."
+  },
+  {
+    "id": 21,
+    "question": "Who is associated with issuing a Certificate of Airworthiness within the State of Registry framework?",
+    "choices": [
+      "The authority of the State of the Operator",
+      "The type certificate holder, on behalf of the State of Registry",
+      "The appropriate authority of the State of Registry",
+      "The authority of the State of Design"
+    ],
+    "answer": "C",
+    "explanation": "The appropriate authority of the State of Registry is associated with issuing the Certificate of Airworthiness."
+  },
+  {
+    "id": 22,
+    "question": "What is the main purpose of a Certificate of Airworthiness (CofA)?",
+    "choices": [
+      "To certify that the aircraft is entered on the national register",
+      "To certify that the aircraft is adequately insured for operation",
+      "To certify that the operator holds a valid Air Operator Certificate for that aircraft",
+      "To certify that the aircraft meets the applicable airworthiness requirements"
+    ],
+    "answer": "D",
+    "explanation": "A CofA certifies that the aircraft meets applicable airworthiness requirements."
+  },
+  {
+    "id": 23,
+    "question": "Which ICAO Annex is the principal reference for aircraft airworthiness in this syllabus?",
+    "choices": [
+      "Annex 6",
+      "Annex 8",
+      "Annex 7",
+      "Annex 1"
+    ],
+    "answer": "B",
+    "explanation": "ICAO Annex 8 is the principal reference for aircraft airworthiness."
+  },
+  {
+    "id": 24,
+    "question": "Which ICAO Annex is the principal reference for aircraft nationality and registration marks?",
+    "choices": [
+      "Annex 7",
+      "Annex 8",
+      "Annex 6",
+      "Annex 9"
+    ],
+    "answer": "A",
+    "explanation": "ICAO Annex 7 covers aircraft nationality and registration marks."
+  },
+  {
+    "id": 25,
+    "question": "What does the term State of Registry identify?",
+    "choices": [
+      "The State in which the operator is based",
+      "The State in whose territory the aircraft is operating",
+      "The State in which the aircraft is registered",
+      "The State in which the aircraft was designed"
+    ],
+    "answer": "C",
+    "explanation": "The State of Registry is the State in which the aircraft is registered."
+  },
+  {
+    "id": 26,
+    "question": "Which item is an aircraft registration mark?",
+    "choices": [
+      "A mark identifying the aircraft type and model",
+      "A mark identifying the individual registered aircraft",
+      "A mark showing the aircraft's airworthiness category",
+      "A mark identifying the operator's airline designator"
+    ],
+    "answer": "B",
+    "explanation": "A registration mark identifies an individual registered aircraft."
+  },
+  {
+    "id": 27,
+    "question": "Why is temporary loss of airworthiness important to a pilot?",
+    "choices": [
+      "It only affects commercial flights, not private flights",
+      "It affects only the aircraft's registration status, not whether it may be operated",
+      "It can affect whether the aircraft may legally and safely be operated",
+      "It only matters once the CofA has formally expired"
+    ],
+    "answer": "C",
+    "explanation": "Loss of airworthiness can affect whether an aircraft may legally and safely be operated."
+  },
+  {
+    "id": 28,
+    "question": "An aircraft suffers damage that may affect airworthiness. What is the appropriate regulatory concept?",
+    "choices": [
+      "The aircraft may continue operating until the CofA expiry date",
+      "Its continued airworthiness must be assessed under the applicable requirements",
+      "The PIC may accept the damage and continue if the aircraft still handles normally in flight",
+      "The aircraft's registration must be cancelled and re-issued"
+    ],
+    "answer": "B",
+    "explanation": "Damage that may affect airworthiness must be assessed under applicable continued-airworthiness requirements."
+  },
+  {
+    "id": 29,
+    "question": "Which pair is correctly matched?",
+    "choices": [
+      "Annex 6 — personnel licensing",
+      "Annex 7 — airworthiness of aircraft",
+      "Annex 7 — nationality and registration marks",
+      "Annex 8 — nationality and registration marks"
+    ],
+    "answer": "C",
+    "explanation": "Annex 7 is correctly matched with nationality and registration marks."
+  },
+  {
+    "id": 30,
+    "question": "A Certificate of Airworthiness and aircraft registration answer different questions. Which is correct?",
+    "choices": [
+      "Registration and airworthiness are covered by one certificate issued once",
+      "Registration addresses compliance for safe operation; airworthiness identifies the aircraft/State",
+      "A valid registration automatically confirms that the aircraft is airworthy",
+      "Registration identifies the aircraft/State; airworthiness addresses compliance for safe operation"
+    ],
+    "answer": "D",
+    "explanation": "Registration identifies the aircraft and State; airworthiness concerns compliance for safe operation."
+  },
+  {
+    "id": 31,
+    "question": "What is the regulatory relationship between ICAO Annex 1 and TCAR PEL Part -FCL?",
+    "choices": [
+      "TCAR PEL provides international standards; Annex 1 provides the national licensing framework",
+      "Annex 1 directly licenses pilots; TCAR PEL is guidance material only",
+      "Annex 1 provides international standards; TCAR PEL provides the national licensing framework",
+      "Annex 1 applies to ATPL holders only; TCAR PEL applies to PPL and CPL holders"
+    ],
+    "answer": "C",
+    "explanation": "Annex 1 provides international personnel-licensing standards, while TCAR PEL provides the applicable national framework."
+  },
+  {
+    "id": 32,
+    "question": "Which term describes a broad grouping such as aeroplane or helicopter?",
+    "choices": [
+      "Variant",
+      "Category",
+      "Type",
+      "Class"
+    ],
+    "answer": "B",
+    "explanation": "Category is the broad grouping of aircraft, such as aeroplane or helicopter."
+  },
+  {
+    "id": 33,
+    "question": "Which term describes a grouping of aircraft within a category with similar characteristics?",
+    "choices": [
+      "Category",
+      "Type",
+      "Group",
+      "Class"
+    ],
+    "answer": "D",
+    "explanation": "Class groups aircraft within a category according to similar characteristics."
+  },
+  {
+    "id": 34,
+    "question": "Which term normally identifies a specific aircraft type for which a type rating is required?",
+    "choices": [
+      "Series",
+      "Type",
+      "Category",
+      "Class"
+    ],
+    "answer": "B",
+    "explanation": "Type identifies a specific aircraft type for which a type rating may be required."
+  },
+  {
+    "id": 35,
+    "question": "What is a rating in the personnel licensing context?",
+    "choices": [
+      "A qualification entered on a licence, such as a class, type or instrument rating",
+      "A separate licence issued for each aircraft category, such as an aeroplane or helicopter licence",
+      "A medical assessment attached to a licence, such as Class 1 or Class 2",
+      "A qualification entered on a licence, such as a PPL, CPL or ATPL"
+    ],
+    "answer": "A",
+    "explanation": "A rating is a qualification or privilege attached to a licence, such as a class, type, or instrument rating."
+  },
+  {
+    "id": 36,
+    "question": "Which licence is specifically addressed by FCL.300 in the syllabus?",
+    "choices": [
+      "MPL",
+      "ATPL",
+      "CPL",
+      "PPL"
+    ],
+    "answer": "B",
+    "explanation": "FCL.300 is associated with the ATPL in the syllabus."
+  },
+  {
+    "id": 37,
+    "question": "Which provision is associated in the syllabus with CPL privileges?",
+    "choices": [
+      "FCL.205",
+      "FCL.305",
+      "FCL.300",
+      "FCL.505"
+    ],
+    "answer": "B",
+    "explanation": "FCL.305 is associated with CPL privileges in the syllabus."
+  },
+  {
+    "id": 38,
+    "question": "Which provision is associated with ATPL minimum age?",
+    "choices": [
+      "FCL.510",
+      "FCL.505",
+      "FCL.500",
+      "FCL.300"
+    ],
+    "answer": "C",
+    "explanation": "FCL.500 is associated with the ATPL minimum age in the syllabus."
+  },
+  {
+    "id": 39,
+    "question": "What is the principal purpose of an instrument rating?",
+    "choices": [
+      "To replace the need for a type rating on complex aircraft",
+      "To permit flight in IMC outside controlled airspace without the need for an ATC clearance",
+      "To qualify the pilot to fly under IFR within the rating's privileges",
+      "To allow the pilot to fly under VFR at night only"
+    ],
+    "answer": "C",
+    "explanation": "An instrument rating provides the applicable pilot qualification for IFR/instrument operations within its privileges."
+  },
+  {
+    "id": 40,
+    "question": "Which activity is specifically included in the Part-FCL definitions syllabus?",
+    "choices": [
+      "Dual instruction time",
+      "Rest period",
+      "Standby duty time",
+      "Flight duty period"
+    ],
+    "answer": "A",
+    "explanation": "Dual instruction time is included in the Part-FCL definitions syllabus."
+  },
+  {
+    "id": 41,
+    "question": "What does SPIC refer to in the syllabus?",
+    "choices": [
+      "Solo Pilot-in-Command",
+      "Supervised Pilot-in-Command",
+      "Single-Pilot Instrument Certificate",
+      "Student Pilot-in-Command"
+    ],
+    "answer": "D",
+    "explanation": "SPIC means Student Pilot-in-Command."
+  },
+  {
+    "id": 42,
+    "question": "Which is an example of a rating rather than a licence?",
+    "choices": [
+      "Multi-crew pilot licence",
+      "Instrument rating",
+      "Light aircraft pilot licence",
+      "Commercial pilot licence"
+    ],
+    "answer": "B",
+    "explanation": "An instrument rating is a rating rather than a separate pilot licence."
+  },
+  {
+    "id": 43,
+    "question": "What is the purpose of a proficiency check?",
+    "choices": [
+      "To assess the aircraft's continued airworthiness before flight",
+      "To demonstrate continued competence for the relevant privilege/rating",
+      "To demonstrate continued medical fitness for the privileges of the relevant licence and rating",
+      "To issue an initial licence to a student pilot"
+    ],
+    "answer": "B",
+    "explanation": "A proficiency check demonstrates continued competence for the relevant privilege or rating."
+  },
+  {
+    "id": 44,
+    "question": "What is the distinction between revalidation and renewal?",
+    "choices": [
+      "Revalidation applies to licences only; renewal applies to medicals only",
+      "Revalidation extends validity before expiry; renewal restores it after expiry",
+      "Renewal extends validity before expiry; revalidation restores it after expiry",
+      "Revalidation and renewal are identical terms used interchangeably"
+    ],
+    "answer": "B",
+    "explanation": "Revalidation continues validity before expiry; renewal restores a privilege or rating after expiry under applicable requirements."
+  },
+  {
+    "id": 45,
+    "question": "Which subject is explicitly included under medical regulation in the CAAT Air Law syllabus?",
+    "choices": [
+      "Aircraft registration marks",
+      "Decrease in medical fitness",
+      "Aircraft noise certification",
+      "Cabin crew training records"
+    ],
+    "answer": "B",
+    "explanation": "Decrease in medical fitness is included under medical regulation in the CAAT Air Law syllabus."
+  },
+  {
+    "id": 46,
+    "question": "A pilot becomes aware of a decrease in medical fitness that could affect safe exercise of licence privileges. What is the correct regulatory approach?",
+    "choices": [
+      "Continue exercising privileges until the next scheduled medical examination is due",
+      "Continue flying provided a second pilot is on board",
+      "Follow the medical rules and not exercise privileges contrary to them",
+      "Self-assess fitness and fly only if feeling well enough"
+    ],
+    "answer": "C",
+    "explanation": "A pilot with decreased medical fitness must follow the applicable medical requirements and not exercise privileges contrary to them."
+  },
+  {
+    "id": 47,
+    "question": "Which item is NOT primarily a personnel licensing document?",
+    "choices": [
+      "Flight crew licence",
+      "Type rating endorsement",
+      "Certificate of Airworthiness",
+      "Class 1 medical certificate"
+    ],
+    "answer": "C",
+    "explanation": "A Certificate of Airworthiness concerns the aircraft, not primarily personnel licensing."
+  },
+  {
+    "id": 48,
+    "question": "Why must a CPL/IR Integrated student understand both licence and rating requirements?",
+    "choices": [
+      "Because only the rating, not the licence, requires a valid medical",
+      "Because a rating can still be exercised on its own after the licence itself has lapsed",
+      "Because exercising a privilege depends on the licence, rating and conditions",
+      "Because holding the licence automatically includes every rating"
+    ],
+    "answer": "C",
+    "explanation": "Exercising a privilege depends on the applicable licence, rating, and conditions."
+  },
+  {
+    "id": 49,
+    "question": "Which ICAO Annex is the primary international reference for personnel licensing?",
+    "choices": [
+      "Annex 1",
+      "Annex 2",
+      "Annex 11",
+      "Annex 6"
+    ],
+    "answer": "A",
+    "explanation": "ICAO Annex 1 is the primary international reference for personnel licensing."
+  },
+  {
+    "id": 50,
+    "question": "Which ICAO Annex is the primary international reference for Rules of the Air?",
+    "choices": [
+      "Annex 2",
+      "Annex 1",
+      "Annex 11",
+      "Annex 6"
+    ],
+    "answer": "A",
+    "explanation": "ICAO Annex 2 is the primary international reference for Rules of the Air."
+  },
+  {
+    "id": 51,
+    "question": "What is the primary operational purpose of collision -avoidance rules?",
+    "choices": [
+      "To give larger, less manoeuvrable aircraft priority over smaller aircraft in all situations",
+      "To reduce ATC workload by removing the need for clearances",
+      "To reduce the risk of collision through standardised responsibilities and actions",
+      "To give ATC sole responsibility for separating all traffic"
+    ],
+    "answer": "C",
+    "explanation": "Collision-avoidance rules standardise responsibilities and actions to reduce collision risk."
+  },
+  {
+    "id": 52,
+    "question": "Two aircraft are approaching head-on or nearly so. What is the general principle?",
+    "choices": [
+      "Each should alter heading to the right",
+      "Each should alter heading to the left",
+      "The faster aircraft should climb and the slower descend",
+      "The aircraft on the left should give way by turning right"
+    ],
+    "answer": "A",
+    "explanation": "For a head-on or nearly head-on situation, each aircraft generally alters heading to the right."
+  },
+  {
+    "id": 53,
+    "question": "In an overtaking situation, which aircraft normally has the responsibility to keep clear?",
+    "choices": [
+      "The overtaking aircraft",
+      "The larger or heavier aircraft",
+      "The aircraft at the lower altitude",
+      "The aircraft being overtaken"
+    ],
+    "answer": "A",
+    "explanation": "The overtaking aircraft normally has responsibility to keep clear."
+  },
+  {
+    "id": 54,
+    "question": "When two aircraft are converging at approximately the same level, which aircraft generally has right of way when the other is on its right?",
+    "choices": [
+      "The aircraft on the left",
+      "The aircraft on the right",
+      "The faster of the two aircraft",
+      "The aircraft that is climbing"
+    ],
+    "answer": "B",
+    "explanation": "When converging at approximately the same level, the aircraft with the other on its right generally has right of way."
+  },
+  {
+    "id": 55,
+    "question": "What is the key responsibility of the PIC even when receiving ATC service?",
+    "choices": [
+      "Retain responsibility for safe operation, including collision avoidance",
+      "Retain responsibility for navigation only, while ATC handles collision avoidance",
+      "Follow ATC instructions only; separation is no longer the PIC's concern",
+      "Transfer collision-avoidance responsibility to ATC while under control"
+    ],
+    "answer": "A",
+    "explanation": "The PIC retains responsibility for safe operation and collision avoidance even when receiving ATC service."
+  },
+  {
+    "id": 56,
+    "question": "What does VFR fundamentally require regarding visual conditions?",
+    "choices": [
+      "Operation in IMC with an ATC clearance",
+      "Operation with an instrument rating, in VMC only",
+      "Operation in applicable VMC and VFR conditions",
+      "Operation above any cloud layer at all times"
+    ],
+    "answer": "C",
+    "explanation": "VFR operation must comply with applicable VMC and VFR requirements."
+  },
+  {
+    "id": 57,
+    "question": "What is SVFR?",
+    "choices": [
+      "An IFR flight that is cleared to proceed visually to the runway",
+      "A VFR flight at night conducted above the transition altitude",
+      "A VFR flight conducted outside controlled airspace at night without any flight plan or clearance",
+      "A VFR flight cleared by ATC to operate within a control zone in conditions below VMC"
+    ],
+    "answer": "D",
+    "explanation": "SVFR is a special VFR operation conducted subject to applicable clearance and conditions."
+  },
+  {
+    "id": 58,
+    "question": "What is the relationship between IFR and an instrument rating for a CPL/IR pilot?",
+    "choices": [
+      "An ATC IFR clearance substitutes for the instrument rating while the flight is under control",
+      "A CPL alone permits IFR flight without any further rating",
+      "The pilot must hold the applicable qualification and meet the IFR conditions",
+      "An instrument rating is only needed in Class A airspace"
+    ],
+    "answer": "C",
+    "explanation": "IFR operation requires the applicable pilot qualification and conditions; an ATC clearance does not create an instrument rating."
+  },
+  {
+    "id": 59,
+    "question": "What is a flight plan primarily used for in the ATS system?",
+    "choices": [
+      "To obtain an automatic departure slot and landing permission at the destination aerodrome",
+      "To record the pilot's flight time for licensing purposes",
+      "To provide ATS units with information for flight planning, ATS and alerting",
+      "To replace the need for a pre-flight weather briefing"
+    ],
+    "answer": "C",
+    "explanation": "A flight plan provides information needed for flight planning, ATS, and alerting functions as applicable."
+  },
+  {
+    "id": 60,
+    "question": "Which situation should cause a pilot to consider the applicable interception procedures?",
+    "choices": [
+      "The aircraft loses two-way radio communication",
+      "The aircraft is overtaken by a faster aircraft",
+      "The aircraft is intercepted by another aircraft",
+      "The aircraft receives a TCAS traffic advisory"
+    ],
+    "answer": "C",
+    "explanation": "Interception by another aircraft is the situation requiring consideration of applicable interception procedures."
+  },
+  {
+    "id": 61,
+    "question": "What is the correct conceptual distinction between an ATC clearance and general traffic information?",
+    "choices": [
+      "A clearance authorises an operation under specified conditions; traffic information does not",
+      "Both are authorisations and carry exactly the same legal effect",
+      "Traffic information authorises an operation; a clearance is advisory only",
+      "A clearance transfers collision-avoidance responsibility to ATC; information does not"
+    ],
+    "answer": "A",
+    "explanation": "An ATC clearance authorises an operation under specified conditions; traffic information is not the same authorisation."
+  },
+  {
+    "id": 62,
+    "question": "A pilot receives a clearance that is not understood. What is the appropriate action?",
+    "choices": [
+      "Comply with the most likely interpretation and report later",
+      "Disregard the unclear element and continue with the flight plan",
+      "Request clarification before acting on the unclear element",
+      "Read back the clearance and act on it exactly as heard"
+    ],
+    "answer": "C",
+    "explanation": "If a clearance is unclear, the pilot should request clarification before acting on the unclear element."
+  },
+  {
+    "id": 63,
+    "question": "Which subject is included in the CAAT Rules of the Air learning objectives?",
+    "choices": [
+      "Aircraft noise certification",
+      "Collision avoidance",
+      "Pavement strength reporting",
+      "Airline route licensing"
+    ],
+    "answer": "B",
+    "explanation": "Collision avoidance is included in the CAAT Rules of the Air learning objectives."
+  },
+  {
+    "id": 64,
+    "question": "Why are aircraft lights part of Rules of the Air?",
+    "choices": [
+      "They illuminate the runway for landing when runway lights fail",
+      "They replace the need for a serviceable transponder when flying in controlled airspace at night",
+      "They help show an aircraft's position and relative direction, especially at night",
+      "They indicate the aircraft's State of Registry to other traffic"
+    ],
+    "answer": "C",
+    "explanation": "Aircraft lights help identify aircraft and relative position, especially at night or in reduced visibility."
+  },
+  {
+    "id": 65,
+    "question": "A VFR pilot can no longer maintain the applicable VMC. Which principle applies?",
+    "choices": [
+      "Continue in IMC provided the pilot holds a CPL",
+      "Switch to IFR immediately without contacting ATC",
+      "Act in accordance with the applicable Rules of the Air and procedures",
+      "Continue the flight as planned, since it was filed as VFR and the plan remains valid"
+    ],
+    "answer": "C",
+    "explanation": "If VMC can no longer be maintained, the pilot must act according to applicable Rules of the Air and procedures."
+  },
+  {
+    "id": 66,
+    "question": "Which item is directly addressed by the Rules of the Air syllabus?",
+    "choices": [
+      "Carriage of dangerous goods",
+      "Certification of aircraft noise",
+      "Licensing of aircraft maintenance engineers",
+      "Interception of civil aircraft"
+    ],
+    "answer": "D",
+    "explanation": "Interception of civil aircraft is directly addressed by the Rules of the Air syllabus."
+  },
+  {
+    "id": 67,
+    "question": "What is the best reason to study collision-avoidance rules even when operating under ATC?",
+    "choices": [
+      "Because collision-avoidance rules only apply when ATC service fails",
+      "Because ATC separation is always provided between VFR and IFR traffic in all classes of airspace",
+      "Because ATC is legally liable for any collision in controlled airspace",
+      "Pilots retain situational awareness and collision-avoidance responsibilities under ATC"
+    ],
+    "answer": "D",
+    "explanation": "Pilots must retain situational awareness and collision-avoidance responsibilities even under ATC."
+  },
+  {
+    "id": 68,
+    "question": "Which statement about right of way is most accurate?",
+    "choices": [
+      "Right of way always belongs to the larger, less manoeuvrable aircraft",
+      "Right of way establishes priority but does not remove the responsibility to avoid collision",
+      "Right of way removes any need for the aircraft that has priority to watch for or avoid other traffic",
+      "Right of way applies only when both aircraft are receiving ATC service"
+    ],
+    "answer": "B",
+    "explanation": "Right of way establishes priority but does not remove the responsibility to avoid collision."
+  },
+  {
+    "id": 69,
+    "question": "A pilot receives an ATC clearance but sees a developing collision hazard. What principle is most important?",
+    "choices": [
+      "Take appropriate action to avoid the collision and communicate with ATC as practicable",
+      "Continue to follow the clearance exactly as issued, since ATC is responsible for separating traffic",
+      "Request permission from ATC before making any avoiding manoeuvre",
+      "Avoid the collision but do not inform ATC, to reduce frequency congestion"
+    ],
+    "answer": "A",
+    "explanation": "A developing collision hazard requires appropriate avoidance action and communication with ATC when practicable."
+  },
+  {
+    "id": 70,
+    "question": "What is the main purpose of PANS-OPS in the Air Law syllabus?",
+    "choices": [
+      "To provide rules for airline economic regulation and route licensing",
+      "To provide standards for aerodrome design and runway markings",
+      "To provide procedures for air traffic management, ATC clearances and separation between aircraft",
+      "To provide procedures and criteria for instrument flight operations and procedure design"
+    ],
+    "answer": "D",
+    "explanation": "PANS-OPS provides procedures and criteria for instrument flight operations and procedure design."
+  },
+  {
+    "id": 71,
+    "question": "What does SID stand for?",
+    "choices": [
+      "Standard IFR Departure",
+      "Standard Instrument Descent",
+      "Standard Instrument Departure",
+      "Standard Initial Departure"
+    ],
+    "answer": "C",
+    "explanation": "SID stands for Standard Instrument Departure."
+  },
+  {
+    "id": 72,
+    "question": "What does STAR stand for?",
+    "choices": [
+      "Standard Approach and Radar",
+      "Standard Initial Arrival",
+      "Standard Instrument Approach",
+      "Standard Instrument Arrival"
+    ],
+    "answer": "D",
+    "explanation": "STAR stands for Standard Instrument Arrival."
+  },
+  {
+    "id": 73,
+    "question": "What is an omnidirectional departure?",
+    "choices": [
+      "A departure flown visually in any direction without obstacle criteria",
+      "A departure permitting specified tracks within published criteria, not one fixed route",
+      "A departure permitted only when radar vectors are provided by ATC",
+      "A departure that must follow one single published route from the runway to the first en-route fix"
+    ],
+    "answer": "B",
+    "explanation": "An omnidirectional departure allows specified departure tracks or directions according to published criteria rather than one fixed route."
+  },
+  {
+    "id": 74,
+    "question": "Which sequence correctly represents the standard segments of an instrument approach?",
+    "choices": [
+      "Arrival, intermediate, initial, final, missed approach",
+      "Arrival, initial, intermediate, final, missed approach",
+      "Initial, arrival, intermediate, final, missed approach",
+      "Arrival, initial, final, intermediate, missed approach"
+    ],
+    "answer": "B",
+    "explanation": "The standard instrument approach sequence is arrival, initial, intermediate, final, and missed approach."
+  },
+  {
+    "id": 75,
+    "question": "What is the main purpose of an approach procedure?",
+    "choices": [
+      "Provide a structured path for taxiing from the runway to the stand",
+      "Provide a structured, obstacle-protected path from arrival toward the runway",
+      "Provide ATC with a method of separating traffic on departure",
+      "Provide the most direct route from the arrival fix to the runway, without any obstacle protection"
+    ],
+    "answer": "B",
+    "explanation": "An approach procedure provides a structured route and obstacle-clearance framework toward the runway or approach reference."
+  },
+  {
+    "id": 76,
+    "question": "Which term describes the minimum descent altitude or height?",
+    "choices": [
+      "MSA",
+      "OCA/H",
+      "DA/H",
+      "MDA/H"
+    ],
+    "answer": "D",
+    "explanation": "MDA/H means Minimum Descent Altitude/Height."
+  },
+  {
+    "id": 77,
+    "question": "Which term describes decision altitude or height?",
+    "choices": [
+      "DA/H",
+      "MSA",
+      "OCA/H",
+      "MDA/H"
+    ],
+    "answer": "A",
+    "explanation": "DA/H means Decision Altitude/Height."
+  },
+  {
+    "id": 78,
+    "question": "Which term describes obstacle clearance altitude or height?",
+    "choices": [
+      "MDA/H",
+      "DA/H",
+      "MOCA",
+      "OCA/H"
+    ],
+    "answer": "D",
+    "explanation": "OCA/H means Obstacle Clearance Altitude/Height."
+  },
+  {
+    "id": 79,
+    "question": "Why is the published missed approach an integral part of an instrument approach?",
+    "choices": [
+      "It allows the crew to descend below the published minima to regain the required visual references",
+      "It provides an optional visual procedure for circling to land",
+      "It provides the protected procedure to follow if the approach cannot be completed to landing",
+      "It provides the route to the alternate aerodrome for fuel planning"
+    ],
+    "answer": "C",
+    "explanation": "The published missed approach provides the protected procedure if the approach cannot be completed to landing."
+  },
+  {
+    "id": 80,
+    "question": "A pilot reaches the applicable missed-approach point without the required conditions to continue. What is the fundamental action?",
+    "choices": [
+      "Begin a visual circling manoeuvre to locate the runway",
+      "Level off at minima and continue to the runway threshold",
+      "Initiate the published missed approach procedure",
+      "Continue descent until visual references are acquired"
+    ],
+    "answer": "C",
+    "explanation": "If the required conditions are not met at the applicable missed-approach point, the published missed approach is initiated as applicable."
+  },
+  {
+    "id": 81,
+    "question": "What is the purpose of a holding procedure?",
+    "choices": [
+      "To provide a fuel-saving cruise pattern during en-route flight",
+      "To provide a pattern for ATC to separate aircraft laterally on departure",
+      "To provide a pattern for descending below the MDA while awaiting visual reference",
+      "To provide a protected pattern for delaying, sequencing or positioning aircraft"
+    ],
+    "answer": "D",
+    "explanation": "A holding procedure provides a defined pattern for delaying, sequencing, or positioning aircraft while maintaining obstacle clearance."
+  },
+  {
+    "id": 82,
+    "question": "Which three holding entry concepts are normally recognised?",
+    "choices": [
+      "Direct, parallel and procedure turn",
+      "Racetrack, parallel and teardrop",
+      "Direct, parallel and teardrop/offset",
+      "Direct, reverse and teardrop"
+    ],
+    "answer": "C",
+    "explanation": "The three holding entry concepts are direct, parallel, and teardrop/offset."
+  },
+  {
+    "id": 83,
+    "question": "Why are deviations from a published holding procedure potentially dangerous?",
+    "choices": [
+      "They are only dangerous in VMC, where other traffic is not separated",
+      "They increase fuel burn and ATC workload but have no effect on the aircraft's obstacle clearance",
+      "They can take the aircraft outside the protected area and obstacle-clearance assumptions",
+      "They may cause the aircraft to exceed its maximum holding speed"
+    ],
+    "answer": "C",
+    "explanation": "Deviating from a published hold can take the aircraft outside protected areas and obstacle-clearance assumptions."
+  },
+  {
+    "id": 84,
+    "question": "What is the purpose of obstacle clearance criteria in instrument procedure design?",
+    "choices": [
+      "To provide separation margins between aircraft on the same procedure",
+      "To provide margins from noise-sensitive areas around the aerodrome",
+      "To guarantee terrain and obstacle clearance even when the aircraft is flown off the published procedure",
+      "To provide defined margins from terrain and obstacles for aircraft on the procedure"
+    ],
+    "answer": "D",
+    "explanation": "Obstacle-clearance criteria provide defined margins from terrain and obstacles for aircraft following the procedure."
+  },
+  {
+    "id": 85,
+    "question": "What does QNH provide to the pilot?",
+    "choices": [
+      "A pressure setting that makes the altimeter read altitude above mean sea level",
+      "A pressure setting that makes the altimeter read height above the aerodrome",
+      "A standard setting of 1013.25 hPa used to indicate flight levels",
+      "A pressure setting that makes the altimeter read true altitude in all temperatures"
+    ],
+    "answer": "A",
+    "explanation": "QNH is a pressure setting used to reference altitude to mean sea level under the applicable standard."
+  },
+  {
+    "id": 86,
+    "question": "What is a flight level?",
+    "choices": [
+      "A surface of constant height above the aerodrome elevation",
+      "A surface of constant atmospheric pressure related to 1013.25 hPa",
+      "A surface of constant atmospheric pressure referenced to the local QNH setting",
+      "A surface of constant altitude referenced to mean sea level"
+    ],
+    "answer": "B",
+    "explanation": "A flight level is a surface of constant atmospheric pressure referenced to standard pressure."
+  },
+  {
+    "id": 87,
+    "question": "What is the transition layer?",
+    "choices": [
+      "The airspace between the aerodrome elevation and the transition altitude",
+      "The airspace above the transition level up to FL245",
+      "The airspace between the transition altitude and the transition level",
+      "The airspace below the transition altitude down to the surface"
+    ],
+    "answer": "C",
+    "explanation": "The transition layer is the airspace between the transition altitude and transition level."
+  },
+  {
+    "id": 88,
+    "question": "What is the purpose of a No Transgression Zone (NTZ) in applicable parallel approach operations?",
+    "choices": [
+      "To provide airspace for missed approaches from both runways",
+      "To provide protected airspace between parallel final approach paths",
+      "To provide a zone where aircraft may descend below the glide path",
+      "To provide an area in which aircraft may hold between parallel approaches"
+    ],
+    "answer": "B",
+    "explanation": "The NTZ provides protected airspace between parallel final approach paths."
+  },
+  {
+    "id": 89,
+    "question": "What is the primary function of ACAS/TCAS Resolution Advisory (RA)?",
+    "choices": [
+      "Provide a horizontal turn command to avoid conflicting traffic",
+      "Provide ATC with an automatic separation instruction to be relayed to the aircraft's flight crew",
+      "Provide an airborne collision-avoidance manoeuvre indication to the flight crew",
+      "Provide traffic information only, without any manoeuvre guidance"
+    ],
+    "answer": "C",
+    "explanation": "A TCAS/ACAS RA provides the flight crew with an airborne collision-avoidance manoeuvre indication."
+  },
+  {
+    "id": 90,
+    "question": "A TCAS RA conflicts with a previous ATC vertical instruction. What is the fundamental priority?",
+    "choices": [
+      "Follow the ATC instruction, since it was issued first",
+      "Request ATC confirmation before responding to the RA",
+      "Respond to the RA in accordance with the applicable procedure",
+      "Follow the RA only if the conflicting aircraft is in sight"
+    ],
+    "answer": "C",
+    "explanation": "When an RA conflicts with an ATC vertical instruction, the crew responds to the RA according to the applicable procedure."
+  },
+  {
+    "id": 91,
+    "question": "Which Part is specifically associated with Specific Approvals in the TCAR OPS structure referenced by the syllabus?",
+    "choices": [
+      "Part-SPO",
+      "Part-SPA",
+      "Part-CAT",
+      "Part-ORO"
+    ],
+    "answer": "B",
+    "explanation": "Part-SPA is associated with Specific Approvals."
+  },
+  {
+    "id": 92,
+    "question": "Which Part is associated with non-commercial operations with complex motor -powered aircraft?",
+    "choices": [
+      "Part-CAT",
+      "Part-NCO",
+      "Part-SPO",
+      "Part-NCC"
+    ],
+    "answer": "D",
+    "explanation": "Part-NCC is associated with non-commercial operations with complex motor-powered aircraft."
+  },
+  {
+    "id": 93,
+    "question": "Which Part is associated with non-commercial operations with other-than-complex aircraft?",
+    "choices": [
+      "Part-NCC",
+      "Part-NCO",
+      "Part-ORO",
+      "Part-SPO"
+    ],
+    "answer": "B",
+    "explanation": "Part-NCO is associated with non-commercial operations with other-than-complex aircraft."
+  },
+  {
+    "id": 94,
+    "question": "During an approach, the ILS glide path becomes unavailable. What should the crew do?",
+    "choices": [
+      "Apply the approved contingency and minima; do not assume the approach is unchanged",
+      "Continue descent on the last known glide path using timing and DME distances down to the original DA",
+      "Continue the ILS to the original DA using the localiser only",
+      "Discontinue the procedure and descend visually to the runway"
+    ],
+    "answer": "A",
+    "explanation": "If the glide path becomes unavailable, the crew must apply the published or approved contingency and minima requirements."
+  },
+  {
+    "id": 95,
+    "question": "Which item is most directly associated with visual manoeuvring after an instrument approach?",
+    "choices": [
+      "Holding",
+      "Missed approach",
+      "Straight-in approach",
+      "Circling"
+    ],
+    "answer": "D",
+    "explanation": "Circling is associated with visual manoeuvring after an instrument approach."
+  },
+  {
+    "id": 96,
+    "question": "What is the operational purpose of an approach category?",
+    "choices": [
+      "To relate minima to the aircraft's maximum take-off mass only",
+      "To relate the approach to the crew's licence and rating level",
+      "To relate procedure design and minima to aircraft wake-turbulence category",
+      "To relate procedure design and minima to aircraft approach speed"
+    ],
+    "answer": "D",
+    "explanation": "Approach categories relate procedure design and minima to aircraft approach-speed characteristics."
+  },
+  {
+    "id": 97,
+    "question": "Which statement best describes the relationship between published procedure and ATC clearance?",
+    "choices": [
+      "Comply with both the procedure and the clearance, resolving any conflict with ATC",
+      "The ATC clearance always overrides the published procedure, without any need to query a conflict",
+      "The published procedure always overrides any ATC clearance received",
+      "Follow the procedure; ATC clearances are advisory on published routes"
+    ],
+    "answer": "A",
+    "explanation": "The pilot must comply with both the published procedure and applicable clearance, resolving conflicts with ATC when practicable."
+  },
+  {
+    "id": 98,
+    "question": "What is the main risk of descending below the published protected altitude on an instrument procedure without an applicable basis?",
+    "choices": [
+      "Loss of wake-turbulence separation",
+      "Loss of radio communication coverage",
+      "Loss of obstacle clearance protection",
+      "Loss of the ILS glide path signal"
+    ],
+    "answer": "C",
+    "explanation": "Descending below a protected altitude without an applicable basis can result in loss of obstacle-clearance protection."
+  },
+  {
+    "id": 99,
+    "question": "Which document is the principal source cited for the five standard instrument approach segments in the CAAT Appendix?",
+    "choices": [
+      "ICAO Doc 9613",
+      "ICAO Doc 4444",
+      "ICAO Doc 8168 Volume II",
+      "ICAO Doc 8168 Volume I"
+    ],
+    "answer": "D",
+    "explanation": "ICAO Doc 8168 Volume I is the principal source cited for the five standard instrument approach segments."
+  },
+  {
+    "id": 100,
+    "question": "What are the three basic types of Air Traffic Services?",
+    "choices": [
+      "Area, approach and aerodrome control",
+      "ATC, AIS and Alerting Service",
+      "ATC, FIS and Search and Rescue Service",
+      "ATC, FIS and Alerting Service"
+    ],
+    "answer": "D",
+    "explanation": "The three basic ATS types are ATC, Flight Information Service, and Alerting Service."
+  },
+  {
+    "id": 101,
+    "question": "What is the main objective of Air Traffic Services?",
+    "choices": [
+      "Provide separation only for commercial air transport flights",
+      "Maximise airspace capacity and airport revenue for operators",
+      "Promote safe, orderly and efficient air traffic and provide information and alerting",
+      "Promote safe and orderly air traffic and provide airline route licensing and slot allocation"
+    ],
+    "answer": "C",
+    "explanation": "ATS promotes safe, orderly, and efficient air traffic and provides required information and alerting functions."
+  },
+  {
+    "id": 102,
+    "question": "Which three services make up ATC?",
+    "choices": [
+      "Area control, flight information and alerting service",
+      "En-route control, radar control and apron management",
+      "Area control, approach control and flight information",
+      "Area control, approach control and aerodrome control"
+    ],
+    "answer": "D",
+    "explanation": "ATC consists of area control, approach control, and aerodrome control."
+  },
+  {
+    "id": 103,
+    "question": "What is the purpose of a Flight Information Region (FIR)?",
+    "choices": [
+      "Define the region in which an RCC coordinates SAR only",
+      "Define airspace in which only IFR flights are permitted",
+      "Define an airspace region within which ATC separation service is provided to all IFR and VFR flights",
+      "Define an airspace region within which flight information and alerting services are provided"
+    ],
+    "answer": "D",
+    "explanation": "An FIR is an airspace region where flight information and alerting services are provided."
+  },
+  {
+    "id": 104,
+    "question": "What is a UIR?",
+    "choices": [
+      "Upper Flight Information Region",
+      "Upper Instrument Region",
+      "Upper Information Route",
+      "Unified Information Region"
+    ],
+    "answer": "A",
+    "explanation": "UIR means Upper Flight Information Region."
+  },
+  {
+    "id": 105,
+    "question": "Why is airspace classification important to pilots?",
+    "choices": [
+      "It determines the services, entry requirements and separation provided",
+      "It determines the navigation aids available along each route",
+      "It determines only the minimum cruising altitude for each route",
+      "It determines the aircraft's airworthiness and registration requirements"
+    ],
+    "answer": "A",
+    "explanation": "Airspace classification determines applicable ATS/ATC services, entry and flight requirements, and separation."
+  },
+  {
+    "id": 106,
+    "question": "What is the purpose of transferring control of an aircraft between ATC units?",
+    "choices": [
+      "Reduce the pilot's radio workload by removing frequency changes",
+      "Ensure responsibility for control passes in a coordinated and defined manner",
+      "Transfer responsibility for collision avoidance from the pilot to ATC",
+      "Allow two ATC units to share control of the aircraft at the same time to provide extra monitoring"
+    ],
+    "answer": "B",
+    "explanation": "Transfer of control ensures responsibility passes between ATC units in a coordinated and defined manner."
+  },
+  {
+    "id": 107,
+    "question": "Which service primarily provides information useful for the safe and efficient conduct of flights?",
+    "choices": [
+      "Alerting Service",
+      "Flight Information Service",
+      "Air Traffic Control Service",
+      "Aeronautical Information Service"
+    ],
+    "answer": "B",
+    "explanation": "Flight Information Service provides information useful for the safe and efficient conduct of flights."
+  },
+  {
+    "id": 108,
+    "question": "Who is associated with providing alerting service?",
+    "choices": [
+      "The State of Registry of the aircraft concerned",
+      "The Rescue Coordination Centre only, acting directly without any involvement of the ATS units",
+      "The ATS units designated as responsible under the airspace arrangements",
+      "The aircraft operator's flight dispatch office only"
+    ],
+    "answer": "C",
+    "explanation": "Alerting service is provided by designated ATS units or organisations responsible under applicable arrangements."
+  },
+  {
+    "id": 109,
+    "question": "What does RNP stand for?",
+    "choices": [
+      "Required Navigation Performance",
+      "Recommended Navigation Performance",
+      "Required Navigation Procedure",
+      "Radio Navigation Precision"
+    ],
+    "answer": "A",
+    "explanation": "RNP means Required Navigation Performance."
+  },
+  {
+    "id": 110,
+    "question": "What is the key conceptual difference between RNP and an ATS route?",
+    "choices": [
+      "RNP is a defined route structure; an ATS route is a navigation-performance specification",
+      "RNP applies only to approaches; ATS routes apply only above FL245",
+      "RNP and ATS routes are the same thing under different names",
+      "RNP is a navigation-performance specification; an ATS route is a defined route structure"
+    ],
+    "answer": "D",
+    "explanation": "RNP is a navigation-performance specification, whereas an ATS route is a defined route structure."
+  },
+  {
+    "id": 111,
+    "question": "What is the purpose of an ATC clearance?",
+    "choices": [
+      "Guarantee terrain clearance for the whole flight",
+      "Transfer PIC responsibility to the controller",
+      "Authorise flight under specified conditions",
+      "Provide advisory traffic information only"
+    ],
+    "answer": "C",
+    "explanation": "An ATC clearance authorises a flight or portion of flight to proceed under specified conditions."
+  },
+  {
+    "id": 112,
+    "question": "On what should an ATC clearance be based?",
+    "choices": [
+      "The operator's schedule, which takes priority over other traffic",
+      "The flight plan only, without regard to other traffic",
+      "The flight plan and the traffic situation, within ATC procedures",
+      "The pilot's preferred route, regardless of the traffic situation"
+    ],
+    "answer": "C",
+    "explanation": "ATC clearances are based on the applicable flight plan and traffic/operational situation within the ATC system."
+  },
+  {
+    "id": 113,
+    "question": "Which item should the flight crew always treat as critical to read back correctly?",
+    "choices": [
+      "Only the frequency change and squawk code, since other clearance items are optional to read back",
+      "ATIS information such as temperature and dew point",
+      "Safety-critical clearance elements such as route, level and heading",
+      "Routine traffic information and weather observations"
+    ],
+    "answer": "C",
+    "explanation": "Safety-critical clearance elements such as route, level, and heading must be read back correctly as required."
+  },
+  {
+    "id": 114,
+    "question": "Why does ATC use horizontal speed control?",
+    "choices": [
+      "To provide vertical separation between aircraft following the same track at different levels",
+      "To reduce fuel consumption for all aircraft in the sector",
+      "To ensure each aircraft flies at its optimum cruise speed",
+      "To establish or maintain desired spacing and sequencing between aircraft"
+    ],
+    "answer": "D",
+    "explanation": "Horizontal speed control is used to establish or maintain desired spacing and sequencing between aircraft."
+  },
+  {
+    "id": 115,
+    "question": "When may a pilot initiate a change from IFR to VFR?",
+    "choices": [
+      "At any time in VMC, without the need to inform ATC",
+      "Only when ATC instructs the pilot to change to VFR",
+      "In accordance with the applicable procedure, notifying ATC as required",
+      "Only after landing at the destination, since an IFR flight plan cannot be cancelled while airborne"
+    ],
+    "answer": "C",
+    "explanation": "A change from IFR to VFR must follow the applicable procedure and required request or notification to ATC."
+  },
+  {
+    "id": 116,
+    "question": "What is the purpose of wake-turbulence categories in ATS procedures?",
+    "choices": [
+      "Determine the runway length required by each aircraft",
+      "Determine the noise category for night operations",
+      "Support separation and sequencing based on the wake hazard of each category",
+      "Classify aircraft according to approach speed so that procedure minima can be determined"
+    ],
+    "answer": "C",
+    "explanation": "Wake-turbulence categories support separation and sequencing according to wake hazard."
+  },
+  {
+    "id": 117,
+    "question": "What does INCERFA represent?",
+    "choices": [
+      "Distress phase",
+      "Alert phase",
+      "Emergency phase",
+      "Uncertainty phase"
+    ],
+    "answer": "D",
+    "explanation": "INCERFA is the uncertainty phase."
+  },
+  {
+    "id": 118,
+    "question": "What does ALERFA represent?",
+    "choices": [
+      "Distress phase",
+      "Alarm phase",
+      "Uncertainty phase",
+      "Alert phase"
+    ],
+    "answer": "D",
+    "explanation": "ALERFA is the alert phase."
+  },
+  {
+    "id": 119,
+    "question": "What does DETRESFA represent?",
+    "choices": [
+      "Uncertainty phase",
+      "Distress phase",
+      "Danger phase",
+      "Alert phase"
+    ],
+    "answer": "B",
+    "explanation": "DETRESFA is the distress phase."
+  },
+  {
+    "id": 120,
+    "question": "A flight becomes overdue and uncertainty exists about its safety. Which alerting phase is conceptually relevant first?",
+    "choices": [
+      "DETRESFA",
+      "INCERFA",
+      "MAYDAY",
+      "ALERFA"
+    ],
+    "answer": "B",
+    "explanation": "When uncertainty first exists about the safety of an overdue flight, INCERFA is the relevant initial alerting phase."
+  },
+  {
+    "id": 121,
+    "question": "What is the purpose of ATFM?",
+    "choices": [
+      "Provide flight information and alerting to all flights in an FIR",
+      "Allocate airline route licences between competing operators",
+      "Provide tactical separation between individual aircraft operating within controlled airspace",
+      "Manage air traffic demand and capacity so traffic can be handled safely and efficiently"
+    ],
+    "answer": "D",
+    "explanation": "ATFM manages air-traffic demand and capacity so traffic can be handled safely and efficiently."
+  },
+  {
+    "id": 122,
+    "question": "Which ICAO document is the principal PANS-ATM reference in the syllabus?",
+    "choices": [
+      "ICAO Doc 7030",
+      "ICAO Doc 4444",
+      "ICAO Doc 9432",
+      "ICAO Doc 8168"
+    ],
+    "answer": "B",
+    "explanation": "ICAO Doc 4444 is the principal PANS-ATM reference in the syllabus."
+  },
+  {
+    "id": 123,
+    "question": "What is a position report used for?",
+    "choices": [
+      "Report weather observations to ATS only when specifically requested by the meteorological office",
+      "Give ATS the aircraft's position and flight-progress information at required points",
+      "Replace the flight plan when the flight deviates from its route",
+      "Notify the operator of the aircraft's estimated fuel remaining"
+    ],
+    "answer": "B",
+    "explanation": "A position report provides ATS with the aircraft's position and relevant flight-progress information."
+  },
+  {
+    "id": 124,
+    "question": "Which type of information may be included in a special air -report?",
+    "choices": [
+      "Significant operational or meteorological information required by the procedure",
+      "Only the aircraft's position, without any weather information",
+      "Routine passenger, cargo and fuel load information for the operator's flight dispatch office",
+      "Maintenance defects to be passed to destination engineering"
+    ],
+    "answer": "A",
+    "explanation": "A special air-report may contain significant operational or meteorological information required by the procedure."
+  },
+  {
+    "id": 125,
+    "question": "What is the purpose of a transfer of control point?",
+    "choices": [
+      "Define where the aircraft must change from IFR to VFR",
+      "Define where the pilot changes the altimeter setting to standard",
+      "Define where the aircraft leaves the FIR and SAR responsibility passes to the adjacent region",
+      "Define where control responsibility passes from one ATC unit to the next"
+    ],
+    "answer": "D",
+    "explanation": "A transfer of control point defines where responsibility passes between ATC units."
+  },
+  {
+    "id": 126,
+    "question": "An aircraft is operating in controlled airspace and needs to change from IFR to VFR. What is the key consideration?",
+    "choices": [
+      "Continue on the IFR clearance but fly visually, without telling ATC that the flight is now VFR",
+      "Use the applicable PANS-ATM procedure and coordinate/notify ATC as required",
+      "Change to VFR only after leaving controlled airspace",
+      "Cancel IFR by simply changing the transponder code to 7000"
+    ],
+    "answer": "B",
+    "explanation": "An IFR-to-VFR change in controlled airspace must follow the applicable PANS-ATM procedure and ATC coordination or notification."
+  },
+  {
+    "id": 127,
+    "question": "Which statement about ATC and terrain clearance is most accurate?",
+    "choices": [
+      "It depends on the ATS unit and procedure; the pilot must know the clearance's scope",
+      "Terrain clearance is guaranteed by any clearance above the transition altitude",
+      "ATC is never responsible for terrain clearance in any circumstance",
+      "ATC is always responsible for terrain clearance once a clearance is issued"
+    ],
+    "answer": "A",
+    "explanation": "Terrain-clearance responsibility depends on the ATS unit and applicable procedure, so the pilot must understand the clearance's scope."
+  },
+  {
+    "id": 128,
+    "question": "What is the best pilot response to an ATC clearance that cannot be safely complied with?",
+    "choices": [
+      "Advise ATC promptly and request an alternative/clarification",
+      "Comply anyway, as ATC holds responsibility for the outcome",
+      "Disregard the clearance and continue on the flight plan route",
+      "Comply partially and explain the deviation after landing"
+    ],
+    "answer": "A",
+    "explanation": "If a clearance cannot be safely complied with, the pilot should advise ATC promptly and request an alternative or clarification."
+  },
+  {
+    "id": 129,
+    "question": "Which service is primarily concerned with control of aircraft in the vicinity of an aerodrome?",
+    "choices": [
+      "Aerodrome control service",
+      "Approach control service",
+      "Flight information service",
+      "Area control service"
+    ],
+    "answer": "A",
+    "explanation": "Aerodrome control service controls aircraft in the vicinity of an aerodrome."
+  },
+  {
+    "id": 130,
+    "question": "Which ATC service is primarily concerned with aircraft operating in an area/sector beyond the approach/aerodrome control environment?",
+    "choices": [
+      "Area control service",
+      "Aerodrome control service",
+      "Alerting service",
+      "Approach control service"
+    ],
+    "answer": "A",
+    "explanation": "Area control service concerns aircraft operating in an area or sector beyond the approach/aerodrome control environment."
+  },
+  {
+    "id": 131,
+    "question": "What is a Control Zone (CTR) generally intended to protect?",
+    "choices": [
+      "En-route traffic on the airway structure between two aerodromes, above the terminal area",
+      "Traffic above FL245 in the upper airspace",
+      "Military training areas adjacent to an aerodrome",
+      "Traffic in the vicinity of an aerodrome, within controlled airspace"
+    ],
+    "answer": "D",
+    "explanation": "A CTR generally protects aerodrome traffic in the vicinity of an aerodrome within controlled airspace."
+  },
+  {
+    "id": 132,
+    "question": "What is an ATIS primarily intended to provide?",
+    "choices": [
+      "Individual ATC clearances for departing aircraft",
+      "Recorded en-route weather and NOTAM information for all airways within the FIR",
+      "Recorded routine aerodrome information, reducing repetitive transmissions",
+      "Live traffic information on all aircraft in the circuit"
+    ],
+    "answer": "C",
+    "explanation": "ATIS provides recorded routine aerodrome information, reducing repetitive transmissions and improving situational awareness."
+  },
+  {
+    "id": 133,
+    "question": "Why is the information in an ATIS updated when significant changes occur?",
+    "choices": [
+      "To notify operators of passenger-related delays",
+      "To reduce the number of runway changes and ATC transmissions needed during the busy periods of the day",
+      "To ensure aircraft receive current operational information relevant to safe flight",
+      "To replace the need for NOTAMs at the aerodrome"
+    ],
+    "answer": "C",
+    "explanation": "ATIS is updated after significant changes so crews receive current operational information."
+  },
+  {
+    "id": 134,
+    "question": "What is the primary objective of Aeronautical Information Service?",
+    "choices": [
+      "Provide the aeronautical data needed for safe, regular and efficient air navigation",
+      "Provide airline schedules, slot allocations and airport charges information to operators",
+      "Provide weather forecasts for all flights in the FIR",
+      "Provide air traffic control, flight information and separation between aircraft in the FIR"
+    ],
+    "answer": "A",
+    "explanation": "AIS provides aeronautical information and data necessary for safe, regular, and efficient air navigation."
+  },
+  {
+    "id": 135,
+    "question": "What is the primary purpose of an AIP?",
+    "choices": [
+      "Provide pre-flight weather information for the planned flight",
+      "Provide aeronautical information of a temporary nature, such as short-term changes",
+      "Provide aeronautical information of a lasting character essential to air navigation",
+      "Provide time-critical information requiring immediate attention"
+    ],
+    "answer": "C",
+    "explanation": "The AIP contains aeronautical information of a lasting character essential to air navigation."
+  },
+  {
+    "id": 136,
+    "question": "Which three principal parts make up the AIP?",
+    "choices": [
+      "GEN, ENR and SUP",
+      "GEN, ENR and AD",
+      "ENR, AD and AIC",
+      "GEN, AD and NOTAM"
+    ],
+    "answer": "B",
+    "explanation": "The three principal AIP parts are GEN, ENR, and AD."
+  },
+  {
+    "id": 137,
+    "question": "What is an AIP Amendment?",
+    "choices": [
+      "A time-critical change notified by NOTAM",
+      "An advisory circular on administrative matters",
+      "A temporary change to information in the AIP",
+      "A permanent change to information in the AIP"
+    ],
+    "answer": "D",
+    "explanation": "An AIP Amendment publishes a permanent change to AIP information."
+  },
+  {
+    "id": 138,
+    "question": "What is an AIP Supplement generally used for?",
+    "choices": [
+      "Administrative or explanatory information that is not suited to publication in the AIP itself",
+      "Permanent changes to AIP information on AIRAC dates",
+      "Time-critical information requiring immediate distribution",
+      "Temporary changes or temporary information published within the AIP structure"
+    ],
+    "answer": "D",
+    "explanation": "An AIP Supplement is used for temporary changes or temporary information requiring publication in the AIP structure."
+  },
+  {
+    "id": 139,
+    "question": "What is the primary operational characteristic of a NOTAM?",
+    "choices": [
+      "It publishes permanent aeronautical information of a lasting character essential to navigation",
+      "It disseminates time-critical aeronautical information requiring prompt attention",
+      "It provides explanatory and administrative advisory information",
+      "It disseminates planned changes on a fixed 28-day cycle"
+    ],
+    "answer": "B",
+    "explanation": "A NOTAM disseminates time-critical aeronautical information requiring prompt attention."
+  },
+  {
+    "id": 140,
+    "question": "Which product is associated with volcanic ash information?",
+    "choices": [
+      "BIRDTAM",
+      "TAF",
+      "SNOWTAM",
+      "ASHTAM"
+    ],
+    "answer": "D",
+    "explanation": "ASHTAM is associated with volcanic ash information."
+  },
+  {
+    "id": 141,
+    "question": "Which product is associated with significant information about snow, slush, ice or frost on movement areas?",
+    "choices": [
+      "BIRDTAM",
+      "SNOWTAM",
+      "ASHTAM",
+      "AIC"
+    ],
+    "answer": "B",
+    "explanation": "SNOWTAM is associated with significant snow, slush, ice, or frost information on movement areas."
+  },
+  {
+    "id": 142,
+    "question": "What is AIRAC designed to control?",
+    "choices": [
+      "Immediate promulgation of unplanned changes requiring prompt attention",
+      "Planned promulgation of changes needing advance notice and common effective dates",
+      "Distribution of administrative circulars on non-operational matters",
+      "Publication of temporary changes that last longer than three months or contain extensive graphics"
+    ],
+    "answer": "B",
+    "explanation": "AIRAC controls planned promulgation and coordinated implementation of aeronautical information changes requiring advance notice."
+  },
+  {
+    "id": 143,
+    "question": "What is an AIC?",
+    "choices": [
+      "Aeronautical Information Circular",
+      "Air Information Communication",
+      "Aerodrome Information Circular",
+      "Aeronautical Information Chart"
+    ],
+    "answer": "A",
+    "explanation": "AIC means Aeronautical Information Circular."
+  },
+  {
+    "id": 144,
+    "question": "What is the purpose of a Pre-flight Information Bulletin (PIB)?",
+    "choices": [
+      "Provide current aeronautical information relevant to the planned flight",
+      "Provide the permanent AIP data and charts for every aerodrome within the State's territory",
+      "Provide the ATC clearance for the planned flight",
+      "Provide historical NOTAMs for statistical analysis"
+    ],
+    "answer": "A",
+    "explanation": "A PIB provides current aeronautical information relevant to the planned flight."
+  },
+  {
+    "id": 145,
+    "question": "A pilot is planning an IFR flight tomorrow and a runway closure is published for the destination. Which AIS product is most likely to require immediate attention?",
+    "choices": [
+      "NOTAM",
+      "AIP Amendment",
+      "AIC",
+      "AIP Supplement"
+    ],
+    "answer": "A",
+    "explanation": "A runway closure requiring prompt attention is normally disseminated through a NOTAM."
+  },
+  {
+    "id": 146,
+    "question": "Which AIS product should be checked for the enduring aerodrome procedures and data?",
+    "choices": [
+      "AIP",
+      "AIC",
+      "NOTAM",
+      "PIB"
+    ],
+    "answer": "A",
+    "explanation": "The AIP should be checked for enduring aerodrome procedures and data."
+  },
+  {
+    "id": 147,
+    "question": "Why must pilots check AIRAC changes before using a navigation database or procedure?",
+    "choices": [
+      "Because planned changes may take effect and make current data or procedures invalid",
+      "Because AIRAC only covers temporary information valid for one day",
+      "Because AIRAC changes are issued without any prior notice and take effect immediately upon publication",
+      "Because AIRAC changes apply only to VFR charts, not databases"
+    ],
+    "answer": "A",
+    "explanation": "AIRAC changes may become effective and affect the validity of current navigation data and procedures."
+  },
+  {
+    "id": 148,
+    "question": "What is the relationship between pre-flight briefing and AIS?",
+    "choices": [
+      "AIS replaces the need for any meteorological information to be obtained in the pre-flight briefing",
+      "Pre-flight briefing is only required when AIS is unavailable",
+      "Pre-flight briefing is the responsibility of ATC, not the pilot",
+      "AIS provides essential aeronautical information used in pre-flight preparation"
+    ],
+    "answer": "D",
+    "explanation": "AIS provides essential aeronautical information used as part of effective pre-flight preparation."
+  },
+  {
+    "id": 149,
+    "question": "What is the purpose of the aerodrome reference code?",
+    "choices": [
+      "Identify the aerodrome's location in the AIP and on charts",
+      "Relate pavement strength to the aircraft's mass so the aerodrome can accept each movement",
+      "Classify the aerodrome's rescue and firefighting category",
+      "Relate aerodrome design characteristics to the aircraft intended to use it"
+    ],
+    "answer": "D",
+    "explanation": "The aerodrome reference code relates aerodrome design characteristics to aircraft characteristics and operational requirements."
+  },
+  {
+    "id": 150,
+    "question": "What is the Aerodrome Reference Point (ARP)?",
+    "choices": [
+      "A defined geographic reference point for the aerodrome",
+      "The point where the ATC tower is located",
+      "The highest point of the landing area",
+      "The threshold of the main instrument runway, used as the aerodrome's datum"
+    ],
+    "answer": "A",
+    "explanation": "The ARP is a defined geographic reference point for an aerodrome."
+  },
+  {
+    "id": 151,
+    "question": "What does PCN represent?",
+    "choices": [
+      "Pavement Classification Number",
+      "Pavement Condition Number",
+      "Pavement Capacity Number",
+      "Pavement Classification Rating"
+    ],
+    "answer": "A",
+    "explanation": "PCN means Pavement Classification Number."
+  },
+  {
+    "id": 152,
+    "question": "What does ACN represent?",
+    "choices": [
+      "Aircraft Classification Number",
+      "Aircraft Classification Rating",
+      "Aircraft Capacity Number",
+      "Aircraft Category Number"
+    ],
+    "answer": "A",
+    "explanation": "ACN means Aircraft Classification Number."
+  },
+  {
+    "id": 153,
+    "question": "What is the relationship between ACN and PCN?",
+    "choices": [
+      "The PCN is compared with the aircraft's approach speed category",
+      "The aircraft's loading effect (ACN) is compared with the pavement's capability (PCN)",
+      "ACN and PCN are both measures of the runway length available",
+      "The pavement's capability (ACN) is compared with the aircraft's loading effect (PCN)"
+    ],
+    "answer": "B",
+    "explanation": "ACN represents aircraft loading/strength effects, which are compared with pavement capability represented by PCN."
+  },
+  {
+    "id": 154,
+    "question": "What does TORA mean?",
+    "choices": [
+      "Take-Off Rotation Area",
+      "Take-Off Run Available",
+      "Take-Off Run Allowance",
+      "Total Operational Runway Available"
+    ],
+    "answer": "B",
+    "explanation": "TORA means Take-Off Run Available."
+  },
+  {
+    "id": 155,
+    "question": "What does TODA mean?",
+    "choices": [
+      "Take-Off Distance Available",
+      "Take-Off Distance Assessed",
+      "Total Obstacle-free Distance Available",
+      "Take-Off Distance Actual"
+    ],
+    "answer": "A",
+    "explanation": "TODA means Take-Off Distance Available."
+  },
+  {
+    "id": 156,
+    "question": "What does ASDA mean?",
+    "choices": [
+      "Accelerate-Stop Distance Actual",
+      "Accelerate-Stop Distance Available",
+      "Aborted-Stop Distance Allowed",
+      "Approach-Stop Distance Available"
+    ],
+    "answer": "B",
+    "explanation": "ASDA means Accelerate-Stop Distance Available."
+  },
+  {
+    "id": 157,
+    "question": "What does LDA mean?",
+    "choices": [
+      "Landing Distance Assessed",
+      "Landing Descent Area",
+      "Landing Distance Available",
+      "Landing Distance Required"
+    ],
+    "answer": "C",
+    "explanation": "LDA means Landing Distance Available."
+  },
+  {
+    "id": 158,
+    "question": "Why is movement-area condition information important to AIS/ATS?",
+    "choices": [
+      "It provides operationally significant information affecting aircraft movement and safety",
+      "It is only reported for runways, not for taxiways or aprons",
+      "It is only relevant for aerodrome charging and landing fees",
+      "It is used only by the aerodrome operator for scheduling pavement maintenance and repair work"
+    ],
+    "answer": "A",
+    "explanation": "Movement-area condition information is operationally significant because it can affect aircraft movement and safety."
+  },
+  {
+    "id": 159,
+    "question": "Where should the threshold normally be located?",
+    "choices": [
+      "At the point where the ILS glide path meets the runway",
+      "At the beginning of the runway portion declared usable for landing",
+      "Always at the physical beginning of the paved runway surface",
+      "At the end of the stopway, before the runway begins"
+    ],
+    "answer": "B",
+    "explanation": "The threshold is normally at the beginning of the runway portion declared suitable for landing, subject to applicable criteria."
+  },
+  {
+    "id": 160,
+    "question": "What is a runway strip?",
+    "choices": [
+      "The painted centreline stripe used for guidance along the runway",
+      "A defined area including the runway, reducing risk to aircraft running off it",
+      "A paved area beyond the runway end for stopping in an abandoned take-off",
+      "An area beyond the runway over which an aircraft may make its initial climb"
+    ],
+    "answer": "B",
+    "explanation": "A runway strip includes the runway and associated area intended to reduce the risk of damage from an aircraft running off the runway."
+  },
+  {
+    "id": 161,
+    "question": "What is a stopway used for?",
+    "choices": [
+      "An area beyond the take-off run prepared for stopping in an abandoned take-off",
+      "An area beyond the runway end over which the aircraft makes its initial climb",
+      "An area beside the runway used for holding before take-off",
+      "An area before the threshold used to extend the landing distance available"
+    ],
+    "answer": "A",
+    "explanation": "A stopway is an area beyond the take-off run prepared for stopping an aircraft in an abandoned take-off, as applicable."
+  },
+  {
+    "id": 162,
+    "question": "What is a clearway used for?",
+    "choices": [
+      "An area beyond the runway end over which an aircraft may make part of its initial climb",
+      "An area beside the runway kept free of obstacles and graded for aircraft that are taxiing past it",
+      "An area before the threshold in which aircraft may begin the landing flare",
+      "An area beyond the take-off run prepared for stopping in an abandoned take-off"
+    ],
+    "answer": "A",
+    "explanation": "A clearway is an area beyond the runway end over which an aircraft may make part of its initial climb, subject to criteria."
+  },
+  {
+    "id": 163,
+    "question": "What is the main purpose of runway and taxiway markings and signs?",
+    "choices": [
+      "Provide lighting and guidance only for aircraft on final approach to the runway threshold",
+      "Provide standard visual guidance and identification for safe surface movement",
+      "Replace ATC clearances for taxiing aircraft",
+      "Indicate pavement strength and permitted aircraft mass"
+    ],
+    "answer": "B",
+    "explanation": "Runway and taxiway markings and signs provide standard visual guidance and identification for safe surface movement."
+  },
+  {
+    "id": 164,
+    "question": "Which ICAO Annex is the principal reference for Facilitation?",
+    "choices": [
+      "Annex 9",
+      "Annex 14",
+      "Annex 10",
+      "Annex 17"
+    ],
+    "answer": "A",
+    "explanation": "ICAO Annex 9 is the principal reference for Facilitation."
+  },
+  {
+    "id": 165,
+    "question": "What is the broad purpose of facilitation in international civil aviation?",
+    "choices": [
+      "Remove border controls so that international passengers, baggage and cargo move without any formalities",
+      "Speed cross-border movement of aircraft, crew, passengers and cargo while keeping required controls",
+      "Protect civil aviation against acts of unlawful interference",
+      "Harmonise airline fares and baggage allowances across borders"
+    ],
+    "answer": "B",
+    "explanation": "Facilitation supports efficient movement of aircraft, crew, passengers, baggage, and cargo across borders while maintaining required controls."
+  },
+  {
+    "id": 166,
+    "question": "Which group is explicitly included in the Facilitation syllabus?",
+    "choices": [
+      "Aircraft manufacturers",
+      "Maintenance engineers",
+      "Crew",
+      "Air traffic controllers"
+    ],
+    "answer": "C",
+    "explanation": "Crew is explicitly included in the Facilitation syllabus."
+  },
+  {
+    "id": 167,
+    "question": "Which item is associated with passenger/baggage facilitation?",
+    "choices": [
+      "Aircraft weight and balance calculations and loading documentation",
+      "Runway declared distances publication",
+      "Entry and departure processing and documentation",
+      "Holding and approach procedures"
+    ],
+    "answer": "C",
+    "explanation": "Passenger and baggage facilitation includes entry/departure processing and documentation."
+  },
+  {
+    "id": 168,
+    "question": "Which item is associated with cargo facilitation?",
+    "choices": [
+      "Cargo aircraft performance, loading limits and documentation for the load sheet",
+      "Cargo entry, documentation and clearance requirements",
+      "Dangerous goods classification and packing",
+      "Cargo hold fire-suppression requirements"
+    ],
+    "answer": "B",
+    "explanation": "Cargo facilitation includes cargo entry, documentation, and clearance requirements."
+  },
+  {
+    "id": 169,
+    "question": "Why should pilots understand facilitation requirements?",
+    "choices": [
+      "Only the operator's ground handling staff are affected by facilitation, not the flight crew",
+      "International operations depend on correct documentation and border processes",
+      "Facilitation determines aircraft performance limits abroad",
+      "Facilitation replaces the need for security screening"
+    ],
+    "answer": "B",
+    "explanation": "International operations depend on correct aircraft, crew, passenger, baggage, and cargo documentation and border processes."
+  },
+  {
+    "id": 170,
+    "question": "Which statement best distinguishes facilitation from security?",
+    "choices": [
+      "Facilitation focuses on efficient processing; security focuses on protection against unlawful interference",
+      "Facilitation focuses on protection against unlawful interference; security focuses on efficient processing",
+      "Facilitation and security are identical and both covered by Annex 17",
+      "Facilitation covers cargo only; security covers passengers only"
+    ],
+    "answer": "A",
+    "explanation": "Facilitation focuses on efficient processing, while security focuses on protection against unlawful interference."
+  },
+  {
+    "id": 171,
+    "question": "A crew member is preparing for an international flight. Why is crew documentation relevant under Annex 9?",
+    "choices": [
+      "Because entry/departure processing includes crew identification and documentation",
+      "Because crew documents replace the aircraft's Certificate of Airworthiness",
+      "Because Annex 9 sets flight-time limits for international crew",
+      "Because crew members are exempt from all entry and departure formalities"
+    ],
+    "answer": "A",
+    "explanation": "Crew documentation matters because international entry and departure processing includes applicable crew identification and documentation."
+  },
+  {
+    "id": 172,
+    "question": "Which item is NOT a normal Annex 9 facilitation topic?",
+    "choices": [
+      "Cargo clearance procedures",
+      "Crew member certificates",
+      "Passenger entry documents",
+      "Holding entry procedure"
+    ],
+    "answer": "D",
+    "explanation": "Holding entry is not a normal Annex 9 facilitation topic."
+  },
+  {
+    "id": 173,
+    "question": "What should a pilot do if required international documentation is missing?",
+    "choices": [
+      "Resolve it through the operator or appropriate authority before the operation",
+      "Operate the flight and resolve the issue on arrival",
+      "Operate the flight anyway if the missing document is not considered to be safety-related",
+      "Obtain replacement documents from the destination ATC unit"
+    ],
+    "answer": "A",
+    "explanation": "Missing international documentation should be resolved through the operator or appropriate authority before the operation as required."
+  },
+  {
+    "id": 174,
+    "question": "Which ICAO Annex is the principal reference for Search and Rescue?",
+    "choices": [
+      "Annex 12",
+      "Annex 11",
+      "Annex 13",
+      "Annex 10"
+    ],
+    "answer": "A",
+    "explanation": "ICAO Annex 12 is the principal reference for Search and Rescue."
+  },
+  {
+    "id": 175,
+    "question": "What does RCC stand for in SAR?",
+    "choices": [
+      "Radar Control Centre",
+      "Regional Control Centre",
+      "Rescue Communication Centre",
+      "Rescue Coordination Centre"
+    ],
+    "answer": "D",
+    "explanation": "RCC means Rescue Coordination Centre."
+  },
+  {
+    "id": 176,
+    "question": "What is the uncertainty phase?",
+    "choices": [
+      "A phase in which there is reasonable certainty of grave and imminent danger",
+      "A phase in which uncertainty exists regarding the safety of an aircraft and its occupants",
+      "A phase in which apprehension exists regarding the safety of an aircraft and its occupants",
+      "A phase in which the aircraft is known to be subject to unlawful interference"
+    ],
+    "answer": "B",
+    "explanation": "The uncertainty phase exists when there is uncertainty about the safety of an aircraft and its occupants."
+  },
+  {
+    "id": 177,
+    "question": "What is the alert phase?",
+    "choices": [
+      "A phase in which there is reasonable certainty of grave and imminent danger",
+      "A phase declared once the aircraft's fuel is considered exhausted",
+      "A phase in which apprehension exists regarding the safety of an aircraft and its occupants",
+      "A phase in which uncertainty exists regarding the safety of an aircraft and its occupants"
+    ],
+    "answer": "C",
+    "explanation": "The alert phase exists when apprehension exists about the safety of an aircraft and its occupants."
+  },
+  {
+    "id": 178,
+    "question": "What is the distress phase?",
+    "choices": [
+      "A phase in which an aircraft has failed to make one position report",
+      "A phase in which uncertainty exists regarding the safety of an aircraft and its occupants",
+      "A phase in which there is reasonable certainty of grave and imminent danger",
+      "A phase in which apprehension exists regarding the safety of an aircraft and its occupants"
+    ],
+    "answer": "C",
+    "explanation": "The distress phase applies when there is reasonable certainty of grave and imminent danger requiring immediate assistance."
+  },
+  {
+    "id": 179,
+    "question": "What is the role of a Rescue Coordination Centre?",
+    "choices": [
+      "Coordinate SAR resources worldwide, regardless of which region the aircraft was lost in",
+      "Provide air traffic control to aircraft in distress",
+      "Investigate the cause of the accident after the rescue",
+      "Coordinate SAR resources and actions within its area of responsibility"
+    ],
+    "answer": "D",
+    "explanation": "An RCC coordinates SAR resources and actions within its area of responsibility."
+  },
+  {
+    "id": 180,
+    "question": "A pilot intercepts a distress transmission from another aircraft. What should the pilot consider?",
+    "choices": [
+      "Maintain radio silence and take no action at all unless specifically requested to by the RCC",
+      "Divert immediately to the distress position regardless of fuel",
+      "Take no action, as only ATC units may act on distress messages",
+      "Follow SAR procedures, relay useful information and assist when practicable and safe"
+    ],
+    "answer": "D",
+    "explanation": "A pilot receiving a distress transmission should follow applicable SAR procedures, relay useful information, and assist when practicable and safe."
+  },
+  {
+    "id": 181,
+    "question": "Why are standard SAR visual signals important?",
+    "choices": [
+      "They identify the aircraft's registration to rescue units",
+      "They replace radio communication entirely in all SAR operations, even when radio is available",
+      "They are only used to mark the landing area for helicopters",
+      "They provide a common way to communicate when radio is unavailable or ineffective"
+    ],
+    "answer": "D",
+    "explanation": "Standard SAR visual signals provide a common communication method when normal radio communication may be unavailable or ineffective."
+  },
+  {
+    "id": 182,
+    "question": "Which ICAO Annex is the principal reference for aviation security?",
+    "choices": [
+      "Annex 17",
+      "Annex 18",
+      "Annex 13",
+      "Annex 9"
+    ],
+    "answer": "A",
+    "explanation": "ICAO Annex 17 is the principal reference for aviation security."
+  },
+  {
+    "id": 183,
+    "question": "What is the main objective of aviation security?",
+    "choices": [
+      "Safeguard civil aviation against accidents caused by technical failure",
+      "Investigate accidents to prevent their recurrence",
+      "Speed the clearance of passengers and cargo across borders",
+      "Safeguard civil aviation against acts of unlawful interference"
+    ],
+    "answer": "D",
+    "explanation": "Aviation security aims to safeguard civil aviation against acts of unlawful interference."
+  },
+  {
+    "id": 184,
+    "question": "Which term refers to examination of persons and property for prohibited items?",
+    "choices": [
+      "Security audit",
+      "Background check",
+      "Aircraft security search",
+      "Screening"
+    ],
+    "answer": "D",
+    "explanation": "Screening is the examination of persons and property for prohibited items."
+  },
+  {
+    "id": 185,
+    "question": "What is a security-restricted area?",
+    "choices": [
+      "An area of airspace where flight is restricted for military purposes",
+      "An area of the apron where aircraft refuelling takes place",
+      "An area where access is restricted for noise-abatement purposes",
+      "An area where access is controlled for aviation security purposes"
+    ],
+    "answer": "D",
+    "explanation": "A security-restricted area is an area where access is controlled for aviation-security purposes."
+  },
+  {
+    "id": 186,
+    "question": "What is the purpose of an aircraft security check?",
+    "choices": [
+      "Verify that the aircraft is airworthy and correctly configured before the first flight of the day",
+      "Check that passengers' travel documents are valid for entry",
+      "Confirm that cargo has been loaded within mass and balance limits",
+      "Detect prohibited items or threats, as required by the security programme"
+    ],
+    "answer": "D",
+    "explanation": "An aircraft security check is intended to detect prohibited items or security threats under the applicable security programme or procedure."
+  },
+  {
+    "id": 187,
+    "question": "What is an act of unlawful interference?",
+    "choices": [
+      "Any breach of the Rules of the Air by a flight crew member",
+      "An intentional act that threatens the security of civil aviation",
+      "An unintentional act that endangers the safety of civil aviation",
+      "Any disruptive passenger behaviour that does not affect safety"
+    ],
+    "answer": "B",
+    "explanation": "An act of unlawful interference is an intentional act that threatens civil aviation security."
+  },
+  {
+    "id": 188,
+    "question": "What is the purpose of an operator's written security programme?",
+    "choices": [
+      "Define the aircraft's minimum equipment list for dispatch",
+      "Define the operator's safety management system and its accident prevention policy and procedures",
+      "Define the operator's security measures required by the State's security framework",
+      "Define the passenger facilitation and customs procedures"
+    ],
+    "answer": "C",
+    "explanation": "An operator's written security programme defines its required security measures and procedures."
+  },
+  {
+    "id": 189,
+    "question": "An aircraft is subjected to unlawful interference. What is the appropriate general principle for the PIC?",
+    "choices": [
+      "Land at the nearest aerodrome regardless of the situation on board",
+      "Follow the unlawful-interference procedure unless conditions aboard dictate otherwise",
+      "Comply with all demands without informing ATC by any means",
+      "Follow the published procedure strictly in all cases, even if conditions aboard make it unsafe"
+    ],
+    "answer": "B",
+    "explanation": "Following unlawful interference, the PIC should follow the applicable procedure unless circumstances aboard the aircraft dictate otherwise."
+  },
+  {
+    "id": 190,
+    "question": "Why are flight crew compartment doors a security topic?",
+    "choices": [
+      "They must remain open to allow cabin crew free access",
+      "They are required to reduce cabin noise on the flight deck",
+      "They are designed mainly to protect the flight crew from injury caused by severe turbulence or decompression",
+      "They are part of measures to protect the flight crew compartment against unlawful access"
+    ],
+    "answer": "D",
+    "explanation": "Flight crew compartment doors are a security measure protecting the flight crew compartment against unlawful access."
+  },
+  {
+    "id": 191,
+    "question": "What is the key distinction between safety and security?",
+    "choices": [
+      "Security addresses hazards/accident prevention; safety addresses intentional unlawful acts",
+      "Safety and security are the same concept, both covered by Annex 17",
+      "Safety applies to aircraft; security applies only to airports",
+      "Safety addresses hazards/accident prevention; security addresses intentional unlawful acts"
+    ],
+    "answer": "D",
+    "explanation": "Safety addresses hazards and accident prevention; security addresses intentional unlawful acts."
+  },
+  {
+    "id": 192,
+    "question": "Which ICAO Annex is the principal reference for aircraft accident and incident investigation?",
+    "choices": [
+      "Annex 12",
+      "Annex 13",
+      "Annex 17",
+      "Annex 19"
+    ],
+    "answer": "B",
+    "explanation": "ICAO Annex 13 is the principal reference for aircraft accident and incident investigation."
+  },
+  {
+    "id": 193,
+    "question": "What is the primary objective of an Annex 13 investigation?",
+    "choices": [
+      "Determine insurance compensation",
+      "Prosecute those found responsible",
+      "Prevent future accidents and incidents",
+      "Apportion blame and liability"
+    ],
+    "answer": "C",
+    "explanation": "Annex 13 investigations are primarily intended to prevent future accidents and incidents."
+  },
+  {
+    "id": 194,
+    "question": "Which State is the State of Occurrence?",
+    "choices": [
+      "The State in whose territory the accident or incident occurs",
+      "The State in which the operator has its principal place of business",
+      "The State in which the aircraft is registered",
+      "The State in which the aircraft was designed"
+    ],
+    "answer": "A",
+    "explanation": "The State of Occurrence is the State in whose territory the accident or incident occurs."
+  },
+  {
+    "id": 195,
+    "question": "Which State is the State of Registry?",
+    "choices": [
+      "The State in which the operator is based",
+      "The State in whose territory the accident occurs",
+      "The State in which the aircraft was manufactured",
+      "The State in which the aircraft is registered"
+    ],
+    "answer": "D",
+    "explanation": "The State of Registry is the State in which the aircraft is registered."
+  },
+  {
+    "id": 196,
+    "question": "What is a serious incident?",
+    "choices": [
+      "An event involving damage to the aircraft that requires major repair before further flight",
+      "Any incident that results in a flight delay of more than one hour",
+      "An accident in which one or more persons are seriously injured",
+      "An incident in which circumstances indicate that an accident nearly occurred"
+    ],
+    "answer": "D",
+    "explanation": "A serious incident involves circumstances indicating that an accident nearly occurred or had high accident potential."
+  },
+  {
+    "id": 197,
+    "question": "What is a flight recorder used for in accident/incident investigation?",
+    "choices": [
+      "Provide real-time position data to ATC during flight",
+      "Provide evidence mainly intended to support prosecution of the flight crew after an accident",
+      "Record passenger announcements for the operator's records",
+      "Provide recorded information that can support factual reconstruction and safety analysis"
+    ],
+    "answer": "D",
+    "explanation": "Flight recorders provide recorded information supporting factual reconstruction and safety analysis."
+  },
+  {
+    "id": 198,
+    "question": "Which statement best describes the relationship between a safety investigation and enforcement?",
+    "choices": [
+      "The investigation and enforcement form one combined legal process",
+      "The investigation is for prevention and lessons learned; enforcement is separate",
+      "Investigation findings are primarily used to assign criminal and civil liability to individuals",
+      "The investigation's main purpose is to support enforcement action"
+    ],
+    "answer": "B",
+    "explanation": "An Annex 13 safety investigation is primarily for prevention and lessons learned; enforcement may be a separate process."
+  },
+  {
+    "id": 199,
+    "question": "A serious occurrence happens in Thailand. Which source is specifically referenced by the CAAT syllabus for Thai classification examples?",
+    "choices": [
+      "RCAB 22",
+      "TCAR OPS Part-ORO",
+      "ICAO Annex 19",
+      "ICAO Doc 9859"
+    ],
+    "answer": "A",
+    "explanation": "The CAAT syllabus specifically references RCAB 22 for Thai classification examples."
+  },
+  {
+    "id": 200,
+    "question": "What is the purpose of notifying a difference to ICAO when a State cannot comply with an international Standard?",
+    "choices": [
+      "To apply for a temporary exemption from the Chicago Convention",
+      "To obtain ICAO's formal approval before the State is permitted to deviate from the Standard",
+      "To make the difference known so other States and users can account for it",
+      "To allow ICAO to impose penalties on the non-complying State"
+    ],
+    "answer": "C",
+    "explanation": "Notifying an ICAO difference makes the difference known internationally so users can account for the State's implementation."
+  }
+]
