@@ -240,11 +240,16 @@ a {
 }
 
 .subject-card {
+  --tint: color-mix(in srgb, var(--accent, var(--sky-500)) 12%, transparent);
   position: relative;
+  isolation: isolate;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
-  background: var(--card);
+  background:
+    radial-gradient(circle at 100% 0%, var(--tint), transparent 55%),
+    linear-gradient(180deg, color-mix(in srgb, var(--accent, var(--sky-500)) 4%, white), var(--card) 45%);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
@@ -256,16 +261,37 @@ a {
   position: absolute;
   inset: 0 0 auto 0;
   height: 4px;
-  border-radius: var(--radius) var(--radius) 0 0;
+  background: linear-gradient(90deg, var(--accent, var(--sky-500)), color-mix(in srgb, var(--accent, var(--sky-500)) 35%, white));
+}
+
+.subject-card::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 46px;
+  right: -14px;
+  width: 116px;
+  height: 116px;
   background: var(--accent, var(--sky-500));
+  opacity: 0.11;
+  mask: var(--icon) center / contain no-repeat;
+  -webkit-mask: var(--icon) center / contain no-repeat;
+  transform: rotate(-8deg);
+  transition: transform 0.35s, opacity 0.35s;
 }
 
 .subject-card:hover,
 .subject-card:focus-visible {
   transform: translateY(-5px);
-  box-shadow: var(--shadow-hover);
+  box-shadow: var(--shadow-hover), 0 10px 28px color-mix(in srgb, var(--accent, var(--sky-500)) 18%, transparent);
   border-color: var(--accent, var(--sky-500));
   outline: none;
+}
+
+.subject-card:hover::after,
+.subject-card:focus-visible::after {
+  opacity: 0.18;
+  transform: rotate(0deg) scale(1.08);
 }
 
 .subject-code {
@@ -275,10 +301,39 @@ a {
   height: 58px;
   margin-bottom: 1rem;
   border-radius: 12px;
-  background: color-mix(in srgb, var(--accent, var(--sky-500)) 14%, white);
-  color: var(--accent, var(--sky-500));
+  background: linear-gradient(135deg, var(--accent, var(--sky-500)), color-mix(in srgb, var(--accent, var(--sky-500)) 60%, #0b1b33));
+  color: #fff;
   font-size: 1.25rem;
   font-weight: 800;
+  letter-spacing: 0.02em;
+  box-shadow: 0 8px 18px color-mix(in srgb, var(--accent, var(--sky-500)) 32%, transparent),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.card-badge {
+  position: absolute;
+  top: 1.35rem;
+  right: 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  background: var(--success-bg);
+  color: var(--success);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.card-badge::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  box-shadow: 0 0 0 3px color-mix(in srgb, currentColor 25%, transparent);
 }
 
 .subject-card h3 {
@@ -299,7 +354,7 @@ a {
   align-items: center;
   justify-content: space-between;
   padding-top: 1rem;
-  border-top: 1px dashed var(--line);
+  border-top: 1px dashed color-mix(in srgb, var(--accent, var(--sky-500)) 30%, var(--line));
   font-size: 0.88rem;
 }
 
@@ -337,6 +392,21 @@ a {
 .s-081 { --accent: #0f7bbd; }
 .s-090 { --accent: #4a8f2a; }
 
+/* Per-subject watermark icons */
+.s-010 { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3v18M7 21h10M4 7h16M12 3l-1 4h2z'/%3E%3Cpath d='M7 7l-3 6a3 3 0 0 0 6 0zM17 7l-3 6a3 3 0 0 0 6 0z'/%3E%3C/svg%3E"); }
+.s-021 { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='3'/%3E%3Cpath d='M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z'/%3E%3C/svg%3E"); }
+.s-022 { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3.5 17a9 9 0 1 1 17 0z'/%3E%3Cpath d='M12 6v1.5M6.5 8.5l1 1M17.5 8.5l-1 1M5 13h1.5M17.5 13H19M12 14l3-4'/%3E%3Ccircle cx='12' cy='14' r='1.3'/%3E%3C/svg%3E"); }
+.s-031 { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='5.5' r='2.5'/%3E%3Cpath d='M6.5 9h11l3 11h-17z'/%3E%3Cpath d='M10 15h4'/%3E%3C/svg%3E"); }
+.s-032 { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 20h18'/%3E%3Cpath d='M3 16l6-5 4 3 8-8'/%3E%3Cpath d='M15 6h6v6'/%3E%3C/svg%3E"); }
+.s-033 { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 4L3 6v14l6-2 6 2 6-2V4l-6 2z'/%3E%3Cpath d='M9 4v14M15 6v14'/%3E%3C/svg%3E"); }
+.s-040 { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8z'/%3E%3Cpath d='M3.5 12h4l2-3 3 6 2-3h6'/%3E%3C/svg%3E"); }
+.s-050 { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M17.5 16H7a4.5 4.5 0 1 1 1.3-8.8A6 6 0 0 1 19.4 9.5 3.3 3.3 0 0 1 17.5 16z'/%3E%3Cpath d='M12.5 16l-2 3.5h3l-2 3.5'/%3E%3C/svg%3E"); }
+.s-061 { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M15.5 8.5l-2 5-5 2 2-5z'/%3E%3C/svg%3E"); }
+.s-062 { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='10' r='2'/%3E%3Cpath d='M15.5 6.5a5 5 0 0 1 0 7M8.5 13.5a5 5 0 0 1 0-7M18.4 3.6a9 9 0 0 1 0 12.8M5.6 16.4a9 9 0 0 1 0-12.8M12 12v9M9 21h6'/%3E%3C/svg%3E"); }
+.s-070 { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='5' y='4' width='14' height='17' rx='2'/%3E%3Cpath d='M9 4V2.5h6V4M8.5 11l2 2 4-4M8.5 17h7'/%3E%3C/svg%3E"); }
+.s-081 { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z'/%3E%3C/svg%3E"); }
+.s-090 { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 15v-3a8 8 0 0 1 16 0v3'/%3E%3Crect x='3' y='14' width='4' height='6' rx='1.5'/%3E%3Crect x='17' y='14' width='4' height='6' rx='1.5'/%3E%3Cpath d='M19 20a3 3 0 0 1-3 2h-3'/%3E%3C/svg%3E"); }
+
 /* Locked subjects */
 .subject-card.is-locked {
   cursor: not-allowed;
@@ -348,15 +418,30 @@ a {
   background: #cbd5e1;
 }
 
+.subject-card.is-locked::after {
+  background: #94a3b8;
+  opacity: 0.1;
+}
+
 .subject-card.is-locked:hover {
   transform: none;
   box-shadow: none;
   border-color: var(--line);
 }
 
+.subject-card.is-locked:hover::after {
+  opacity: 0.1;
+  transform: rotate(-8deg);
+}
+
 .subject-card.is-locked .subject-code {
   background: #eef2f7;
   color: #94a3b8;
+  box-shadow: none;
+}
+
+.subject-card.is-locked .card-footer {
+  border-top-color: var(--line);
 }
 
 .subject-card.is-locked h3,
