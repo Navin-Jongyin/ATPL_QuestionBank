@@ -1211,7 +1211,7 @@ a {
 
 .drawer {
   position: fixed;
-  inset: 0.75rem auto 0.75rem 0.75rem;
+  inset: 0.75rem 0.75rem 0.75rem auto;
   display: flex;
   flex-direction: column;
   width: min(360px, calc(100vw - 1.5rem));
@@ -1220,7 +1220,7 @@ a {
   border-radius: 24px;
   background: #fff;
   box-shadow: 0 24px 60px rgba(15, 23, 42, 0.25);
-  transform: translateX(calc(-100% - 1rem));
+  transform: translateX(calc(100% + 1rem));
   transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 

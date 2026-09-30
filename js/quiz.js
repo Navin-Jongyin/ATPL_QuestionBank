@@ -253,7 +253,6 @@
       <div class="drawer-score" data-el="score"></div>
       <div class="drawer-legend" data-el="legend"></div>
       <div class="drawer-grid" data-el="grid"></div>
-      <div class="drawer-actions" data-el="drawerActions"></div>
     </aside>
 
     <div class="modal-backdrop" data-el="modalBackdrop">
@@ -372,24 +371,13 @@
       const pct = answered ? Math.round((correct / answered) * 100) : 0;
       el.score.innerHTML = `<small>Study Mode</small><strong>${correct}</strong> correct of <strong>${answered}</strong> answered &middot; ${pct}%<br><small>${n - answered} remaining</small>`;
       el.legend.innerHTML = '<span class="dot correct"></span>Correct <span class="dot wrong"></span>Wrong';
-      el.drawerActions.innerHTML = `
-        <button type="button" class="drawer-btn drawer-btn-dark" data-action="end-study">End study &amp; see results</button>
-        <button type="button" class="drawer-btn" data-action="restart">Restart with new random order</button>
-        <button type="button" class="drawer-btn" data-action="change-mode">Back to dashboard</button>`;
     } else if (!submitted) {
       el.score.innerHTML = `<small>Exam Mode</small><strong>${answered}</strong> of <strong>${n}</strong> answered<br><small>${n - answered} unanswered &middot; <span data-el="drawerClock">${formatTime(secondsLeft())}</span> left</small>`;
       el.legend.innerHTML = '<span class="dot answered"></span>Answered <span class="dot empty"></span>Unanswered';
-      el.drawerActions.innerHTML = `
-        <button type="button" class="drawer-btn drawer-btn-dark" data-action="submit">Submit exam</button>
-        <button type="button" class="drawer-btn" data-action="change-mode">Back to dashboard</button>`;
     } else {
       const pct = Math.round((correct / n) * 100);
       el.score.innerHTML = `<small>Exam result</small><strong>${pct}%</strong> &middot; ${passed() ? "Passed" : "Not passed"}<br><small>${correct} of ${n} correct &middot; pass mark ${PASS_MARK}%</small>`;
       el.legend.innerHTML = '<span class="dot correct"></span>Correct <span class="dot wrong"></span>Wrong <span class="dot skipped"></span>Unanswered';
-      el.drawerActions.innerHTML = `
-        <button type="button" class="drawer-btn drawer-btn-dark" data-action="results">View results</button>
-        <button type="button" class="drawer-btn" data-action="retake">Retake exam</button>
-        <button type="button" class="drawer-btn" data-action="change-mode">Back to dashboard</button>`;
     }
   }
 
