@@ -5,10 +5,8 @@
   const EXAM_SIZE = 50;
   const EXAM_SECONDS = 60 * 60;
   const PASS_MARK = 75;
-
   const ICONS = {
-    menu: '<path d="M4 6h16M4 12h16M4 18h16"/>',
-    back: '<path d="M19 12H5"/><path d="M11 18l-6-6 6-6"/>',
+    menu: '<path d="M4 6h16M4 12h16M4 18h16"/>',    back: '<path d="M19 12H5"/><path d="M11 18l-6-6 6-6"/>',
     prev: '<path d="M15 4l-8 8 8 8"/>',
     next: '<path d="M9 4l8 8-8 8"/>',
     clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
