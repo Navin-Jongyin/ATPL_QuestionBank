@@ -323,14 +323,14 @@
     "id": 17,
     "question": "Which convention is identified in the syllabus as the International Carriage framework of 1999?",
     "options": [
-      "Guadalajara Convention 1961",
-      "Montreal Convention 1999",
-      "Warsaw Convention 1929",
-      "Montreal Convention 1971"
+      "Guadalajara Convention",
+      "Montreal Convention",
+      "Warsaw Convention",
+      "Hague Protocol"
     ],
     "answer": 1,
     "explanation": "อนุสัญญามอนทรีออล ค.ศ. 1999 (Montreal Convention 1999): คืออนุสัญญาเพื่อการรวมกฎเกณฑ์บางประการเกี่ยวกับการขนส่งทางอากาศระหว่างประเทศ ปรับปรุงและแทนที่ระบบอนุสัญญา Warsaw เดิม โดยยกเลิกเพดานจำกัดความรับผิดแบบเดิม กำหนดระบบความรับผิดเด็ดขาดสองชั้น (Two-tier liability) สำหรับกรณีผู้โดยสารเสียชีวิตหรือบาดเจ็บ และปรับปรุงเกณฑ์ค่าชดเชยสัมภาระและสินค้าล่าช้าหรือสูญหาย",
-    "correct": "Montreal Convention 1999",
+    "correct": "Montreal Convention",
     "topic": "010 01",
     "topicName": "International Law",
     "LO": "010 01 01 05 (02)",

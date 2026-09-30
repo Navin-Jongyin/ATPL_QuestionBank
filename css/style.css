@@ -941,6 +941,14 @@ a {
   content: counter(correct) " correct of " counter(answered) " answered";
 }
 
+[data-quiz] > p {
+  max-width: 520px;
+  margin: 20vh auto 0;
+  padding: 0 1rem;
+  color: var(--muted);
+  text-align: center;
+}
+
 /* ---------- Exam mode (built by js/quiz.js) ---------- */
 
 .exam-mode > :not(.exam) {

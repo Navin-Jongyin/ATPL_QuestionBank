@@ -1,6 +1,6 @@
-(function () {
-  const form = document.querySelector(".quiz");
-  if (!form) return;
+(async function () {
+  const root = document.querySelector("[data-quiz]");
+  if (!root) return;
 
   const EXAM_SIZE = 50;
   const EXAM_SECONDS = 60 * 60;
@@ -24,22 +24,34 @@
     return parts.map((v) => String(Math.floor(v)).padStart(2, "0")).join(":");
   };
 
-  const code = document.querySelector(".practice-title .subject-code")?.textContent.trim() ?? "";
-  const title = document.querySelector(".practice-title h1")?.textContent.trim() ?? document.title;
-  const bank = Array.from(form.querySelectorAll(".question")).map((fs, i) => {
-    const inputs = Array.from(fs.querySelectorAll(".options input"));
-    return {
-      id: fs.dataset.id || String(i + 1),
-      text: fs.querySelector("legend").textContent.trim(),
-      options: inputs.map((inp) => fs.querySelector(`label[for="${inp.id}"]`).textContent.trim()),
-      correct: inputs.findIndex((inp) => inp.hasAttribute("data-correct")),
-      explanation: fs.querySelector(".exp-text")?.textContent.trim() ?? "",
-      quick: fs.querySelector(".exp-quick")?.textContent.trim() ?? "",
-      topic: fs.dataset.topic || "",
-      topicName: fs.dataset.topicName || "",
-      difficulty: fs.dataset.difficulty || "",
-    };
-  });
+  const code = root.dataset.code ?? "";
+  const title = root.dataset.title ?? document.title;
+  const status = root.querySelector("[data-quiz-status]");
+
+  let raw;
+  try {
+    const res = await fetch(root.dataset.bank);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    raw = await res.json();
+  } catch (err) {
+    if (status) {
+      status.textContent = `Could not load the question bank (${err.message}). Open the site through a web server, e.g. python3 -m http.server.`;
+    }
+    return;
+  }
+  status?.remove();
+
+  const bank = raw.map((q, i) => ({
+    id: String(q.id ?? i + 1),
+    text: q.question,
+    options: q.options,
+    correct: q.answer,
+    explanation: q.explanation ?? "",
+    quick: q.explanation_quick ?? "",
+    topic: q.topic ?? "",
+    topicName: q.topicName ?? "",
+    difficulty: q.difficulty ?? "",
+  }));
 
   const topics = [];
   bank.forEach((item, i) => {
@@ -126,7 +138,7 @@
   document.body.classList.add("exam-mode");
   const app = document.createElement("div");
   app.className = "exam";
-  const accent = getComputedStyle(form).getPropertyValue("--accent").trim();
+  const accent = getComputedStyle(root).getPropertyValue("--accent").trim();
   if (accent) app.style.setProperty("--exam-accent", accent);
   app.innerHTML = `
     <header class="exam-top">
