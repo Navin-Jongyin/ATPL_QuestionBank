@@ -324,28 +324,32 @@
     if (!revealed) {
       el.feedback.className = "exam-feedback";
       el.feedback.innerHTML = "";
-    } else if (chosen === item.correct) {
-      el.feedback.className = "exam-feedback show good";
-      el.feedback.innerHTML = "<strong>Correct!</strong> Nice work.";
-    } else {
-      const letter = String.fromCharCode(65 + item.correct);
-      const skipped = chosen === undefined;
-      el.feedback.className = `exam-feedback show bad${skipped ? " skipped" : ""}`;
-      el.feedback.innerHTML = `
-        <div class="fb-head">
-          <span class="fb-icon">${skipped ? "&ndash;" : "&#10005;"}</span>
-          <div>
-            <p class="fb-title">${skipped ? "Not answered" : "Incorrect"}</p>
-            <p class="fb-sub">${skipped ? "You skipped this question." : "Don't worry &mdash; here's what you need to know."}</p>
-          </div>
-        </div>
-        <div class="fb-answer">
-          <span class="fb-label">Correct answer</span>
-          <span class="fb-value"><span class="fb-key">${letter}</span>${escapeHtml(item.options[item.correct])}</span>
-        </div>
-        ${item.quick ? `<div class="fb-explain"><span class="fb-label">Key point</span><p class="fb-quick">${escapeHtml(item.quick)}</p></div>` : ""}
-        ${item.explanation ? `<div class="fb-explain"><span class="fb-label">Explanation</span><p>${escapeHtml(item.explanation)}</p></div>` : ""}`;
+      return;
     }
+
+    const letter = String.fromCharCode(65 + item.correct);
+    const good = chosen === item.correct;
+    const skipped = chosen === undefined;
+    const head = good
+      ? ["&#10003;", "Correct", "Nice work &mdash; here's why."]
+      : skipped
+        ? ["&ndash;", "Not answered", "You skipped this question."]
+        : ["&#10005;", "Incorrect", "Don't worry &mdash; here's what you need to know."];
+    el.feedback.className = `exam-feedback show ${good ? "good" : "bad"}${skipped ? " skipped" : ""}`;
+    el.feedback.innerHTML = `
+      <div class="fb-head">
+        <span class="fb-icon">${head[0]}</span>
+        <div>
+          <p class="fb-title">${head[1]}</p>
+          <p class="fb-sub">${head[2]}</p>
+        </div>
+      </div>
+      ${good ? "" : `<div class="fb-answer">
+        <span class="fb-label">Correct answer</span>
+        <span class="fb-value"><span class="fb-key">${letter}</span>${escapeHtml(item.options[item.correct])}</span>
+      </div>`}
+      ${item.quick ? `<div class="fb-explain"><span class="fb-label">Key point</span><p class="fb-quick">${escapeHtml(item.quick)}</p></div>` : ""}
+      ${item.explanation ? `<div class="fb-explain"><span class="fb-label">Explanation</span><p>${escapeHtml(item.explanation)}</p></div>` : ""}`;
   }
 
   function renderDrawer() {

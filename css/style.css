@@ -1041,11 +1041,7 @@ a {
   scroll-margin-bottom: 6.5rem;
 }
 
-.exam-feedback.good {
-  background: var(--exam-good-bg);
-  color: #14532d;
-}
-
+.exam-feedback.show.good,
 .exam-feedback.show.bad {
   display: block;
   padding: 0;
@@ -1096,6 +1092,23 @@ a {
 
 .skipped .fb-title {
   color: #475569;
+}
+
+.good .fb-head {
+  background: linear-gradient(135deg, var(--exam-good-bg), #fff);
+}
+
+.good .fb-icon {
+  background: var(--exam-good);
+  box-shadow: 0 6px 14px color-mix(in srgb, var(--exam-good) 35%, transparent);
+}
+
+.good .fb-title {
+  color: var(--exam-good);
+}
+
+.good .fb-head + .fb-explain {
+  border-top: 0;
 }
 
 .fb-sub {
