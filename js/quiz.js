@@ -117,7 +117,14 @@
     return list;
   };
 
+  const shuffleOptions = (item) => {
+    const answer = item.options[item.correct];
+    shuffle(item.options);
+    item.correct = item.options.indexOf(answer);
+  };
+
   function begin(newMode) {
+    bank.forEach(shuffleOptions);
     const list = shuffle(pool(newMode));
     if (!list.length) return;
     mode = newMode;
