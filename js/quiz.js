@@ -46,7 +46,7 @@
     text: q.question,
     options: q.options,
     correct: q.answer,
-    explanation: q.explanation ?? "",
+    explanation: (q.explanation ?? "").trim() === (q.explanation_quick ?? "").trim() ? "" : q.explanation,
     quick: q.explanation_quick ?? "",
     topic: q.topic ?? "",
     topicName: q.topicName ?? "",

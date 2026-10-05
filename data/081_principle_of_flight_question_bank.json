@@ -1,0 +1,4002 @@
+[
+  {
+    "id": 1,
+    "question": "Which SI unit is used for density?",
+    "options": [
+      "kg/m³",
+      "N",
+      "Pa",
+      "W/m²"
+    ],
+    "answer": 0,
+    "explanation": "ความหนาแน่น (Density) คือมวลต่อหนึ่งหน่วยปริมาตร ดังนั้นหน่วย SI คือ kg/m³ ส่วน N เป็นหน่วยแรง และ Pa เป็นหน่วยความดัน",
+    "correct": "kg/m³",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 01 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Identify",
+    "explanation_quick": "Density is mass per unit volume, kg/m³."
+  },
+  {
+    "id": 2,
+    "question": "Which quantity is a force rather than a quantity of matter?",
+    "options": [
+      "Weight",
+      "Mass",
+      "Density",
+      "Temperature"
+    ],
+    "answer": 0,
+    "explanation": "น้ำหนัก (Weight) เป็นแรงที่เกิดจากมวลภายใต้แรงโน้มถ่วง จึงมีหน่วย SI เป็นนิวตัน (N) ขณะที่ Mass เป็นปริมาณของสสารและมีหน่วย kg",
+    "correct": "Weight",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 01 02",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "Weight is a force; its SI unit is newton."
+  },
+  {
+    "id": 3,
+    "question": "Newton's third law is most directly illustrated by which statement?",
+    "options": [
+      "For every action there is an equal and opposite reaction",
+      "Force equals mass times acceleration",
+      "An object remains at rest unless acted upon",
+      "Pressure varies inversely with volume"
+    ],
+    "answer": 0,
+    "explanation": "กฎข้อที่ 3 ของนิวตันกล่าวว่า ทุกแรงกิริยาจะมีแรงปฏิกิริยาที่มีขนาดเท่ากันและทิศตรงข้ามกัน จึงตรงกับตัวเลือก A",
+    "correct": "For every action there is an equal and opposite reaction",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 01 03",
+    "difficulty": "Easy",
+    "cognitive": "UNDERSTAND",
+    "verb": "State",
+    "explanation_quick": "Newton's third law concerns action and reaction."
+  },
+  {
+    "id": 4,
+    "question": "If air temperature increases while pressure remains constant, air density will generally:",
+    "options": [
+      "Decrease",
+      "Increase",
+      "Remain unchanged",
+      "Become zero"
+    ],
+    "answer": 0,
+    "explanation": "เมื่อความดันคงที่ หากอุณหภูมิอากาศเพิ่มขึ้น ความหนาแน่นจะลดลงตามความสัมพันธ์ของก๊าซอุดมคติ ดังนั้นอากาศจะเบาบางลง",
+    "correct": "Decrease",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 01 06",
+    "difficulty": "Easy",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "At constant pressure, increasing temperature reduces density."
+  },
+  {
+    "id": 5,
+    "question": "Which pressure is measured by a static pressure source?",
+    "options": [
+      "Ambient static pressure",
+      "Dynamic pressure only",
+      "Total thrust pressure",
+      "Cabin differential pressure"
+    ],
+    "answer": 0,
+    "explanation": "Static pressure คือความดันสถิตของอากาศโดยรอบ ซึ่งเป็นความดันทางเทอร์โมไดนามิกส์ของกระแสอากาศ ไม่ใช่ dynamic pressure หรือ cabin differential pressure",
+    "correct": "Ambient static pressure",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 01 07",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "Static pressure represents the thermodynamic pressure of the surrounding airflow."
+  },
+  {
+    "id": 6,
+    "question": "Dynamic pressure is best interpreted as an indication of:",
+    "options": [
+      "Kinetic energy per unit volume of the airflow",
+      "Aircraft weight",
+      "Potential energy of altitude only",
+      "Fuel energy"
+    ],
+    "answer": 0,
+    "explanation": "Dynamic pressure เกี่ยวข้องกับพลังงานจลน์ของกระแสอากาศและขึ้นกับความหนาแน่นกับความเร็ว โดยทั่วไปเขียนได้เป็น q = ½ρV²",
+    "correct": "Kinetic energy per unit volume of the airflow",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 01 10",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Dynamic pressure is associated with airflow kinetic energy and depends on density and speed."
+  },
+  {
+    "id": 7,
+    "question": "Which pair is correctly matched?",
+    "options": [
+      "IAS—indicated airspeed; TAS—true airspeed",
+      "IAS—indicated altitude; TAS—true altitude",
+      "CAS—cabin airspeed; TAS—terminal airspeed",
+      "EAS—engine airspeed; IAS—indicated altitude"
+    ],
+    "answer": 0,
+    "explanation": "IAS หมายถึง Indicated Airspeed และ TAS หมายถึง True Airspeed ซึ่งเป็นคำจำกัดความมาตรฐานของ airspeed ทั้งสองชนิด",
+    "correct": "IAS—indicated airspeed; TAS—true airspeed",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 01 17",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "These are standard airspeed definitions."
+  },
+  {
+    "id": 8,
+    "question": "A streamline represents a line that is:",
+    "options": [
+      "Everywhere tangent to the instantaneous airflow direction",
+      "Always perpendicular to the airflow",
+      "A line of constant pressure only",
+      "A structural line on the wing"
+    ],
+    "answer": 0,
+    "explanation": "Streamline คือเส้นที่ทุกจุดมีแนวสัมผัสตรงกับทิศทางความเร็วของกระแสอากาศ ณ จุดนั้น จึงใช้แสดงทิศทางการไหล",
+    "correct": "Everywhere tangent to the instantaneous airflow direction",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 02 01",
+    "difficulty": "Easy",
+    "cognitive": "UNDERSTAND",
+    "verb": "Describe",
+    "explanation_quick": "A streamline is tangent to the local velocity vector."
+  },
+  {
+    "id": 9,
+    "question": "A stream tube is formed by:",
+    "options": [
+      "A bundle of streamlines enclosing a flow region",
+      "A pressure vessel in the fuselage",
+      "The wingtip vortex only",
+      "The boundary layer alone"
+    ],
+    "answer": 0,
+    "explanation": "Stream tube เกิดจากกลุ่มของ streamlines ที่ล้อมรอบบริเวณการไหล โดยอากาศภายในไม่ไหลทะลุผ่านผิวของ stream tube",
+    "correct": "A bundle of streamlines enclosing a flow region",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 02 02",
+    "difficulty": "Easy",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Stream tubes are bounded by streamlines."
+  },
+  {
+    "id": 10,
+    "question": "In a converging subsonic stream tube, velocity generally: SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Becomes zero",
+      "Is unrelated to area"
+    ],
+    "answer": 0,
+    "explanation": "สำหรับการไหลแบบ steady และ incompressible เมื่อพื้นที่หน้าตัดของ stream tube ลดลง ความเร็วของอากาศจะเพิ่มขึ้นตามสมการ continuity",
+    "correct": "Increases",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 02 03",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Continuity requires higher velocity through a smaller area for steady incompressible flow."
+  },
+  {
+    "id": 11,
+    "question": "Compared with a converging region, a diverging subsonic stream tube generally has:",
+    "options": [
+      "Lower velocity and higher static pressure",
+      "Higher velocity and lower static pressure",
+      "Zero velocity and zero pressure",
+      "Constant velocity regardless of area"
+    ],
+    "answer": 0,
+    "explanation": "ใน subsonic flow แบบ incompressible เมื่อพื้นที่ทางเดินอากาศเพิ่มขึ้น ความเร็วจะลดลงและ static pressure มีแนวโน้มเพิ่มขึ้น เรียกว่า pressure recovery",
+    "correct": "Lower velocity and higher static pressure",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 02 03",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "For incompressible subsonic flow, deceleration is associated with pressure recovery."
+  },
+  {
+    "id": 12,
+    "question": "Two-dimensional airflow analysis of an aerofoil assumes:",
+    "options": [
+      "Flow is considered in a plane normal to the spanwise direction",
+      "All three aircraft axes are simultaneously modelled",
+      "Only engine flow is considered",
+      "There is no pressure variation"
+    ],
+    "answer": 0,
+    "explanation": "ทฤษฎี aerofoil แบบสองมิติพิจารณาการไหลในระนาบที่ไม่รวมผลของการไหลตามแนว span จึงละเลย spanwise effects",
+    "correct": "Flow is considered in a plane normal to the spanwise direction",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 01 02 04",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Two-dimensional aerofoil theory neglects spanwise effects."
+  },
+  {
+    "id": 13,
+    "question": "The resultant aerodynamic force on an aerofoil originates from:",
+    "options": [
+      "The integrated pressure and shear distribution over the surface",
+      "The aircraft weight only",
+      "The engine thrust line only",
+      "The centre of gravity alone"
+    ],
+    "answer": 0,
+    "explanation": "แรงอากาศพลศาสตร์ลัพธ์เกิดจากการรวมแรงจาก pressure distribution และ skin-friction บนผิว aerofoil เข้าด้วยกัน",
+    "correct": "The integrated pressure and shear distribution over the surface",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 01 03 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Describe",
+    "explanation_quick": "Pressure and skin-friction forces combine into a resultant."
+  },
+  {
+    "id": 14,
+    "question": "The aerodynamic moment is a tendency of the aerodynamic force to:",
+    "options": [
+      "Rotate the aerofoil about a reference point",
+      "Increase aircraft mass",
+      "Change air density",
+      "Stop all airflow"
+    ],
+    "answer": 0,
+    "explanation": "Moment คือแนวโน้มที่แรงจะทำให้วัตถุหมุนรอบจุดอ้างอิง โดยขึ้นกับขนาดของแรงและระยะ moment arm",
+    "correct": "Rotate the aerofoil about a reference point",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 01 03 04",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "A moment is a turning effect of a force about a reference point."
+  },
+  {
+    "id": 15,
+    "question": "Which factor can change the aerodynamic moment of an aerofoil?",
+    "options": [
+      "Angle of attack",
+      "Fuel colour",
+      "Cabin lighting",
+      "Radio frequency"
+    ],
+    "answer": 0,
+    "explanation": "Aerodynamic moment ขึ้นกับสภาวะการไหล เช่น angle of attack และขึ้นกับรูปทรงของ aerofoil ดังนั้น geometry และ aerodynamic state จึงมีผล",
+    "correct": "Angle of attack",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 01 03 05",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "List",
+    "explanation_quick": "Aerodynamic moment depends on aerodynamic state and geometry."
+  },
+  {
+    "id": 16,
+    "question": "A positively cambered aerofoil generally produces:",
+    "options": [
+      "A different pitching-moment characteristic from a symmetrical aerofoil",
+      "Exactly zero moment at every angle of attack",
+      "No lift at positive angle of attack",
+      "Only drag and no lift"
+    ],
+    "answer": 0,
+    "explanation": "Camber เปลี่ยน pressure distribution รอบ aerofoil และจึงเปลี่ยน pitching moment รวมถึงลักษณะการสร้าง lift",
+    "correct": "A different pitching-moment characteristic from a symmetrical aerofoil",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 01 03 07",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Describe",
+    "explanation_quick": "Camber changes pressure distribution and pitching moment."
+  },
+  {
+    "id": 17,
+    "question": "The thickness-to-chord ratio describes:",
+    "options": [
+      "Aerofoil thickness relative to chord length",
+      "Wing span relative to fuselage length",
+      "Camber relative to sweep",
+      "Root chord relative to tip chord"
+    ],
+    "answer": 0,
+    "explanation": "Relative thickness หรือ thickness-to-chord ratio คือความหนาสูงสุดของ aerofoil หารด้วยความยาว chord",
+    "correct": "Aerofoil thickness relative to chord length",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 01 04 04",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Describe",
+    "explanation_quick": "Relative thickness is thickness divided by chord."
+  },
+  {
+    "id": 18,
+    "question": "Maximum thickness location identifies:",
+    "options": [
+      "Where the aerofoil reaches its greatest thickness along the chord",
+      "Where lift is always zero",
+      "The wingtip position",
+      "The CG position"
+    ],
+    "answer": 0,
+    "explanation": "ตำแหน่ง maximum thickness คือจุดตามแนว chord ที่ aerofoil มีความหนามากที่สุด ไม่ใช่ตำแหน่งของ CG หรือ wingtip",
+    "correct": "Where the aerofoil reaches its greatest thickness along the chord",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 01 04 05",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Describe",
+    "explanation_quick": "It is the chordwise position of maximum section thickness."
+  },
+  {
+    "id": 19,
+    "question": "Nose radius primarily describes:",
+    "options": [
+      "The curvature/size of the leading-edge nose region",
+      "The wing span SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+      "The tail moment arm",
+      "The fuselage diameter"
+    ],
+    "answer": 0,
+    "explanation": "Nose radius ใช้อธิบายความโค้งและขนาดของบริเวณ leading edge ของ aerofoil โดยเฉพาะรูปร่างบริเวณจมูกของ aerofoil",
+    "correct": "The curvature/size of the leading-edge nose region",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 01 04 08",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Describe",
+    "explanation_quick": "Nose radius characterises leading-edge curvature."
+  },
+  {
+    "id": 20,
+    "question": "An asymmetrical aerofoil differs from a symmetrical aerofoil mainly in its:",
+    "options": [
+      "Camber distribution",
+      "Number of engines",
+      "Wing span",
+      "Landing-gear arrangement"
+    ],
+    "answer": 0,
+    "explanation": "Aerofoil แบบ asymmetric โดยทั่วไปหมายถึง aerofoil ที่มี camber ไม่เป็นศูนย์ จึงมี pressure distribution แตกต่างจาก symmetric aerofoil",
+    "correct": "Camber distribution",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 01 04 09",
+    "difficulty": "Easy",
+    "cognitive": "UNDERSTAND",
+    "verb": "Describe",
+    "explanation_quick": "Asymmetry normally refers to non-zero camber."
+  },
+  {
+    "id": 21,
+    "question": "Aspect ratio is related to:",
+    "options": [
+      "Wing span squared divided by wing area",
+      "Wing area divided by aircraft mass",
+      "Chord divided by sweep angle",
+      "Weight divided by span"
+    ],
+    "answer": 0,
+    "explanation": "Aspect Ratio ของปีกแบบทั่วไปคำนวณจาก AR = b²/S โดย b คือ wing span และ S คือ wing area",
+    "correct": "Wing span squared divided by wing area",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 01 05 08",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Describe",
+    "explanation_quick": "For a conventional wing, AR=b²/S."
+  },
+  {
+    "id": 22,
+    "question": "Mean aerodynamic chord is important because it provides:",
+    "options": [
+      "A representative chord for aerodynamic and CG calculations",
+      "The propeller diameter",
+      "The fuselage pressure",
+      "The maximum flap speed"
+    ],
+    "answer": 0,
+    "explanation": "Mean Aerodynamic Chord หรือ MAC คือ chord ตัวแทนที่ใช้ในงานด้าน aerodynamic และการคำนวณตำแหน่ง CG/static margin",
+    "correct": "A representative chord for aerodynamic and CG calculations",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 01 05 07",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Describe",
+    "explanation_quick": "MAC is a representative aerodynamic chord."
+  },
+  {
+    "id": 23,
+    "question": "Angle of incidence is defined for the Part-FCL examination as the angle between:",
+    "options": [
+      "Aircraft longitudinal axis and wing-root chord line",
+      "Chord line and relative airflow",
+      "Wing span and horizon",
+      "Thrust line and runway"
+    ],
+    "answer": 0,
+    "explanation": "ตาม convention ของ Part-FCL angle of incidence คือมุมระหว่าง aircraft longitudinal axis กับ wing-root chord line ไม่ใช่มุมระหว่าง chord กับ relative airflow",
+    "correct": "Aircraft longitudinal axis and wing-root chord line",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 01 05 12",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "This is the stated Part-FCL convention."
+  },
+  {
+    "id": 24,
+    "question": "Upwash ahead of a lifting wing is associated with:",
+    "options": [
+      "The wing's influence on the surrounding airflow before the wing",
+      "Only engine exhaust",
+      "Ground effect alone",
+      "A shock wave at all speeds"
+    ],
+    "answer": 0,
+    "explanation": "ปีกที่สร้าง lift จะเปลี่ยนสนามการไหลทั้งด้านหน้าและด้านหลังปีก จึงทำให้เกิด upwash ด้านหน้าและ downwash ด้านหลัง",
+    "correct": "The wing's influence on the surrounding airflow before the wing",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 02 01 03",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Describe",
+    "explanation_quick": "A lifting wing changes the flow field upstream and downstream."
+  },
+  {
+    "id": 25,
+    "question": "As angle of attack changes, the stagnation point on an aerofoil generally:",
+    "options": [
+      "Moves around the leading-edge region",
+      "Remains fixed for all conditions",
+      "Moves to the wingtip",
+      "Moves to the CG"
+    ],
+    "answer": 0,
+    "explanation": "ตำแหน่ง stagnation point จะเปลี่ยนไปตาม incidence หรือ angle of attack จึงไม่ได้อยู่ตำแหน่งเดิมตลอดทุกสภาวะ",
+    "correct": "Moves around the leading-edge region",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 02 02 02",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "The stagnation point location changes with incidence/AoA."
+  },
+  {
+    "id": 26,
+    "question": "At a stagnation point, static pressure is generally:",
+    "options": [
+      "High relative to nearby accelerated flow",
+      "Minimum",
+      "Exactly zero",
+      "Equal to dynamic pressure only"
+    ],
+    "answer": 0,
+    "explanation": "บริเวณ stagnation point ความเร็วการไหลจะต่ำมากและ static pressure จะค่อนข้างสูงเมื่อเทียบกับบริเวณที่อากาศเร่งตัว",
+    "correct": "High relative to nearby accelerated flow",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 02 02 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Describe",
+    "explanation_quick": "Flow velocity is low and static pressure is relatively high."
+  },
+  {
+    "id": 27,
+    "question": "At a fixed angle of attack, increasing positive camber generally shifts the CL–α relationship toward:",
+    "options": [
+      "Higher lift coefficient for the same α",
+      "Lower lift at all α",
+      "Zero lift at every α",
+      "No change in pressure distribution"
+    ],
+    "answer": 0,
+    "explanation": "เมื่อเพิ่ม positive camber โดยคง angle of attack เดิม โดยทั่วไป aerofoil จะสร้าง lift coefficient สูงขึ้น เพราะ pressure distribution เปลี่ยนไปในทิศทางที่เพิ่ม lift",
+    "correct": "Higher lift coefficient for the same α",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 02 03 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Positive camber generally increases lift at a given AoA."
+  },
+  {
+    "id": 28,
+    "question": "The centre of pressure is the point through which:",
+    "options": [
+      "The resultant aerodynamic force can be considered to act",
+      "The aircraft weight always acts",
+      "Thrust must act",
+      "The static pressure is zero"
+    ],
+    "answer": 0,
+    "explanation": "Centre of Pressure (CP) คือจุดที่สามารถถือว่า resultant aerodynamic force กระทำอยู่ โดย moment ของแรงลัพธ์รอบจุดนั้นเป็นศูนย์",
+    "correct": "The resultant aerodynamic force can be considered to act",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 02 04 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "CP is the point where the resultant aerodynamic force has no pitching moment about it."
+  },
+  {
+    "id": 29,
+    "question": "The aerodynamic centre is a point about which:",
+    "options": [
+      "The aerodynamic pitching moment is approximately independent of angle of attack in the relevant regime",
+      "Lift is always zero",
+      "Drag is always zero",
+      "Weight is balanced"
+    ],
+    "answer": 0,
+    "explanation": "Aerodynamic Centre คือจุดที่ pitching moment ของ aerofoil มีค่าค่อนข้างคงที่เมื่อ angle of attack เปลี่ยน ภายในช่วงการไหลที่เกี่ยวข้อง",
+    "correct": "The aerodynamic pitching moment is approximately independent of angle of attack in the relevant regime",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 02 04 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "The aerodynamic centre is defined by its near-constant moment characteristic."
+  },
+  {
+    "id": 30,
+    "question": "Skin-friction drag is primarily caused by:",
+    "options": [
+      "Viscous shear within the boundary layer",
+      "Wing-tip vortices",
+      "Weight",
+      "Shock waves only"
+    ],
+    "answer": 0,
+    "explanation": "Skin-friction drag เกิดจากแรงเฉือนแบบหนืด (viscous shear) ภายใน boundary layer ที่สัมผัสกับผิวของอากาศยาน",
+    "correct": "Viscous shear within the boundary layer",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 02 06 02",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Describe",
+    "explanation_quick": "Viscous shear produces skin-friction drag."
+  },
+  {
+    "id": 31,
+    "question": "Form drag is strongly influenced by:",
+    "options": [
+      "Body shape and pressure distribution",
+      "Fuel octane rating",
+      "Pilot workload",
+      "Radio altitude"
+    ],
+    "answer": 0,
+    "explanation": "Form หรือ pressure drag ขึ้นกับรูปร่างของวัตถุและ pressure distribution โดยเฉพาะเมื่อเกิด flow separation",
+    "correct": "Body shape and pressure distribution",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 02 06 03",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Pressure/form drag depends strongly on shape and flow separation."
+  },
+  {
+    "id": 32,
+    "question": "Interference drag arises where:",
+    "options": [
+      "Flow fields around aircraft components interact",
+      "The aircraft is exactly at zero AoA",
+      "The engine is shut down",
+      "The wing is perfectly isolated"
+    ],
+    "answer": 0,
+    "explanation": "Interference drag เกิดบริเวณที่ flow field จากส่วนต่าง ๆ ของอากาศยาน เช่น wing และ fuselage มาปฏิสัมพันธ์กัน ทำให้ drag เพิ่มขึ้น",
+    "correct": "Flow fields around aircraft components interact",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 05 02 03",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Describe",
+    "explanation_quick": "Junction flow interactions can increase drag."
+  },
+  {
+    "id": 33,
+    "question": "A wake represents a region where the flow has:",
+    "options": [
+      "Lost momentum and been disturbed by the aircraft",
+      "Become completely static everywhere",
+      "Gained aircraft mass",
+      "Become independent of the aircraft"
+    ],
+    "answer": 0,
+    "explanation": "Wake คือบริเวณกระแสอากาศด้านหลังอากาศยานที่สูญเสีย momentum/energy และถูกรบกวนจากการเคลื่อนที่ของอากาศยาน",
+    "correct": "Lost momentum and been disturbed by the aircraft",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 02 06 04",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Drag is associated with momentum/energy loss in the wake."
+  },
+  {
+    "id": 34,
+    "question": "Why are aerodynamic coefficients useful?",
+    "options": [
+      "They allow aerodynamic behaviour to be compared without carrying dimensional scale directly",
+      "They eliminate all measurement errors",
+      "They replace all aircraft limitations",
+      "They are only used for engines"
+    ],
+    "answer": 0,
+    "explanation": "Aerodynamic coefficients ช่วยทำให้ความสัมพันธ์ทาง aerodynamic อยู่ในรูป dimensionless จึงสามารถเปรียบเทียบพฤติกรรมของอากาศยานต่างขนาดกันได้",
+    "correct": "They allow aerodynamic behaviour to be compared without carrying dimensional scale directly",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 03 01 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Coefficients nondimensionalise aerodynamic relationships."
+  },
+  {
+    "id": 35,
+    "question": "For lift, increasing dynamic pressure while CL, S remain constant causes lift to:",
+    "options": [
+      "Increase",
+      "Decrease",
+      "Remain zero",
+      "Reverse direction"
+    ],
+    "answer": 0,
+    "explanation": "จาก L = ½ρV²SCL เมื่อ dynamic pressure เพิ่มขึ้นและ CL กับ S คงที่ ค่า lift จะเพิ่มขึ้นตามสัดส่วนของ dynamic pressure",
+    "correct": "Increase",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 03 02 01",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Apply",
+    "explanation_quick": "L=½ρV²SCL, so lift is proportional to dynamic pressure."
+  },
+  {
+    "id": 36,
+    "question": "If wing area is doubled while q and CL remain constant, lift becomes:",
+    "options": [
+      "Twice as large",
+      "Half as large",
+      "Four times as large",
+      "Unchanged"
+    ],
+    "answer": 0,
+    "explanation": "เมื่อ wing area เพิ่มเป็นสองเท่า โดย q และ CL คงที่ จากสมการ lift ค่า lift จะเพิ่มเป็นสองเท่า",
+    "correct": "Twice as large",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 03 02 01",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Calculate",
+    "explanation_quick": "Lift is directly proportional to wing area."
+  },
+  {
+    "id": 37,
+    "question": "If CL is doubled with q and S unchanged, lift becomes:",
+    "options": [
+      "Twice as large",
+      "Half as large",
+      "Four times as large",
+      "Unchanged"
+    ],
+    "answer": 0,
+    "explanation": "เมื่อ CL เพิ่มเป็นสองเท่า โดย q และ S คงที่ ค่า lift จะเพิ่มเป็นสองเท่าตามสมการ L = qSCL",
+    "correct": "Twice as large",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 03 02 01",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Calculate",
+    "explanation_quick": "Lift is directly proportional to CL."
+  },
+  {
+    "id": 38,
+    "question": "For a given aerofoil, the CL–α curve reaches CLMAX at:",
+    "options": [
+      "The maximum lift coefficient before the post-stall decrease SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+      "Zero angle of attack only",
+      "The maximum Mach number",
+      "The minimum drag point"
+    ],
+    "answer": 0,
+    "explanation": "CLMAX คือค่าสูงสุดของ lift coefficient บน lift curve ก่อนที่การแยกตัวของกระแสอากาศจะทำให้ lift ลดลงหลัง stall",
+    "correct": "The maximum lift coefficient before the post-stall decrease SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 03 02 04",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Identify",
+    "explanation_quick": "CLMAX is the peak of the lift curve."
+  },
+  {
+    "id": 39,
+    "question": "A negatively cambered aerofoil generally has a CL–α curve shifted so that:",
+    "options": [
+      "Its zero-lift condition occurs at a more positive angle than a positively cambered section",
+      "It always produces positive lift at zero α",
+      "It cannot produce drag",
+      "It has no stall"
+    ],
+    "answer": 0,
+    "explanation": "Negative camber จะเปลี่ยนตำแหน่งของ lift-curve intercept หรือ zero-lift condition ดังนั้น CL–α curve จะถูกเลื่อนเมื่อเทียบกับ aerofoil ที่มี camber ต่างกัน",
+    "correct": "Its zero-lift condition occurs at a more positive angle than a positively cambered section",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 03 02 02",
+    "difficulty": "Hard",
+    "cognitive": "UNDERSTAND",
+    "verb": "Describe",
+    "explanation_quick": "Negative camber changes the lift-curve intercept."
+  },
+  {
+    "id": 40,
+    "question": "The induced-drag coefficient is approximately proportional to:",
+    "options": [
+      "CL² divided by aspect ratio",
+      "CL divided by speed only",
+      "Wing weight divided by area",
+      "Mach number squared at all speeds"
+    ],
+    "answer": 0,
+    "explanation": "Induced-drag coefficient โดยประมาณเป็นสัดส่วนกับ CL² และแปรผกผันกับ aspect ratio ผ่านค่าคงที่ k ดังนั้น lift สูงและ aspect ratio ต่ำจะเพิ่ม induced drag",
+    "correct": "CL² divided by aspect ratio",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 04 03 11",
+    "difficulty": "Hard",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "The parabolic approximation gives CDi≈kCL², with k related inversely to aspect ratio."
+  },
+  {
+    "id": 41,
+    "question": "At the same lift coefficient, increasing aspect ratio generally:",
+    "options": [
+      "Reduces induced drag coefficient",
+      "Increases induced drag coefficient",
+      "Eliminates parasite drag",
+      "Has no aerodynamic effect"
+    ],
+    "answer": 0,
+    "explanation": "เมื่อ aspect ratio สูงขึ้น induced-drag coefficient จะลดลงสำหรับ CL เดิม เพราะปีกมีประสิทธิภาพด้าน induced drag ดีขึ้น",
+    "correct": "Reduces induced drag coefficient",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 04 03 05",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Higher aspect ratio reduces induced drag for a given CL."
+  },
+  {
+    "id": 42,
+    "question": "At a given IAS in level flight, increasing mass generally requires higher CL and therefore:",
+    "options": [
+      "Higher induced drag",
+      "Lower induced drag",
+      "No change in lift requirement",
+      "Zero drag"
+    ],
+    "answer": 0,
+    "explanation": "เมื่อมวลเพิ่มขึ้น เครื่องบินต้องสร้าง lift มากขึ้นเพื่อรักษาสมดุลที่ความเร็วเดิม ทำให้ต้องใช้ CL สูงขึ้นและ induced drag เพิ่มขึ้น",
+    "correct": "Higher induced drag",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 04 03 04",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "More mass requires more lift; at the same speed this means higher CL and induced drag."
+  },
+  {
+    "id": 43,
+    "question": "A winglet can reduce induced drag primarily by:",
+    "options": [
+      "Reducing the strength/effect of wingtip vortices",
+      "Increasing fuselage skin friction",
+      "Increasing aircraft weight deliberately",
+      "Increasing shock strength"
+    ],
+    "answer": 0,
+    "explanation": "Winglet ช่วยปรับการไหลบริเวณ wingtip และลดผลของ wingtip vortices จึงช่วยลด induced losses",
+    "correct": "Reducing the strength/effect of wingtip vortices",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 04 03 05",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Winglets modify the tip flow and reduce induced losses."
+  },
+  {
+    "id": 44,
+    "question": "The CL–CD graph is commonly called the:",
+    "options": [
+      "Aerodynamic polar",
+      "V-n diagram",
+      "Mach envelope",
+      "Gust chart"
+    ],
+    "answer": 0,
+    "explanation": "กราฟความสัมพันธ์ระหว่าง CL และ CD เรียกว่า aerodynamic polar ใช้แสดงประสิทธิภาพด้าน aerodynamic ของ aerofoil หรือปีก",
+    "correct": "Aerodynamic polar",
+    "topic": "081 01",
+    "topicName": "Subsonic Aerodynamics",
+    "LO": "081 01 04 03 13",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Identify",
+    "explanation_quick": "The CL–CD relationship is the aerodynamic polar."
+  },
+  {
+    "id": 45,
+    "question": "The local speed of sound in air is primarily governed by:",
+    "options": [
+      "Temperature",
+      "Aircraft mass",
+      "Wing area",
+      "Fuel quantity"
+    ],
+    "answer": 0,
+    "explanation": "ความเร็วเสียงในอากาศขึ้นกับ absolute temperature เป็นหลัก โดยอุณหภูมิสูงขึ้นจะทำให้ local speed of sound สูงขึ้น",
+    "correct": "Temperature",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 01 01 03",
+    "difficulty": "Easy",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Speed of sound depends strongly on absolute temperature."
+  },
+  {
+    "id": 46,
+    "question": "In a standard atmosphere, the speed of sound generally decreases with altitude through the troposphere because:",
+    "options": [
+      "Temperature decreases",
+      "Pressure becomes zero",
+      "Mass disappears",
+      "Mach number becomes zero"
+    ],
+    "answer": 0,
+    "explanation": "ใน troposphere ตาม standard atmosphere อุณหภูมิลดลงตาม altitude จึงทำให้ local speed of sound ลดลงตามไปด้วย",
+    "correct": "Temperature decreases",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 01 01 02",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "The local speed of sound follows temperature."
+  },
+  {
+    "id": 47,
+    "question": "At constant TAS, if local speed of sound decreases, Mach number:",
+    "options": [
+      "Increases",
+      "Decreases SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+      "Remains zero",
+      "Becomes equal to IAS"
+    ],
+    "answer": 0,
+    "explanation": "Mach number คำนวณจาก M = TAS/a ดังนั้นหาก TAS คงที่แต่ speed of sound ลดลง ค่า Mach จะเพิ่มขึ้น",
+    "correct": "Increases",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 01 02 01",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Apply",
+    "explanation_quick": "M=TAS/a."
+  },
+  {
+    "id": 48,
+    "question": "During a climb at constant Mach in a region where speed of sound decreases, TAS tends to:",
+    "options": [
+      "Decrease",
+      "Increase",
+      "Remain constant",
+      "Become zero"
+    ],
+    "answer": 0,
+    "explanation": "ที่ Mach คงที่ TAS = M×a ดังนั้นหาก speed of sound ลดลง TAS ก็ลดลงตาม",
+    "correct": "Decrease",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 01 03 02",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "At constant M, TAS=M×a."
+  },
+  {
+    "id": 49,
+    "question": "During a descent at constant Mach into warmer air, TAS tends to:",
+    "options": [
+      "Increase",
+      "Decrease",
+      "Remain constant",
+      "Become independent of temperature"
+    ],
+    "answer": 0,
+    "explanation": "เมื่ออากาศอุ่นขึ้น speed of sound จะสูงขึ้น ดังนั้นที่ Mach คงที่ TAS จะเพิ่มขึ้นตามความสัมพันธ์ TAS = M×a",
+    "correct": "Increase",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 01 03 02",
+    "difficulty": "Medium",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Higher temperature means higher local speed of sound and therefore higher TAS at constant M."
+  },
+  {
+    "id": 50,
+    "question": "When descending at constant Mach, the aircraft can approach VMO because:",
+    "options": [
+      "TAS can increase as speed of sound increases with temperature/altitude change",
+      "Weight becomes zero",
+      "Drag becomes zero",
+      "Mach becomes zero"
+    ],
+    "answer": 0,
+    "explanation": "การบินที่ Mach คงที่ไม่ได้หมายความว่า IAS หรือ TAS จะคงที่ และไม่ได้รับประกันว่าจะไม่เข้าใกล้ VMO",
+    "correct": "TAS can increase as speed of sound increases with temperature/altitude change",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 01 03 03",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Constant Mach does not guarantee constant IAS/TAS or protection from VMO."
+  },
+  {
+    "id": 51,
+    "question": "When climbing at constant IAS, Mach can increase because:",
+    "options": [
+      "The local speed of sound can decrease while TAS changes with altitude",
+      "The aircraft loses all lift",
+      "Pressure becomes constant everywhere",
+      "IAS becomes Mach"
+    ],
+    "answer": 0,
+    "explanation": "ที่ altitude ความสัมพันธ์ระหว่าง TAS กับ Mach เปลี่ยนไป และเมื่อความเร็วเพิ่มขึ้น MMO อาจกลายเป็น limitation ที่สำคัญ",
+    "correct": "The local speed of sound can decrease while TAS changes with altitude",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 01 03 03",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Explain",
+    "explanation_quick": "At altitude, TAS/Mach relationships change and MMO can become limiting."
+  },
+  {
+    "id": 52,
+    "question": "Compressibility means that:",
+    "options": [
+      "Density can change along a streamline",
+      "Pressure is always constant",
+      "Air has no viscosity",
+      "Velocity must be zero"
+    ],
+    "answer": 0,
+    "explanation": "Compressible flow คือการไหลที่ความหนาแน่นของอากาศสามารถเปลี่ยนแปลงได้อย่างมีนัยสำคัญตามสภาวะการไหล",
+    "correct": "Density can change along a streamline",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 01 04 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "Compressible flow permits density changes."
+  },
+  {
+    "id": 53,
+    "question": "For this syllabus, significant compressibility effects begin in high subsonic flow from approximately:",
+    "options": [
+      "Mach 0.4",
+      "Mach 0.04",
+      "Mach 2.0",
+      "Mach 10"
+    ],
+    "answer": 0,
+    "explanation": "ตาม syllabus ของ CAAT ผลของ compressibility ที่มีนัยสำคัญใน high-subsonic flow เริ่มพิจารณาประมาณ Mach 0.4",
+    "correct": "Mach 0.4",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 01 04 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "State",
+    "explanation_quick": "The CAAT syllabus identifies high-subsonic compressibility from about M0.4."
+  },
+  {
+    "id": 54,
+    "question": "A normal shock wave is oriented approximately:",
+    "options": [
+      "Normal to the local flow direction",
+      "Parallel to all streamlines",
+      "Only along the fuselage centreline",
+      "Perpendicular to the Earth's surface"
+    ],
+    "answer": 0,
+    "explanation": "Normal shock wave มีแนวตั้งฉากกับทิศทางการไหลเฉพาะที่ (local flow direction) ไม่ได้หมายถึงตั้งฉากกับพื้นโลกเสมอไป",
+    "correct": "Normal to the local flow direction",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 02 02 02",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Describe",
+    "explanation_quick": "A normal shock is normal to the local flow."
+  },
+  {
+    "id": 55,
+    "question": "Across a normal shock, static pressure generally:",
+    "options": [
+      "Increases",
+      "Decreases to zero",
+      "Remains exactly constant",
+      "Becomes equal to Mach number"
+    ],
+    "answer": 0,
+    "explanation": "เมื่ออากาศผ่าน normal shock static pressure จะเพิ่มขึ้น ขณะที่ flow จะถูกชะลอลงและเกิดการสูญเสีย total pressure",
+    "correct": "Increases",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 02 02 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Describe",
+    "explanation_quick": "A normal shock produces a rise in static pressure."
+  },
+  {
+    "id": 56,
+    "question": "As Mach number increases at positive lift, the normal shock on a transonic wing generally becomes:",
+    "options": [
+      "Stronger",
+      "Weaker to zero",
+      "Unrelated to flow",
+      "A subsonic wake only"
+    ],
+    "answer": 0,
+    "explanation": "เมื่อ upstream Mach สูงขึ้น normal shock จะมีความรุนแรงมากขึ้น ทำให้การเปลี่ยนแปลงของ pressure และ velocity ผ่าน shock มากขึ้น",
+    "correct": "Stronger",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 02 02 03",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Higher upstream Mach strengthens the shock."
+  },
+  {
+    "id": 57,
+    "question": "At constant Mach, increasing wing angle of attack can make a local shock:",
+    "options": [
+      "Stronger and move in position",
+      "Disappear regardless of Mach",
+      "Have no effect on pressure",
+      "Turn into engine thrust"
+    ],
+    "answer": 0,
+    "explanation": "การเพิ่ม loading หรือ angle of attack เปลี่ยน local flow บนปีก จึงสามารถทำให้ความแรงและตำแหน่งของ shock เปลี่ยนไป",
+    "correct": "Stronger and move in position",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 02 02 04",
+    "difficulty": "Medium",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Higher loading changes local flow and shock strength/location."
+  },
+  {
+    "id": 58,
+    "question": "Increasing angle of attack generally tends to reduce MCRIT because:",
+    "options": [
+      "Local flow accelerates more strongly over the wing",
+      "The wing becomes thinner",
+      "The aircraft loses all lift",
+      "The speed of sound becomes infinite"
+    ],
+    "answer": 0,
+    "explanation": "เมื่อ angle of attack เพิ่มขึ้น local flow เหนือปีกจะเร่งตัวมากขึ้น จึงสามารถเกิด sonic flow ได้ที่ free-stream Mach ต่ำลง",
+    "correct": "Local flow accelerates more strongly over the wing",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 03 01 02",
+    "difficulty": "Hard",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Higher AoA increases local acceleration and can cause sonic flow at lower free-stream Mach."
+  },
+  {
+    "id": 59,
+    "question": "At constant α, exceeding MCRIT can cause CL to:",
+    "options": [
+      "Change due to compressibility and shock effects",
+      "Become permanently zero",
+      "Become equal to weight",
+      "Remain exactly unchanged in all regimes"
+    ],
+    "answer": 0,
+    "explanation": "ใน transonic flow pressure distribution บนปีกเปลี่ยนจากผลของ compressibility และ shock wave จึงทำให้ CL เปลี่ยนได้",
+    "correct": "Change due to compressibility and shock effects",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 03 02 01",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Transonic pressure distribution changes can alter CL."
+  },
+  {
+    "id": 60,
+    "question": "Wave drag is primarily associated with:",
+    "options": [
+      "Shock-wave/compressibility effects",
+      "Static pressure alone at zero speed",
+      "Landing-gear weight",
+      "Fuel flow"
+    ],
+    "answer": 0,
+    "explanation": "Wave drag เกิดจากผลของ compressibility และ shock waves โดยเฉพาะเมื่อเข้าสู่ช่วง transonic",
+    "correct": "Shock-wave/compressibility effects",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 03 03 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "Wave drag arises from compressibility and shock waves."
+  },
+  {
+    "id": 61,
+    "question": "Drag divergence is important because it marks a region of:",
+    "options": [
+      "Rapid increase in drag with Mach number",
+      "Zero drag",
+      "Constant lift with no pressure change",
+      "No compressibility"
+    ],
+    "answer": 0,
+    "explanation": "เมื่อ Mach เกิน drag-divergence Mach ค่า drag สามารถเพิ่มขึ้นอย่างรวดเร็วจากผลของ compressibility และ shock formation",
+    "correct": "Rapid increase in drag with Mach number",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 03 03 04",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Drag rise can become rapid beyond drag-divergence Mach."
+  },
+  {
+    "id": 62,
+    "question": "A supercritical aerofoil is designed mainly to:",
+    "options": [
+      "Improve transonic drag characteristics and delay severe drag rise",
+      "Maximise low-speed stall speed",
+      "Eliminate all wave drag",
+      "Remove the need for high-lift devices"
+    ],
+    "answer": 0,
+    "explanation": "Supercritical aerofoil ถูกออกแบบเพื่อจัด pressure distribution ให้เหมาะกับ transonic flight และช่วยชะลอ severe drag rise",
+    "correct": "Improve transonic drag characteristics and delay severe drag rise",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 05 02 02",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Supercritical sections optimise pressure distribution in transonic flight."
+  },
+  {
+    "id": 63,
+    "question": "Increasing wing sweep generally:",
+    "options": [
+      "Increases MCRIT by reducing the velocity component normal to the leading edge",
+      "Decreases MCRIT by increasing normal velocity",
+      "Eliminates all induced drag",
+      "Prevents every stall"
+    ],
+    "answer": 0,
+    "explanation": "Wing sweep ลดองค์ประกอบของ freestream velocity ที่ตั้งฉากกับ leading edge จึงช่วยเพิ่ม critical Mach characteristics",
+    "correct": "Increases MCRIT by reducing the velocity component normal to the leading edge",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 05 01 01",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Apply",
+    "explanation_quick": "Sweep reduces the normal component of freestream velocity."
+  },
+  {
+    "id": 64,
+    "question": "A consequence of sweepback at low speed can be:",
+    "options": [
+      "Reduced CLMAX and greater reliance on high-lift devices",
+      "Higher CLMAX with no trade-off",
+      "No change to stall behaviour",
+      "Elimination of spanwise flow"
+    ],
+    "answer": 0,
+    "explanation": "Swept wing มีข้อเสียที่ความเร็วต่ำ เช่น CLMAX ลดลงและ stall behaviour เปลี่ยนไป จึงอาจต้องพึ่งพา high-lift devices มากขึ้น",
+    "correct": "Reduced CLMAX and greater reliance on high-lift devices",
+    "topic": "081 02",
+    "topicName": "High-Speed Aerodynamics",
+    "LO": "081 02 05 01 02",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Swept wings have low-speed aerodynamic penalties including stall behaviour."
+  },
+  {
+    "id": 65,
+    "question": "A boundary layer is the region where:",
+    "options": [
+      "Viscous effects cause velocity to change from the surface condition toward the external flow",
+      "Mach number is always one",
+      "Pressure is zero",
+      "Air density is zero"
+    ],
+    "answer": 0,
+    "explanation": "Boundary layer คือบริเวณใกล้ผิวที่ผลของ viscosity ทำให้ความเร็วเปลี่ยนจากสภาวะที่ผิวไปสู่ความเร็วของ external flow",
+    "correct": "Viscous effects cause velocity to change from the surface condition toward the external flow",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 01 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "The boundary layer is the near-surface viscous flow region."
+  },
+  {
+    "id": 66,
+    "question": "Compared with a turbulent boundary layer, a laminar boundary layer is generally:",
+    "options": [
+      "Less resistant to separation but has lower skin-friction drag SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+      "More resistant to separation and higher drag",
+      "Always thicker at the leading edge",
+      "Independent of surface condition"
+    ],
+    "answer": 0,
+    "explanation": "Laminar boundary layer มี skin-friction drag ต่ำกว่า turbulent boundary layer แต่มี momentum ใกล้ผิวน้อยกว่า จึงแยกตัวได้ง่ายกว่าเมื่อเจอ adverse pressure gradient",
+    "correct": "Less resistant to separation but has lower skin-friction drag SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 01 03",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Compare",
+    "explanation_quick": "Laminar flow has lower skin friction but less momentum near the wall."
+  },
+  {
+    "id": 67,
+    "question": "The transition point is where:",
+    "options": [
+      "The boundary layer changes from laminar toward turbulent flow",
+      "The wing reaches M=1",
+      "Lift becomes zero",
+      "The propeller feathers"
+    ],
+    "answer": 0,
+    "explanation": "Transition point คือบริเวณที่ boundary layer เปลี่ยนลักษณะจาก laminar ไปสู่ turbulent flow",
+    "correct": "The boundary layer changes from laminar toward turbulent flow",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 01 05",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "Transition marks change in boundary-layer character."
+  },
+  {
+    "id": 68,
+    "question": "A turbulent boundary layer resists adverse pressure gradients better mainly because it:",
+    "options": [
+      "Mixes higher-energy outer-flow air toward the wall",
+      "Has zero friction",
+      "Eliminates pressure gradients",
+      "Stops all flow"
+    ],
+    "answer": 0,
+    "explanation": "Turbulent mixing นำอากาศที่มีพลังงานสูงจากด้านนอกเข้ามาใกล้ผิว ทำให้ flow ใกล้ผิวมี momentum มากขึ้นและทน adverse pressure gradient ได้ดีขึ้น",
+    "correct": "Mixes higher-energy outer-flow air toward the wall",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 01 06",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Mixing gives the near-wall flow more momentum."
+  },
+  {
+    "id": 69,
+    "question": "As α increases toward stall, separation generally:",
+    "options": [
+      "Moves forward over the upper surface",
+      "Moves permanently behind the aircraft",
+      "Disappears",
+      "Occurs only on the underside"
+    ],
+    "answer": 0,
+    "explanation": "เมื่อ angle of attack เพิ่มขึ้น adverse pressure gradient บน upper surface รุนแรงขึ้น ทำให้ separation มีแนวโน้มเคลื่อนมาด้านหน้ามากขึ้น",
+    "correct": "Moves forward over the upper surface",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 01 08",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Increasing AoA strengthens adverse pressure gradients and moves separation forward."
+  },
+  {
+    "id": 70,
+    "question": "The separation point is the location where boundary-layer flow:",
+    "options": [
+      "Can no longer remain attached to the surface",
+      "Reaches maximum Mach only",
+      "Becomes exactly sonic",
+      "Has maximum pressure by definition"
+    ],
+    "answer": 0,
+    "explanation": "Separation คือการที่ boundary-layer flow ไม่สามารถเกาะติดกับผิวต่อไปได้ ทำให้เกิด separated flow",
+    "correct": "Can no longer remain attached to the surface",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 01 08",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "Separation is loss of attached flow."
+  },
+  {
+    "id": 71,
+    "question": "αCRIT is the angle of attack at which:",
+    "options": [
+      "The aerofoil reaches its critical/stalling condition",
+      "Drag is always zero",
+      "Mach is one",
+      "Thrust equals weight"
+    ],
+    "answer": 0,
+    "explanation": "Critical angle of attack คือ angle of attack ที่ถึงจุดเริ่มต้นของ aerodynamic stall เมื่อเพิ่มต่อไปจะไม่สามารถเพิ่ม lift ได้ตามเดิม",
+    "correct": "The aerofoil reaches its critical/stalling condition",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 01 09",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "Critical AoA marks onset of aerodynamic stall."
+  },
+  {
+    "id": 72,
+    "question": "Close to stall, continued aft control input can cause:",
+    "options": [
+      "Further separation and loss of lift",
+      "Guaranteed recovery",
+      "Lower AoA",
+      "Zero drag"
+    ],
+    "answer": 0,
+    "explanation": "เมื่อเพิ่ม angle of attack เกิน critical angle การ separation จะรุนแรงขึ้นและ lift มีแนวโน้มลดลงแทนที่จะเพิ่มขึ้น",
+    "correct": "Further separation and loss of lift",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 01 14",
+    "difficulty": "Medium",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Increasing AoA beyond critical worsens separation."
+  },
+  {
+    "id": 73,
+    "question": "Natural pre-stall buffet can provide:",
+    "options": [
+      "An aerodynamic warning of approaching separated flow",
+      "A guarantee of full control authority",
+      "A signal of engine failure",
+      "A speed-limit certification"
+    ],
+    "answer": 0,
+    "explanation": "Buffet ก่อน stall สามารถเกิดจาก unsteady separated flow และทำหน้าที่เป็น aerodynamic warning ว่าเครื่องบินกำลังเข้าใกล้ stall",
+    "correct": "An aerodynamic warning of approaching separated flow",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 01 11",
+    "difficulty": "Easy",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Buffet can result from unsteady separated flow."
+  },
+  {
+    "id": 74,
+    "question": "VS0 is associated with:",
+    "options": [
+      "Stall speed in the landing configuration",
+      "Clean maximum-speed limitation",
+      "Minimum control speed on the ground",
+      "Maximum Mach"
+    ],
+    "answer": 0,
+    "explanation": "VS0 คือ stall speed หรือ reference stall speed ใน landing configuration จึงเกี่ยวข้องกับสภาวะที่ flaps/landing configuration กำหนด",
+    "correct": "Stall speed in the landing configuration",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 02 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "VS0 is the stall speed/reference in landing configuration."
+  },
+  {
+    "id": 75,
+    "question": "VS1 is generally associated with:",
+    "options": [
+      "Stall speed in a specified configuration other than landing",
+      "Never-exceed speed",
+      "Minimum power speed SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+      "Best glide angle only"
+    ],
+    "answer": 0,
+    "explanation": "VS1 คือ stall speed ใน configuration ที่กำหนดซึ่งไม่จำเป็นต้องเป็น landing configuration",
+    "correct": "Stall speed in a specified configuration other than landing",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 02 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "VS1 is a stall speed in a specified configuration."
+  },
+  {
+    "id": 76,
+    "question": "VSR is a reference speed associated with:",
+    "options": [
+      "A reference stall speed defined by certification criteria",
+      "The maximum flap speed",
+      "The critical Mach number",
+      "The maximum propeller RPM"
+    ],
+    "answer": 0,
+    "explanation": "VSR คือ reference stall speed ที่ใช้เป็นความเร็วอ้างอิงตามเกณฑ์การรับรอง (certification criteria)",
+    "correct": "A reference stall speed defined by certification criteria",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 02 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "VSR is a reference stall speed used in certification contexts."
+  },
+  {
+    "id": 77,
+    "question": "If CL is increased for a given weight and speed in the lift equation, the required lift capability:",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Becomes zero",
+      "Becomes negative"
+    ],
+    "answer": 0,
+    "explanation": "จากสมการ lift เมื่อปัจจัยอื่นคงที่ lift จะแปรผันโดยตรงกับ CL ดังนั้น CL เพิ่มขึ้นจะเพิ่มความสามารถในการสร้าง lift",
+    "correct": "Increases",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 02 02",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Apply",
+    "explanation_quick": "Lift is proportional to CL."
+  },
+  {
+    "id": 78,
+    "question": "A forward CG can influence stall speed because it can require:",
+    "options": [
+      "A different tail force and therefore a different wing lift requirement",
+      "No tail force",
+      "Zero lift from the wing",
+      "A higher Mach number only"
+    ],
+    "answer": 0,
+    "explanation": "ตำแหน่ง CG เปลี่ยน pitching moment และแรงที่ tail ต้องสร้าง จึงเปลี่ยนปริมาณ lift ที่ wing ต้องสร้างเพื่อรักษาสมดุลของเครื่องบิน",
+    "correct": "A different tail force and therefore a different wing lift requirement",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 02 03",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "CG changes pitching moments and tail force, affecting wing loading/lift requirement."
+  },
+  {
+    "id": 79,
+    "question": "A positive thrust component along the flight path can reduce the wing lift required for:",
+    "options": [
+      "A given aircraft weight in some flight conditions",
+      "Every flight condition to zero",
+      "Only a parked aircraft",
+      "Only a stalled aircraft"
+    ],
+    "answer": 0,
+    "explanation": "Thrust vector สามารถมีองค์ประกอบช่วยสมดุลแรงในทิศทางการบินได้ ดังนั้น wing อาจไม่ต้องรับภาระ lift เท่ากับน้ำหนักทั้งหมดในบางสภาวะ",
+    "correct": "A given aircraft weight in some flight conditions",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 02 03",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Explain",
+    "explanation_quick": "Thrust vectoring can contribute to force balance and alter required lift."
+  },
+  {
+    "id": 80,
+    "question": "Wing loading is:",
+    "options": [
+      "Aircraft weight divided by wing area",
+      "Wing area divided by weight",
+      "Lift divided by drag",
+      "Speed divided by area"
+    ],
+    "answer": 0,
+    "explanation": "Wing loading คืออัตราส่วนระหว่าง aircraft weight กับ wing area หรือ W/S",
+    "correct": "Aircraft weight divided by wing area",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 02 03",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "Wing loading is W/S."
+  },
+  {
+    "id": 81,
+    "question": "An increase in wing loading generally causes stall speed to:",
+    "options": [
+      "Increase",
+      "Decrease",
+      "Remain unchanged",
+      "Become zero"
+    ],
+    "answer": 0,
+    "explanation": "เมื่อ wing loading เพิ่มขึ้น ต้องใช้ความเร็วสูงขึ้นเพื่อสร้าง lift เท่ากันที่ CLMAX เดิม ดังนั้น stall speed จะเพิ่มขึ้น",
+    "correct": "Increase",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 02 03",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Higher W/S requires higher speed for the same CLmax."
+  },
+  {
+    "id": 82,
+    "question": "An accelerated stall is a stall occurring at:",
+    "options": [
+      "A load factor greater than 1, so it can occur at an airspeed above the 1g stall speed",
+      "Only the published VS0",
+      "Only below 1g",
+      "Only at Mach 1"
+    ],
+    "answer": 0,
+    "explanation": "Accelerated stall เกิดที่ load factor มากกว่า 1g ดังนั้น stall สามารถเกิดขึ้นที่ airspeed สูงกว่า 1g stall speed",
+    "correct": "A load factor greater than 1, so it can occur at an airspeed above the 1g stall speed",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 02 08",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Higher load factor raises stall speed."
+  },
+  {
+    "id": 83,
+    "question": "At 2.25g, stall speed is approximately what multiple of 1g stall speed?",
+    "options": [
+      "1.5",
+      "2.25",
+      "1.125",
+      "0.667"
+    ],
+    "answer": 0,
+    "explanation": "ที่ load factor 2.25g stall speed จะเพิ่มเป็น √2.25 = 1.5 เท่าของ stall speed ที่ 1g",
+    "correct": "1.5",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 02 09",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Calculate",
+    "explanation_quick": "√2.25=1.5."
+  },
+  {
+    "id": 84,
+    "question": "At a 60° bank angle in a level coordinated turn, load factor is approximately:",
+    "options": [
+      "2 g",
+      "1 g",
+      "0.5 g",
+      "4 g"
+    ],
+    "answer": 0,
+    "explanation": "ใน coordinated level turn load factor n = 1/cosφ ดังนั้นที่ bank 60° ได้ n = 2g",
+    "correct": "2 g",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 02 10",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Calculate",
+    "explanation_quick": "n=1/cos60°=2."
+  },
+  {
+    "id": 85,
+    "question": "If 1g stall speed is 80 kt, the approximate stall speed at 2.25g is:",
+    "options": [
+      "120 kt",
+      "90 kt",
+      "160 kt",
+      "180 kt"
+    ],
+    "answer": 0,
+    "explanation": "หาก 1g stall speed = 80 kt ที่ 2.25g จะได้ 80×√2.25 = 120 kt",
+    "correct": "120 kt",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 02 09",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Calculate",
+    "explanation_quick": "80×√2.25=120 kt."
+  },
+  {
+    "id": 86,
+    "question": "If gross mass increases by 21%, with other relevant factors unchanged, stall speed changes by approximately:",
+    "options": [
+      "The square root of 1.21, or about 10% increase",
+      "21% decrease",
+      "21% increase exactly",
+      "No change"
+    ],
+    "answer": 0,
+    "explanation": "Stall speed แปรผันตาม √W ดังนั้นมวลหรือ gross mass เพิ่ม 21% จะทำให้ stall speed เพิ่มประมาณ √1.21 = 1.10 หรือประมาณ 10%",
+    "correct": "The square root of 1.21, or about 10% increase",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 02 11",
+    "difficulty": "Hard",
+    "cognitive": "APPLY",
+    "verb": "Calculate",
+    "explanation_quick": "Vs is proportional to √W, so √1.21=1.10."
+  },
+  {
+    "id": 87,
+    "question": "An elliptical wing planform is associated with a spanwise lift distribution that is:",
+    "options": [
+      "Close to the ideal elliptical distribution",
+      "Uniform at every span station",
+      "Zero at the root",
+      "Independent of lift"
+    ],
+    "answer": 0,
+    "explanation": "Elliptical wing planform ให้ spanwise lift distribution ใกล้เคียง elliptical distribution ซึ่งเป็นรูปแบบที่มีประสิทธิภาพด้าน induced drag",
+    "correct": "Close to the ideal elliptical distribution",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 03 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Describe",
+    "explanation_quick": "The elliptical planform approximates an efficient elliptical lift distribution."
+  },
+  {
+    "id": 88,
+    "question": "A highly tapered wing may have a tendency for:",
+    "options": [
+      "Outboard sections to reach critical conditions earlier unless design features control the stall progression",
+      "The root always to stall first regardless of design",
+      "No spanwise stall pattern",
+      "No wingtip flow"
+    ],
+    "answer": 0,
+    "explanation": "Wing ที่มี taper มากอาจทำให้บริเวณ outboard เข้าใกล้ critical condition เร็วกว่า หากไม่มีการออกแบบเพื่อควบคุมลำดับการ stall",
+    "correct": "Outboard sections to reach critical conditions earlier unless design features control the stall progression",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 03 01",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Taper affects loading and stall progression."
+  },
+  {
+    "id": 89,
+    "question": "Wing fences and vortilons are used primarily to:",
+    "options": [
+      "Control spanwise flow and help maintain attached flow/aileron effectiveness",
+      "Increase aircraft weight",
+      "Eliminate all induced drag",
+      "Increase cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wing fences และ vortilons ใช้ควบคุม spanwise flow และช่วยรักษา attached flow บริเวณที่สำคัญ เช่นบริเวณ aileron",
+    "correct": "Control spanwise flow and help maintain attached flow/aileron effectiveness",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 03 04",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "They manage spanwise flow and separation."
+  },
+  {
+    "id": 90,
+    "question": "A stall strip is intended to:",
+    "options": [
+      "Promote predictable early separation in a selected wing region",
+      "Increase engine thrust",
+      "Prevent all stalls",
+      "Reduce aircraft mass"
+    ],
+    "answer": 0,
+    "explanation": "Stall strip ถูกออกแบบให้ทำให้บริเวณที่กำหนดเกิด separation ก่อนอย่างคาดการณ์ได้ เพื่อควบคุม stall progression และให้ลักษณะ stall ที่เหมาะสม",
+    "correct": "Promote predictable early separation in a selected wing region",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 04 04",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Describe",
+    "explanation_quick": "Stall strips deliberately modify local flow/stall progression."
+  },
+  {
+    "id": 91,
+    "question": "A stick shaker is an example of:",
+    "options": [
+      "An artificial stall-warning device",
+      "A primary flight control",
+      "A thrust reverser",
+      "A structural load limiter"
+    ],
+    "answer": 0,
+    "explanation": "Stick shaker เป็นอุปกรณ์เตือน stall แบบ artificial โดยให้แรงสั่นที่ control column/stick เพื่อเตือนนักบินว่าเข้าใกล้ stall",
+    "correct": "An artificial stall-warning device",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 04 04",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Identify",
+    "explanation_quick": "The stick shaker provides tactile stall warning."
+  },
+  {
+    "id": 92,
+    "question": "A stick pusher is designed to:",
+    "options": [
+      "Automatically apply a nose-down input to reduce angle of attack when the system commands it",
+      "Increase angle of attack",
+      "Increase bank angle",
+      "Increase engine thrust only"
+    ],
+    "answer": 0,
+    "explanation": "Stick pusher ถูกออกแบบให้สั่ง nose-down input เพื่อลด angle of attack เมื่อระบบตรวจพบสภาวะที่ต้องการป้องกัน stall",
+    "correct": "Automatically apply a nose-down input to reduce angle of attack when the system commands it",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 05 06",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "A stick pusher is intended to reduce AoA and prevent/depart a stall."
+  },
+  {
+    "id": 93,
+    "question": "Compared with a power-off stall, a power-on stall can have:",
+    "options": [
+      "Different pitch/yaw characteristics because thrust and propeller effects alter the flow and moments",
+      "Exactly identical dynamics",
+      "No effect from thrust",
+      "No possibility of yaw"
+    ],
+    "answer": 0,
+    "explanation": "Power-on และ power-off stall มีลักษณะต่างกันได้ เพราะ thrust และ propeller effects เปลี่ยน flow, forces และ pitching/yawing moments ของเครื่องบิน",
+    "correct": "Different pitch/yaw characteristics because thrust and propeller effects alter the flow and moments",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 05 02",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Compare",
+    "explanation_quick": "Power changes alter forces, moments and propeller effects."
+  },
+  {
+    "id": 94,
+    "question": "In a climbing turn near stall, increasing bank can be especially hazardous because:",
+    "options": [
+      "Load factor and stall speed can increase while energy margin decreases SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+      "Load factor becomes zero",
+      "Stall speed decreases to zero",
+      "Lift is no longer required"
+    ],
+    "answer": 0,
+    "explanation": "ใน climbing turn การเพิ่ม bank ทำให้ load factor และ stall speed เพิ่มขึ้น ขณะที่ energy margin ลดลง จึงมีความเสี่ยงต่อ stall มากขึ้น",
+    "correct": "Load factor and stall speed can increase while energy margin decreases SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 05 03",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Bank and climb can combine to increase AoA/load factor demands."
+  },
+  {
+    "id": 95,
+    "question": "Pitch-up on a swept wing near stall refers to:",
+    "options": [
+      "A tendency for the nose to pitch up as spanwise flow and separation change the pitching moment",
+      "A reduction in all pitching moments",
+      "A guaranteed nose-down response",
+      "A propeller effect only"
+    ],
+    "answer": 0,
+    "explanation": "Pitch-up ของ swept wing ใกล้ stall คือแนวโน้มที่ nose จะยกขึ้นจากการเปลี่ยนแปลงของ spanwise flow, separation และ pitching moment",
+    "correct": "A tendency for the nose to pitch up as spanwise flow and separation change the pitching moment",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 05 04",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Swept-wing stall behaviour can include pitch-up tendencies."
+  },
+  {
+    "id": 96,
+    "question": "A T-tail aircraft can experience superstall when:",
+    "options": [
+      "The tailplane becomes immersed in the wing wake and pitch control becomes ineffective",
+      "The fin produces too much lift",
+      "The landing gear is retracted",
+      "The engine produces maximum thrust"
+    ],
+    "answer": 0,
+    "explanation": "Superstall หรือ deep stall ใน T-tail aircraft สามารถเกิดเมื่อ tailplane เข้าไปอยู่ใน wake ที่แยกตัวของปีกจน elevator/tail สูญเสียประสิทธิภาพในการควบคุม pitch",
+    "correct": "The tailplane becomes immersed in the wing wake and pitch control becomes ineffective",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 05 05",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Deep/superstall involves loss of tail effectiveness in separated wake."
+  },
+  {
+    "id": 97,
+    "question": "One factor that can contribute to spin development is:",
+    "options": [
+      "A sustained stalled condition with yaw asymmetry",
+      "High speed with coordinated flight",
+      "Zero AoA",
+      "Symmetric lift with no yaw"
+    ],
+    "answer": 0,
+    "explanation": "การพัฒนา spin ต้องมี aggravated asymmetric stall condition กล่าวคือเครื่องบิน stall พร้อมมีความไม่สมมาตรด้าน yaw/roll ที่ทำให้เกิด autorotation",
+    "correct": "A sustained stalled condition with yaw asymmetry",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 06 02",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "List",
+    "explanation_quick": "Spin development requires an aggravated asymmetric stall condition."
+  },
+  {
+    "id": 98,
+    "question": "An incipient spin is best described as:",
+    "options": [
+      "The developing autorotative motion before a fully developed spin",
+      "A normal coordinated turn",
+      "A straight climb",
+      "A high-speed cruise condition"
+    ],
+    "answer": 0,
+    "explanation": "Incipient spin คือระยะเริ่มต้นของการพัฒนา spin ก่อนที่จะเข้าสู่ fully developed spin",
+    "correct": "The developing autorotative motion before a fully developed spin",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 06 03",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Describe",
+    "explanation_quick": "Incipient spin is the developing stage."
+  },
+  {
+    "id": 99,
+    "question": "With a forward CG, spin recovery/attitude characteristics generally differ because:",
+    "options": [
+      "Greater longitudinal stability and elevator authority can influence the spin behaviour",
+      "CG has no aerodynamic effect",
+      "The aircraft becomes massless",
+      "Yaw disappears"
+    ],
+    "answer": 0,
+    "explanation": "ตำแหน่ง CG มีผลต่อ pitch stability และ control authority จึงสามารถเปลี่ยนลักษณะและพฤติกรรมของ spin รวมถึงการ recovery",
+    "correct": "Greater longitudinal stability and elevator authority can influence the spin behaviour",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 01 06 04",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "CG position changes pitch stability/control and spin characteristics."
+  },
+  {
+    "id": 100,
+    "question": "Heavy, clean and slow is the combination associated with:",
+    "options": [
+      "Strong wake vortices",
+      "Weakest wake vortices",
+      "No wake",
+      "Only propeller slipstream"
+    ],
+    "answer": 0,
+    "explanation": "เครื่องบินที่หนัก สะอาด และบินช้าต้องสร้าง lift สูง จึงสามารถสร้าง wingtip vortices ที่รุนแรงได้ โดย wake strengthสัมพันธ์กับ lift generation",
+    "correct": "Strong wake vortices",
+    "topic": "081 03",
+    "topicName": "Stall, Mach Tuck & Upset Prevention/Recovery",
+    "LO": "081 03 03 01 02",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Identify",
+    "explanation_quick": "High lift generation by a heavy, clean, slow aircraft produces strong vortices."
+  },
+  {
+    "id": 101,
+    "question": "Positive static stability means that after a disturbance the aircraft initially:",
+    "options": [
+      "Develops a restoring tendency toward equilibrium",
+      "Moves farther away immediately",
+      "Has no response",
+      "Changes mass"
+    ],
+    "answer": 0,
+    "explanation": "Positive static stability หมายถึงหลังถูกรบกวนจาก equilibrium เครื่องบินจะมีแนวโน้มเริ่มต้นที่จะกลับเข้าหาสภาวะสมดุล",
+    "correct": "Develops a restoring tendency toward equilibrium",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 01 01 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "Positive static stability is a restoring initial tendency."
+  },
+  {
+    "id": 102,
+    "question": "Neutral static stability means that after displacement the aircraft:",
+    "options": [
+      "Has no initial restoring or diverging tendency",
+      "Always returns rapidly",
+      "Always diverges rapidly",
+      "Loses lift completely"
+    ],
+    "answer": 0,
+    "explanation": "Neutral static stability หมายถึงหลังถูกเบี่ยงออกจาก equilibrium เครื่องบินไม่มี restoring หรือ diverging tendency ในช่วงเริ่มต้น",
+    "correct": "Has no initial restoring or diverging tendency",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 01 01 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Identify",
+    "explanation_quick": "Neutral static stability has no initial tendency."
+  },
+  {
+    "id": 103,
+    "question": "Greater static stability generally tends to reduce:",
+    "options": [
+      "Manoeuvrability/control responsiveness",
+      "Aircraft weight",
+      "Air density SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+      "Engine thrust"
+    ],
+    "answer": 0,
+    "explanation": "Stability กับ manoeuvrability เป็น trade-off ทางการออกแบบ เพราะการเพิ่ม stability โดยทั่วไปอาจลดความ responsiveness และ manoeuvrability",
+    "correct": "Manoeuvrability/control responsiveness",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 01 01 03",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Stability and manoeuvrability involve a design trade-off."
+  },
+  {
+    "id": 104,
+    "question": "A dynamically stable oscillation will generally:",
+    "options": [
+      "Decrease in amplitude with time",
+      "Increase without limit",
+      "Remain exactly constant forever",
+      "Have no motion"
+    ],
+    "answer": 0,
+    "explanation": "Positive dynamic stability หมายถึงการตอบสนองหลัง disturbance มี damping ทำให้ amplitude ของ oscillation ลดลงตามเวลา",
+    "correct": "Decrease in amplitude with time",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 01 01 04",
+    "difficulty": "Easy",
+    "cognitive": "UNDERSTAND",
+    "verb": "Describe",
+    "explanation_quick": "Positive dynamic stability is damping."
+  },
+  {
+    "id": 105,
+    "question": "A periodic motion is one that:",
+    "options": [
+      "Repeats its motion in a regular cycle",
+      "Never changes",
+      "Occurs only once",
+      "Has zero frequency"
+    ],
+    "answer": 0,
+    "explanation": "Periodic motion คือการเคลื่อนที่ที่เกิดซ้ำเป็นรอบอย่างสม่ำเสมอ จึงมีลักษณะเป็นการเคลื่อนที่แบบ cycle",
+    "correct": "Repeats its motion in a regular cycle",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 01 01 04",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "Periodic motion repeats."
+  },
+  {
+    "id": 106,
+    "question": "For static stability to be assessed, the aircraft must initially be in:",
+    "options": [
+      "An equilibrium condition",
+      "A maximum-speed dive",
+      "A stalled spin",
+      "A zero-pressure state"
+    ],
+    "answer": 0,
+    "explanation": "การพิจารณา static stability ต้องเริ่มจาก aircraft ที่อยู่ใน equilibrium แล้วดูแนวโน้มเริ่มต้นหลังถูก displacement",
+    "correct": "An equilibrium condition",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 01 02 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Static stability concerns displacement from equilibrium."
+  },
+  {
+    "id": 107,
+    "question": "A non-zero sum of pitching moments causes:",
+    "options": [
+      "Angular acceleration about the lateral axis",
+      "No rotational effect",
+      "Only a change in mass",
+      "Only a change in density"
+    ],
+    "answer": 0,
+    "explanation": "เมื่อผลรวมของ pitching moments ไม่เป็นศูนย์ จะเกิด angular acceleration รอบ lateral axis ตามสมการ rotational dynamics",
+    "correct": "Angular acceleration about the lateral axis",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 01 04 02",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Analyse",
+    "explanation_quick": "Unbalanced moment produces angular acceleration."
+  },
+  {
+    "id": 108,
+    "question": "The stabiliser primarily provides a balancing moment about the:",
+    "options": [
+      "Lateral axis",
+      "Longitudinal axis",
+      "Normal axis",
+      "Wingtip axis"
+    ],
+    "answer": 0,
+    "explanation": "Stabiliser/elevator มีหน้าที่หลักในการเปลี่ยน pitching moment ของเครื่องบินเพื่อช่วยรักษา pitch equilibrium",
+    "correct": "Lateral axis",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 03 01 01",
+    "difficulty": "Easy",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "The stabiliser/elevator affects pitching moment."
+  },
+  {
+    "id": 109,
+    "question": "If the wing CP moves aft relative to the CG, the required stabiliser balancing force may:",
+    "options": [
+      "Change in magnitude and direction",
+      "Always become zero",
+      "Always equal aircraft weight",
+      "Become independent of speed"
+    ],
+    "answer": 0,
+    "explanation": "ตำแหน่ง CP เมื่อเทียบกับ CG จะกำหนด moment arm ของ aerodynamic force และจึงกำหนด balancing moment ที่ต้องการจาก tail",
+    "correct": "Change in magnitude and direction",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 03 01 02",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "CP/CG geometry determines the balancing moment."
+  },
+  {
+    "id": 110,
+    "question": "At higher IAS, the stabiliser force needed for a given moment generally changes because:",
+    "options": [
+      "Dynamic pressure and tail aerodynamic force change",
+      "Gravity disappears",
+      "The tail loses all area",
+      "CG automatically moves"
+    ],
+    "answer": 0,
+    "explanation": "แรงที่ tail ขึ้นกับ dynamic pressure และ moment ที่ต้องใช้ในการรักษาสมดุล ดังนั้นเมื่อ speed เปลี่ยน tail force ที่ต้องการก็เปลี่ยนได้",
+    "correct": "Dynamic pressure and tail aerodynamic force change",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 03 01 03",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Tail force depends on dynamic pressure and required moment."
+  },
+  {
+    "id": 111,
+    "question": "A nose-up elevator deflection on a conventional aircraft generally:",
+    "options": [
+      "Increases tail download or changes tail force to create a nose-up pitching moment",
+      "Always produces nose-down pitch",
+      "Only changes yaw",
+      "Only changes roll"
+    ],
+    "answer": 0,
+    "explanation": "Elevator เปลี่ยนแรงที่ tail และทำให้ pitching moment เปลี่ยน จึงใช้ควบคุมและ trim เครื่องบินในแกน pitch",
+    "correct": "Increases tail download or changes tail force to create a nose-up pitching moment",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 03 01 04",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Elevator changes tail force and pitching moment."
+  },
+  {
+    "id": 112,
+    "question": "A thrust-line change can require elevator/stabiliser adjustment because:",
+    "options": [
+      "Engine thrust can create a pitching moment when its line does not pass through the CG",
+      "Thrust has no line of action",
+      "Weight changes direction",
+      "Lift disappears"
+    ],
+    "answer": 0,
+    "explanation": "หาก thrust line ไม่ผ่าน CG แรง thrust จะมี moment arm และสามารถสร้าง pitching moment รอบ CG ได้",
+    "correct": "Engine thrust can create a pitching moment when its line does not pass through the CG",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 03 01 05",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Thrust offset from CG creates a moment."
+  },
+  {
+    "id": 113,
+    "question": "The neutral point is the CG location at which:",
+    "options": [
+      "Longitudinal static stability is neutral",
+      "The aircraft has maximum drag",
+      "The aircraft cannot fly",
+      "Lift is zero"
+    ],
+    "answer": 0,
+    "explanation": "Neutral point คือตำแหน่ง CG ที่ทำให้ longitudinal static stability เป็นกลางพอดี หาก CG อยู่ด้านหน้า neutral point จะมี static stability เป็นบวก",
+    "correct": "Longitudinal static stability is neutral",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 03 03 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "Neutral point is the neutral-stability CG location."
+  },
+  {
+    "id": 114,
+    "question": "The neutral point is primarily determined by:",
+    "options": [
+      "Aerodynamic design of the aircraft",
+      "Fuel price",
+      "Pilot weight only",
+      "Runway length"
+    ],
+    "answer": 0,
+    "explanation": "Neutral point เป็นคุณสมบัติที่กำหนดโดย aerodynamic design ของเครื่องบิน ไม่ได้ขึ้นกับ fuel price หรือ pilot weight เพียงอย่างเดียว",
+    "correct": "Aerodynamic design of the aircraft",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 03 03 02",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Neutral point is an aerodynamic/design property."
+  },
+  {
+    "id": 115,
+    "question": "Static margin is commonly the distance between:",
+    "options": [
+      "Neutral point and CG expressed relative to a reference such as MAC",
+      "CG and runway centreline",
+      "CP and wingtip only",
+      "Engine and propeller"
+    ],
+    "answer": 0,
+    "explanation": "Static margin ใช้วัดระยะเผื่อด้าน longitudinal static stability โดยทั่วไปแสดงระยะระหว่าง CG กับ neutral point เทียบกับ MAC",
+    "correct": "Neutral point and CG expressed relative to a reference such as MAC",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 03 05 03",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "Static margin quantifies longitudinal stability margin."
+  },
+  {
+    "id": 116,
+    "question": "Moving CG forward generally increases:",
+    "options": [
+      "Static margin",
+      "Mach number",
+      "Drag coefficient to infinity",
+      "VMC automatically"
+    ],
+    "answer": 0,
+    "explanation": "การเลื่อน CG ไปด้านหน้าทำให้ระยะระหว่าง CG กับ neutral point เพิ่มขึ้น จึงเพิ่ม static margin และเพิ่ม longitudinal stability",
+    "correct": "Static margin",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 03 05 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Forward CG increases the distance from neutral point."
+  },
+  {
+    "id": 117,
+    "question": "On a Cm–α graph, a negative slope generally indicates:",
+    "options": [
+      "Positive longitudinal static stability",
+      "Negative stability",
+      "No pitching moment",
+      "Zero lift"
+    ],
+    "answer": 0,
+    "explanation": "ตาม sign convention ที่ใช้ทั่วไป หาก slope ของ Cm–α หรือ dCm/dα เป็นลบ แสดงถึง positive longitudinal static stability",
+    "correct": "Positive longitudinal static stability",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 03 06 01",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Interpret",
+    "explanation_quick": "For the usual sign convention, negative dCm/dα indicates static stability."
+  },
+  {
+    "id": 118,
+    "question": "Moving the CG aft generally shifts the Cm–α characteristic toward:",
+    "options": [
+      "Reduced static stability",
+      "Increased static stability",
+      "No possible change",
+      "Zero slope in every case"
+    ],
+    "answer": 0,
+    "explanation": "การเลื่อน CG ไปด้านหลังทำให้ระยะจาก CG ถึง neutral point ลดลง จึงลด longitudinal static margin และลด static stability",
+    "correct": "Reduced static stability",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 03 07 01",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Aft CG reduces longitudinal static margin."
+  },
+  {
+    "id": 119,
+    "question": "A stable stick-force-versus-speed characteristic means that increasing speed generally requires:",
+    "options": [
+      "An appropriate change in stick force consistent with positive speed stability",
+      "No force change in every aircraft",
+      "Full elevator deflection",
+      "Zero thrust"
+    ],
+    "answer": 0,
+    "explanation": "ลักษณะ longitudinal stability ที่ดีทำให้การเปลี่ยนความเร็วสัมพันธ์กับการเปลี่ยน control force อย่างเหมาะสม และให้ restoring control-force cues แก่นักบิน",
+    "correct": "An appropriate change in stick force consistent with positive speed stability",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 03 10 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Stable longitudinal characteristics provide restoring control-force cues."
+  },
+  {
+    "id": 120,
+    "question": "Stick force per g describes:",
+    "options": [
+      "The change in control force associated with a change in load factor",
+      "The force needed to move the landing gear",
+      "Engine thrust per g",
+      "Weight per unit wing area"
+    ],
+    "answer": 0,
+    "explanation": "Stick force per g คือการเปลี่ยนแปลงของแรงที่นักบินต้องใช้กับ stick เมื่อ load factor เปลี่ยน จึงเป็นตัววัด manoeuvring stability",
+    "correct": "The change in control force associated with a change in load factor",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 03 12 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "Stick force per g is a manoeuvring stability measure."
+  },
+  {
+    "id": 121,
+    "question": "If stick force per g is positive, increasing g normally requires:",
+    "options": [
+      "Increasing pilot control force",
+      "Decreasing force to zero",
+      "No control force",
+      "A rudder input only"
+    ],
+    "answer": 0,
+    "explanation": "ถ้า stick force per g เป็นบวก เมื่อ load factor หรือ g เพิ่มขึ้น นักบินต้องใช้ control force เพิ่มขึ้นตาม",
+    "correct": "Increasing pilot control force",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 03 12 01",
+    "difficulty": "Easy",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Positive stick-force-per-g gives increasing force with g."
+  },
+  {
+    "id": 122,
+    "question": "Phugoid motion primarily exchanges:",
+    "options": [
+      "Kinetic and potential energy with relatively small α changes SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+      "Yaw and roll at high frequency",
+      "Fuel and oil",
+      "Engine torque and cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Phugoid เป็น long-period oscillation ที่แลกเปลี่ยน kinetic energy และ potential energy โดยมีการเปลี่ยน angle of attack ค่อนข้างน้อย",
+    "correct": "Kinetic and potential energy with relatively small α changes SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 03 16 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Describe",
+    "explanation_quick": "The phugoid is a long-period speed/altitude mode."
+  },
+  {
+    "id": 123,
+    "question": "Short-period motion is generally more hazardous than phugoid because it involves:",
+    "options": [
+      "Rapid changes in α and pitch attitude",
+      "Only slow altitude changes",
+      "No change in AoA",
+      "Only fuel flow"
+    ],
+    "answer": 0,
+    "explanation": "Short-period mode เกิดการเปลี่ยนแปลง angle of attack และ pitch attitude อย่างรวดเร็ว จึงเป็น dynamic mode ที่ต้องควบคุมอย่างใกล้ชิด",
+    "correct": "Rapid changes in α and pitch attitude",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 03 16 02",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Explain",
+    "explanation_quick": "Short-period dynamics can produce rapid AoA/pitch excursions."
+  },
+  {
+    "id": 124,
+    "question": "Pilot-induced oscillation occurs when:",
+    "options": [
+      "Pilot inputs and aircraft response interact to reinforce an oscillation",
+      "The aircraft has no controls",
+      "The engine is shut down",
+      "The CG is exactly at the neutral point only"
+    ],
+    "answer": 0,
+    "explanation": "PIO หรือ Pilot-Induced Oscillation เกิดจาก interaction ระหว่าง pilot input กับ aircraft response จน feedback loop ไปเสริม oscillation ที่ไม่ต้องการ",
+    "correct": "Pilot inputs and aircraft response interact to reinforce an oscillation",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 03 16 03",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Describe",
+    "explanation_quick": "PIO is an unwanted pilot-aircraft control-loop interaction."
+  },
+  {
+    "id": 125,
+    "question": "The symbol β is commonly used for:",
+    "options": [
+      "Sideslip angle",
+      "Angle of attack",
+      "Bank angle",
+      "Pitch angle"
+    ],
+    "answer": 0,
+    "explanation": "สัญลักษณ์ β ใช้แทน sideslip angle ซึ่งเป็นมุมระหว่างแนวอากาศไหลสัมพัทธ์กับเครื่องบินในระนาบที่เกี่ยวข้องกับ lateral/directional motion",
+    "correct": "Sideslip angle",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 04 02 02",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Identify",
+    "explanation_quick": "β denotes sideslip angle."
+  },
+  {
+    "id": 126,
+    "question": "For a statically directionally stable aircraft, increasing sideslip should create a restoring:",
+    "options": [
+      "Yawing moment toward reducing the sideslip",
+      "Pitching moment that increases sideslip",
+      "Roll moment only with no yaw",
+      "Thrust increase"
+    ],
+    "answer": 0,
+    "explanation": "Directional stability ทำให้เมื่อเกิด sideslip เครื่องบินสร้าง restoring yawing moment เพื่อลด sideslip และพยายามกลับเข้าสู่ทิศทางเดิม",
+    "correct": "Yawing moment toward reducing the sideslip",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 04 04 04 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Directional stability provides a restoring yawing moment."
+  },
+  {
+    "id": 127,
+    "question": "The lateral axis runs approximately:",
+    "options": [
+      "Wingtip to wingtip through the aircraft",
+      "Nose to tail",
+      "Vertically through the aircraft",
+      "Along the runway only"
+    ],
+    "answer": 0,
+    "explanation": "Lateral axis เป็นแกนที่พาดจากปีกข้างหนึ่งไปยังอีกข้างหนึ่งโดยประมาณ และการหมุนรอบแกนนี้คือ pitch",
+    "correct": "Wingtip to wingtip through the aircraft",
+    "topic": "081 05",
+    "topicName": "Control",
+    "LO": "081 05 01 01 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "The lateral axis is approximately spanwise."
+  },
+  {
+    "id": 128,
+    "question": "Pitch is rotation about the:",
+    "options": [
+      "Lateral axis",
+      "Longitudinal axis",
+      "Normal axis",
+      "Vertical tail only"
+    ],
+    "answer": 0,
+    "explanation": "Pitch คือการหมุนของเครื่องบินรอบ lateral axis ไม่ใช่รอบ longitudinal หรือ normal axis",
+    "correct": "Lateral axis",
+    "topic": "081 05",
+    "topicName": "Control",
+    "LO": "081 05 01 01 03",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Identify",
+    "explanation_quick": "Pitch is rotation about the lateral axis."
+  },
+  {
+    "id": 129,
+    "question": "A control-surface deflection changes local camber and therefore can change:",
+    "options": [
+      "Local lift and moment",
+      "Aircraft mass",
+      "Fuel density",
+      "Cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "การ deflect control surface จะเปลี่ยน local camber และ pressure distribution จึงเปลี่ยน local lift และ aerodynamic moment",
+    "correct": "Local lift and moment",
+    "topic": "081 05",
+    "topicName": "Control",
+    "LO": "081 05 01 02",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Control surfaces alter local aerodynamic characteristics."
+  },
+  {
+    "id": 130,
+    "question": "Downwash from the wing affects tailplane angle of attack by:",
+    "options": [
+      "Changing the local airflow direction seen by the tail",
+      "Changing tail mass",
+      "Stopping tail airflow",
+      "Changing the runway slope"
+    ],
+    "answer": 0,
+    "explanation": "Downwash จากปีกเปลี่ยนทิศทาง local airflow ที่ tailplane พบ ดังนั้นจึงมีผลโดยตรงต่อ tailplane angle of attack",
+    "correct": "Changing the local airflow direction seen by the tail",
+    "topic": "081 05",
+    "topicName": "Control",
+    "LO": "081 05 02 02 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Tail AoA depends on the local flow including downwash."
+  },
+  {
+    "id": 131,
+    "question": "A forward CG generally requires greater elevator authority because:",
+    "options": [
+      "The pitching moment arm and trim requirement change",
+      "The wing disappears",
+      "Thrust becomes zero SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+      "The rudder becomes ineffective"
+    ],
+    "answer": 0,
+    "explanation": "เมื่อ CG อยู่ด้านหน้า เครื่องบินต้องสร้าง pitching moment/trim force มากขึ้นเพื่อรักษาสมดุล จึงต้องการ elevator authority มากขึ้น",
+    "correct": "The pitching moment arm and trim requirement change",
+    "topic": "081 05",
+    "topicName": "Control",
+    "LO": "081 05 02 04 02",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Forward CG increases longitudinal control/trim demands."
+  },
+  {
+    "id": 132,
+    "question": "For an engine mounted above the CG, increasing thrust can create a pitching moment whose direction depends on:",
+    "options": [
+      "The thrust-line position relative to the CG",
+      "Only air temperature",
+      "Only wing area",
+      "Radio altitude"
+    ],
+    "answer": 0,
+    "explanation": "ทิศทางของ pitching moment จาก thrust ขึ้นกับตำแหน่งและแนวของ thrust line เมื่อเทียบกับ CG ไม่ได้ขึ้นกับอุณหภูมิหรือ wing area เพียงอย่างเดียว",
+    "correct": "The thrust-line position relative to the CG",
+    "topic": "081 05",
+    "topicName": "Control",
+    "LO": "081 05 02 05 01",
+    "difficulty": "Medium",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Moment direction depends on thrust-line geometry."
+  },
+  {
+    "id": 133,
+    "question": "A rudder deflection primarily changes:",
+    "options": [
+      "Yawing moment about the normal axis",
+      "Pitch about the lateral axis",
+      "Roll about the longitudinal axis only",
+      "Aircraft weight"
+    ],
+    "answer": 0,
+    "explanation": "Rudder เป็น primary flight control สำหรับ yaw โดยการ deflect rudder จะสร้าง yawing moment รอบ normal/vertical axis",
+    "correct": "Yawing moment about the normal axis",
+    "topic": "081 05",
+    "topicName": "Control",
+    "LO": "081 05 03 01",
+    "difficulty": "Easy",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Rudder is the primary yaw control."
+  },
+  {
+    "id": 134,
+    "question": "Rudder deflection can create side force on the fin and therefore:",
+    "options": [
+      "A yawing moment about the CG",
+      "Only a lift increase",
+      "No aerodynamic moment",
+      "A reduction in mass"
+    ],
+    "answer": 0,
+    "explanation": "แรงด้านข้างจาก fin/rudder ทำหน้าที่ผ่าน moment arm จาก CG จึงสร้าง yawing moment เพื่อเปลี่ยน heading",
+    "correct": "A yawing moment about the CG",
+    "topic": "081 05",
+    "topicName": "Control",
+    "LO": "081 05 03 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Fin side force acts with a moment arm from the CG."
+  },
+  {
+    "id": 135,
+    "question": "Rudder limiting on transport aircraft is used mainly to:",
+    "options": [
+      "Prevent excessive structural loads and control forces",
+      "Increase maximum speed",
+      "Eliminate yaw control",
+      "Increase stall speed"
+    ],
+    "answer": 0,
+    "explanation": "Rudder limiting ใน transport aircraft มีไว้เพื่อป้องกัน excessive structural loads และ control forces จากการใช้ rudder มากเกินไป",
+    "correct": "Prevent excessive structural loads and control forces",
+    "topic": "081 05",
+    "topicName": "Control",
+    "LO": "081 05 03 02",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Large rudder inputs can create high loads, so limits protect the aircraft."
+  },
+  {
+    "id": 136,
+    "question": "Roll rate is the:",
+    "options": [
+      "Rate of change of bank angle with time",
+      "Rate of change of altitude only",
+      "Rate of yaw only",
+      "Rate of speed change"
+    ],
+    "answer": 0,
+    "explanation": "Roll rate คืออัตราการเปลี่ยนแปลงของ bank angle ต่อหน่วยเวลา เช่น degrees per second",
+    "correct": "Rate of change of bank angle with time",
+    "topic": "081 05",
+    "topicName": "Control",
+    "LO": "081 05 04 01 06",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "Roll rate describes change of bank angle per unit time."
+  },
+  {
+    "id": 137,
+    "question": "A factor affecting roll rate is:",
+    "options": [
+      "Aileron effectiveness and aerodynamic damping",
+      "Cabin temperature only",
+      "Fuel colour",
+      "Radio frequency"
+    ],
+    "answer": 0,
+    "explanation": "Roll rate ขึ้นกับ control power ของ aileron/spoiler, aircraft inertia, aerodynamic damping และ flight condition",
+    "correct": "Aileron effectiveness and aerodynamic damping",
+    "topic": "081 05",
+    "topicName": "Control",
+    "LO": "081 05 04 01 07",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "List",
+    "explanation_quick": "Roll rate depends on control power, inertia, damping and flight condition."
+  },
+  {
+    "id": 138,
+    "question": "Outboard ailerons may be locked at high speed to reduce risk of:",
+    "options": [
+      "Over-control, structural exceedance and aeroelastic effects",
+      "Low-speed stall only",
+      "Engine failure",
+      "Cabin decompression"
+    ],
+    "answer": 0,
+    "explanation": "การใช้ outboard aileron ที่ความเร็วสูงอาจสร้าง load และ aeroelastic effects มากเกินไป จึงอาจถูกจำกัดหรือล็อกเพื่อป้องกัน structural exceedance",
+    "correct": "Over-control, structural exceedance and aeroelastic effects",
+    "topic": "081 05",
+    "topicName": "Control",
+    "LO": "081 05 04 01 04",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "High-speed aileron inputs can create excessive loads/aeroelastic effects."
+  },
+  {
+    "id": 139,
+    "question": "A flaperon combines functions of:",
+    "options": [
+      "Flap and aileron",
+      "Rudder and elevator",
+      "Spoiler and rudder only",
+      "Trim and landing gear"
+    ],
+    "answer": 0,
+    "explanation": "Flaperon รวมหน้าที่ของ flap และ aileron คือช่วยเพิ่ม lift/เปลี่ยน camber พร้อมทำหน้าที่ควบคุม roll",
+    "correct": "Flap and aileron",
+    "topic": "081 05",
+    "topicName": "Control",
+    "LO": "081 05 04 01 08",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Identify",
+    "explanation_quick": "A flaperon combines lift augmentation and roll control."
+  },
+  {
+    "id": 140,
+    "question": "A roll spoiler produces roll by:",
+    "options": [
+      "Reducing lift on one wing",
+      "Increasing lift equally on both wings",
+      "Changing engine thrust",
+      "Changing rudder trim only"
+    ],
+    "answer": 0,
+    "explanation": "Roll spoiler ทำให้เกิด roll โดยลด lift ของปีกด้านหนึ่ง ทำให้เกิดความแตกต่างของ lift ระหว่างสองปีก",
+    "correct": "Reducing lift on one wing",
+    "topic": "081 05",
+    "topicName": "Control",
+    "LO": "081 05 04 03 01",
+    "difficulty": "Easy",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Spoilers reduce lift on the selected wing."
+  },
+  {
+    "id": 141,
+    "question": "A Frise aileron reduces adverse yaw partly by:",
+    "options": [
+      "Creating additional drag on the up-going aileron side",
+      "Removing all drag",
+      "Increasing engine thrust",
+      "Moving the CG"
+    ],
+    "answer": 0,
+    "explanation": "Frise aileron ใช้ geometry ที่ช่วยสร้าง drag เพิ่มทางด้านของ aileron ที่ยกขึ้น เพื่อลด adverse yaw จากการใช้ aileron",
+    "correct": "Creating additional drag on the up-going aileron side",
+    "topic": "081 05",
+    "topicName": "Control",
+    "LO": "081 05 04 05 01",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Explain",
+    "explanation_quick": "Frise geometry helps balance aileron-induced drag."
+  },
+  {
+    "id": 142,
+    "question": "A balance tab is intended primarily to:",
+    "options": [
+      "Reduce pilot/control-surface force",
+      "Increase aircraft weight",
+      "Increase stall speed",
+      "Control cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Balance tab ช่วยลดแรงที่นักบินต้องใช้ในการเคลื่อน control surface จึงช่วยลด control-surface/pilot control force",
+    "correct": "Reduce pilot/control-surface force",
+    "topic": "081 05",
+    "topicName": "Control",
+    "LO": "081 05 06 01 04",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Describe",
+    "explanation_quick": "Balance tabs reduce control forces."
+  },
+  {
+    "id": 143,
+    "question": "Flutter is best classified as:",
+    "options": [
+      "An aeroelastic self-excited oscillation",
+      "A low-speed aerodynamic stall",
+      "An engine compressor surge",
+      "A hydraulic failure"
+    ],
+    "answer": 0,
+    "explanation": "Flutter เป็น aeroelastic self-excited oscillation ที่เกิดจาก interaction ระหว่าง aerodynamic forces, structural stiffness และ inertia",
+    "correct": "An aeroelastic self-excited oscillation",
+    "topic": "081 06",
+    "topicName": "Limitations",
+    "LO": "081 06 01 01 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Describe",
+    "explanation_quick": "Flutter is an aeroelastic oscillation."
+  },
+  {
+    "id": 144,
+    "question": "Increasing IAS can increase flutter risk because:",
+    "options": [
+      "Aerodynamic forces and dynamic pressure increase",
+      "Air density becomes zero",
+      "Mass disappears",
+      "Control surfaces become frictionless"
+    ],
+    "answer": 0,
+    "explanation": "เมื่อ IAS เพิ่ม dynamic pressure และ aerodynamic forces จะเพิ่มขึ้น จึงสามารถลด flutter margin และเพิ่มความเสี่ยงต่อ flutter",
+    "correct": "Aerodynamic forces and dynamic pressure increase",
+    "topic": "081 06",
+    "topicName": "Limitations",
+    "LO": "081 06 01 01 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Higher dynamic pressure can reduce flutter margin."
+  },
+  {
+    "id": 145,
+    "question": "Mass balance of a control surface helps flutter prevention by:",
+    "options": [
+      "Controlling the distribution of mass relative to the hinge axis",
+      "Increasing wing loading",
+      "Increasing speed",
+      "Removing all aerodynamic forces"
+    ],
+    "answer": 0,
+    "explanation": "Mass balance ของ control surface ช่วยควบคุมการกระจายมวลเมื่อเทียบกับ hinge axis และช่วยปรับ inertial characteristics เพื่อลด flutter tendency",
+    "correct": "Controlling the distribution of mass relative to the hinge axis",
+    "topic": "081 06",
+    "topicName": "Limitations",
+    "LO": "081 06 01 01 02",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Mass balance alters inertia and aeroelastic characteristics."
+  },
+  {
+    "id": 146,
+    "question": "The flutter-free envelope is the region in which:",
+    "options": [
+      "The aircraft is cleared to operate without encountering the specified flutter condition",
+      "The aircraft must always be stalled",
+      "The aircraft has zero drag",
+      "The engine is feathered"
+    ],
+    "answer": 0,
+    "explanation": "Flutter-free envelope คือช่วงการใช้งานที่อากาศยานได้รับการรับรองให้บินได้โดยไม่เข้าสู่ flutter condition ที่กำหนด",
+    "correct": "The aircraft is cleared to operate without encountering the specified flutter condition",
+    "topic": "081 06",
+    "topicName": "Limitations",
+    "LO": "081 06 01 01 03",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "It is the operating region free from the identified flutter hazard."
+  },
+  {
+    "id": 147,
+    "question": "VLO is associated with the maximum speed for:",
+    "options": [
+      "Operating the landing gear",
+      "Flying with flaps extended",
+      "Maximum Mach",
+      "Best glide"
+    ],
+    "answer": 0,
+    "explanation": "VLO คือ maximum speed สำหรับการ operate landing gear เช่น extension/retraction จึงเป็น gear operating speed",
+    "correct": "Operating the landing gear",
+    "topic": "081 06",
+    "topicName": "Limitations",
+    "LO": "081 06 01 03 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "VLO is landing gear operating speed."
+  },
+  {
+    "id": 148,
+    "question": "VLE is associated with the maximum speed for:",
+    "options": [
+      "Flight with the landing gear extended",
+      "Operating the flaps",
+      "Minimum control",
+      "Best range"
+    ],
+    "answer": 0,
+    "explanation": "VLE คือ maximum speed สำหรับการบินโดย landing gear อยู่ในตำแหน่ง extended แล้ว จึงอาจต่างจาก VLO",
+    "correct": "Flight with the landing gear extended",
+    "topic": "081 06",
+    "topicName": "Limitations",
+    "LO": "081 06 01 03 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "VLE is maximum speed with gear extended."
+  },
+  {
+    "id": 149,
+    "question": "A difference between VLO and VLE can exist because:",
+    "options": [
+      "Gear extension/retraction loads and extended-gear flight loads may have different limits",
+      "They are always identical by definition",
+      "VLE is an engine speed",
+      "VLO is a Mach number"
+    ],
+    "answer": 0,
+    "explanation": "VLO และ VLE อาจไม่เท่ากัน เพราะ load จากการ operate gear กับ load จากการบินโดย gear extended อาจมีข้อจำกัดต่างกัน",
+    "correct": "Gear extension/retraction loads and extended-gear flight loads may have different limits",
+    "topic": "081 06",
+    "topicName": "Limitations",
+    "LO": "081 06 01 03 02",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Operation and flight with gear down can have different structural limits."
+  },
+  {
+    "id": 150,
+    "question": "VFE limits:",
+    "options": [
+      "Speed with a specified flap configuration extended SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+      "Speed with gear extended only",
+      "Minimum speed in a turn",
+      "Maximum Mach only"
+    ],
+    "answer": 0,
+    "explanation": "VFE คือ maximum speed ที่อนุญาตสำหรับ flap configuration ที่กำหนดเมื่อ flaps extended/อยู่ใน configuration นั้น",
+    "correct": "Speed with a specified flap configuration extended SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+    "topic": "081 06",
+    "topicName": "Limitations",
+    "LO": "081 06 01 03 03",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "VFE is flap extension/configuration speed."
+  },
+  {
+    "id": 151,
+    "question": "VMO is a maximum operating:",
+    "options": [
+      "Speed expressed as an airspeed limit",
+      "Mach number only",
+      "Flap angle",
+      "Load factor"
+    ],
+    "answer": 0,
+    "explanation": "VMO คือ maximum operating speed ที่แสดงเป็น airspeed limit ซึ่งห้ามใช้งานเกินตามข้อจำกัดของเครื่องบิน",
+    "correct": "Speed expressed as an airspeed limit",
+    "topic": "081 06",
+    "topicName": "Limitations",
+    "LO": "081 06 01 04 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "VMO is a maximum operating speed expressed in airspeed."
+  },
+  {
+    "id": 152,
+    "question": "VNE is the speed that must:",
+    "options": [
+      "Not be exceeded",
+      "Always be maintained",
+      "Only be used for take-off",
+      "Be used for best glide"
+    ],
+    "answer": 0,
+    "explanation": "VNE ย่อมาจาก Never Exceed Speed หมายถึงความเร็วที่ต้องไม่ถูกเกิน เพราะการบินเกินอาจทำให้เกิด structural/aerodynamic hazards",
+    "correct": "Not be exceeded",
+    "topic": "081 06",
+    "topicName": "Limitations",
+    "LO": "081 06 01 04 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "VNE means never exceed speed."
+  },
+  {
+    "id": 153,
+    "question": "MMO is a limiting:",
+    "options": [
+      "Mach number",
+      "Airspeed in knots only",
+      "Load factor",
+      "Wing area"
+    ],
+    "answer": 0,
+    "explanation": "MMO คือ Maximum Operating Mach Number หรือขีดจำกัด Mach สูงสุดที่อนุญาตสำหรับการปฏิบัติการของเครื่องบิน",
+    "correct": "Mach number",
+    "topic": "081 06",
+    "topicName": "Limitations",
+    "LO": "081 06 01 05 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "MMO is maximum operating Mach number."
+  },
+  {
+    "id": 154,
+    "question": "The manoeuvring envelope relates:",
+    "options": [
+      "Speed to permissible load factor",
+      "Altitude to fuel flow",
+      "Mach to cabin pressure",
+      "Engine RPM to oil pressure"
+    ],
+    "answer": 0,
+    "explanation": "V-n diagram หรือ manoeuvring envelope แสดงความสัมพันธ์ระหว่าง speed กับ permissible load factor เพื่อบอกขอบเขตการใช้งานด้านโครงสร้าง",
+    "correct": "Speed to permissible load factor",
+    "topic": "081 06",
+    "topicName": "Limitations",
+    "LO": "081 06 02 01 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Describe",
+    "explanation_quick": "The V-n diagram plots load factor versus speed."
+  },
+  {
+    "id": 155,
+    "question": "Limit load factor is:",
+    "options": [
+      "The maximum load factor for which the structure is designed to operate within the specified limit",
+      "The load factor at which the engine stops",
+      "Always equal to ultimate load factor",
+      "A minimum speed"
+    ],
+    "answer": 0,
+    "explanation": "Limit load factor คือ load factor สูงสุดที่โครงสร้างถูกออกแบบให้รับได้ภายใน specified operating limit",
+    "correct": "The maximum load factor for which the structure is designed to operate within the specified limit",
+    "topic": "081 06",
+    "topicName": "Limitations",
+    "LO": "081 06 02 01 02",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Define",
+    "explanation_quick": "Limit load is the specified structural operating limit."
+  },
+  {
+    "id": 156,
+    "question": "Ultimate load factor is important because:",
+    "options": [
+      "Structural failure may occur if the ultimate load is exceeded",
+      "It is always below the limit load",
+      "It defines VFE",
+      "It defines VMC"
+    ],
+    "answer": 0,
+    "explanation": "Ultimate load คือระดับ load ที่สูงกว่า limit load และเป็น reference ด้าน structural design/failure ซึ่งหากเกินอาจนำไปสู่ structural failure",
+    "correct": "Structural failure may occur if the ultimate load is exceeded",
+    "topic": "081 06",
+    "topicName": "Limitations",
+    "LO": "081 06 02 01 02",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Ultimate load is the higher structural design/failure reference."
+  },
+  {
+    "id": 157,
+    "question": "Propeller solidity is related to:",
+    "options": [
+      "Blade area relative to the disc area",
+      "Aircraft weight relative to wing area",
+      "Engine pressure ratio",
+      "Propeller diameter only"
+    ],
+    "answer": 0,
+    "explanation": "Propeller solidity เป็นตัววัดสัดส่วนของพื้นที่ใบพัด (blade area) เมื่อเทียบกับพื้นที่ propeller disc",
+    "correct": "Blade area relative to the disc area",
+    "topic": "081 07",
+    "topicName": "Propellers",
+    "LO": "081 07 03 03 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "Solidity is a measure of blade area relative to disc area."
+  },
+  {
+    "id": 158,
+    "question": "Increasing the number of propeller blades can allow:",
+    "options": [
+      "Greater power absorption within practical diameter limits",
+      "Zero drag",
+      "Zero torque",
+      "No change in blade loading"
+    ],
+    "answer": 0,
+    "explanation": "การเพิ่มจำนวนใบพัดช่วยให้ propeller ดูดซับ power ได้มากขึ้นโดยไม่จำเป็นต้องเพิ่มเส้นผ่านศูนย์กลางมากเท่าเดิม",
+    "correct": "Greater power absorption within practical diameter limits",
+    "topic": "081 07",
+    "topicName": "Propellers",
+    "LO": "081 07 03 03 02",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "More blades can absorb more power without increasing diameter as much."
+  },
+  {
+    "id": 159,
+    "question": "A reason for restricting propeller diameter is:",
+    "options": [
+      "Tip speed, ground clearance and structural/aerodynamic constraints",
+      "Cabin pressure",
+      "Fuel temperature only SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+      "Radio interference"
+    ],
+    "answer": 0,
+    "explanation": "Propeller diameter ถูกจำกัดโดยหลายปัจจัย เช่น tip speed, ground clearance และข้อจำกัดด้านโครงสร้างและ aerodynamic",
+    "correct": "Tip speed, ground clearance and structural/aerodynamic constraints",
+    "topic": "081 07",
+    "topicName": "Propellers",
+    "LO": "081 07 03 02 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Diameter is limited by several practical constraints."
+  },
+  {
+    "id": 160,
+    "question": "Propeller noise can be reduced by:",
+    "options": [
+      "Managing tip speed and blade loading/design",
+      "Increasing all tip speeds",
+      "Increasing blade vibration",
+      "Ignoring blade geometry"
+    ],
+    "answer": 0,
+    "explanation": "Propeller noise ขึ้นกับ blade tip speed, blade loading และการออกแบบใบพัด การควบคุม tip speed จึงช่วยลดเสียงได้",
+    "correct": "Managing tip speed and blade loading/design",
+    "topic": "081 07",
+    "topicName": "Propellers",
+    "LO": "081 07 03 04 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Noise depends strongly on blade tip speed/loading and design."
+  },
+  {
+    "id": 161,
+    "question": "Engine/propeller torque reaction produces:",
+    "options": [
+      "A rolling tendency opposite to propeller rotational acceleration/reaction",
+      "Only yaw",
+      "Only pitch",
+      "No aircraft effect"
+    ],
+    "answer": 0,
+    "explanation": "Torque reaction จากการหมุนของ propeller/engine ทำให้เครื่องบินมีแนวโน้ม roll ในทิศตรงข้ามกับทิศการหมุนของ propeller",
+    "correct": "A rolling tendency opposite to propeller rotational acceleration/reaction",
+    "topic": "081 07",
+    "topicName": "Propellers",
+    "LO": "081 07 04 01 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Torque reaction produces an opposing roll tendency."
+  },
+  {
+    "id": 162,
+    "question": "Contra-rotating propellers can reduce:",
+    "options": [
+      "Net propeller torque reaction",
+      "Aircraft weight",
+      "Wing lift",
+      "Static pressure"
+    ],
+    "answer": 0,
+    "explanation": "ระบบ propeller ที่หมุนสวนทางกันสามารถหักล้าง torque effects บางส่วนได้ ทำให้ผลรวมของ torque reaction ลดลง",
+    "correct": "Net propeller torque reaction",
+    "topic": "081 07",
+    "topicName": "Propellers",
+    "LO": "081 07 04 01 02",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Opposite rotating systems can cancel torque effects."
+  },
+  {
+    "id": 163,
+    "question": "Gyroscopic precession occurs because:",
+    "options": [
+      "A gyroscopic moment responds to an applied moment approximately 90° later in the direction of rotation",
+      "Propellers have no angular momentum",
+      "The aircraft has zero inertia",
+      "Lift becomes zero"
+    ],
+    "answer": 0,
+    "explanation": "Gyroscopic precession เป็นพฤติกรรมของ rotating mass เมื่อมีการเปลี่ยนทิศของแกนหมุน โดยแรงตอบสนองจะเกิดในทิศที่สัมพันธ์กับการหมุน",
+    "correct": "A gyroscopic moment responds to an applied moment approximately 90° later in the direction of rotation",
+    "topic": "081 07",
+    "topicName": "Propellers",
+    "LO": "081 07 04 02 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Describe",
+    "explanation_quick": "Gyroscopic precession is a property of rotating masses."
+  },
+  {
+    "id": 164,
+    "question": "A rapid pitch change on a high-power propeller aircraft can create:",
+    "options": [
+      "A gyroscopic pitching/yawing effect depending on propeller rotation direction",
+      "Only a drag reduction",
+      "No moment",
+      "Only cabin pressure change"
+    ],
+    "answer": 0,
+    "explanation": "ผลของ gyroscopic precession ขึ้นกับทั้งทิศทางการหมุนของ propeller และ manoeuvre ของเครื่องบิน เช่น pitch หรือ yaw",
+    "correct": "A gyroscopic pitching/yawing effect depending on propeller rotation direction",
+    "topic": "081 07",
+    "topicName": "Propellers",
+    "LO": "081 07 04 02 02",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Gyroscopic effects depend on rotation direction and aircraft manoeuvre."
+  },
+  {
+    "id": 165,
+    "question": "Propeller slipstream can cause:",
+    "options": [
+      "Local changes in airflow and asymmetric effects over the tail/wing",
+      "Only a reduction in weight",
+      "Zero yaw",
+      "No effect beyond the propeller"
+    ],
+    "answer": 0,
+    "explanation": "Rotating slipstream ทำให้กระแสอากาศด้านหลัง propeller มีการหมุนและเปลี่ยน local airflow ที่กระทบส่วนต่าง ๆ ของเครื่องบิน",
+    "correct": "Local changes in airflow and asymmetric effects over the tail/wing",
+    "topic": "081 07",
+    "topicName": "Propellers",
+    "LO": "081 07 04 03 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Rotating slipstream alters local flow."
+  },
+  {
+    "id": 166,
+    "question": "P-factor is associated with:",
+    "options": [
+      "Asymmetric blade loading at high angle of attack/power",
+      "Uniform blade loading at all conditions",
+      "Gear extension",
+      "Wingtip vortices only"
+    ],
+    "answer": 0,
+    "explanation": "Asymmetric blade effect หรือ P-factor เกิดจากใบพัดแต่ละใบรับ relative airflow และ angle of attack ไม่เท่ากันในบางสภาวะ จึงสร้าง thrust ไม่สมมาตร",
+    "correct": "Asymmetric blade loading at high angle of attack/power",
+    "topic": "081 07",
+    "topicName": "Propellers",
+    "LO": "081 07 04 04 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Asymmetric blade effect is commonly called P-factor."
+  },
+  {
+    "id": 167,
+    "question": "During take-off, propeller effects can alter controllability because:",
+    "options": [
+      "Torque, slipstream and asymmetric blade effects combine with low speed/high power",
+      "The aircraft has no aerodynamic forces",
+      "The rudder is never effective",
+      "Weight becomes zero"
+    ],
+    "answer": 0,
+    "explanation": "Propeller effects เช่น torque, slipstream และ P-factor จะเด่นชัดขึ้นเมื่อใช้ power สูงและบินด้วยความเร็วต่ำ",
+    "correct": "Torque, slipstream and asymmetric blade effects combine with low speed/high power",
+    "topic": "081 07",
+    "topicName": "Propellers",
+    "LO": "081 07 04 05 01",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "High power and low speed amplify propeller effects."
+  },
+  {
+    "id": 168,
+    "question": "During go-around, increasing power can make propeller effects more pronounced because:",
+    "options": [
+      "Higher power increases torque/slipstream/P-factor effects",
+      "Power reduces all aerodynamic moments",
+      "The aircraft becomes weightless",
+      "The propeller stops rotating"
+    ],
+    "answer": 0,
+    "explanation": "การเปลี่ยน power สามารถเปลี่ยน propeller-induced forces และ moments ได้อย่างมาก จึงอาจต้องใช้ control input เพื่อรักษาท่าทางและ heading",
+    "correct": "Higher power increases torque/slipstream/P-factor effects",
+    "topic": "081 07",
+    "topicName": "Propellers",
+    "LO": "081 07 04 05 02",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Power changes can strongly change propeller-induced moments."
+  },
+  {
+    "id": 169,
+    "question": "A crosswind during a propeller-aircraft go-around can affect controllability because:",
+    "options": [
+      "It changes the relative airflow and required directional control while propeller effects are present",
+      "It removes all yaw moments",
+      "It reduces aircraft mass",
+      "It guarantees coordinated flight"
+    ],
+    "answer": 0,
+    "explanation": "Crosswind เปลี่ยนทิศทางของ relative airflow และ side force ที่เครื่องบินได้รับ จึงทำให้ต้องใช้ control input เพิ่มเพื่อรักษา heading/track",
+    "correct": "It changes the relative airflow and required directional control while propeller effects are present",
+    "topic": "081 07",
+    "topicName": "Propellers",
+    "LO": "081 07 04 05 03",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Crosswind changes the airflow/side-force and control requirement."
+  },
+  {
+    "id": 170,
+    "question": "High flap setting during a go-around can interact with propeller effects because:",
+    "options": [
+      "It changes lift, drag, pitch attitude and available control margins",
+      "It eliminates drag",
+      "It eliminates asymmetric thrust",
+      "It fixes VMC"
+    ],
+    "answer": 0,
+    "explanation": "การเปลี่ยน configuration เช่น flap, gear หรือ control setting จะเปลี่ยน aerodynamic และ control state ของเครื่องบิน จึงมีผลต่อ forces และ handling",
+    "correct": "It changes lift, drag, pitch attitude and available control margins",
+    "topic": "081 07",
+    "topicName": "Propellers",
+    "LO": "081 07 04 05 03",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Configuration changes alter the aircraft's aerodynamic/control state."
+  },
+  {
+    "id": 171,
+    "question": "In steady level flight, the lift vector is primarily:",
+    "options": [
+      "Vertical and equal to weight in the simplified force balance",
+      "Horizontal and equal to drag",
+      "Zero",
+      "Equal to thrust"
+    ],
+    "answer": 0,
+    "explanation": "ในการ steady level flight แบบพื้นฐาน แรง lift ต้องสมดุลกับ weight ดังนั้น L = W เมื่อ flight path เป็นแนวระดับ",
+    "correct": "Vertical and equal to weight in the simplified force balance",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 01 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Describe",
+    "explanation_quick": "Steady level flight has L=W in the basic balance."
+  },
+  {
+    "id": 172,
+    "question": "The four basic external forces are:",
+    "options": [
+      "Lift, weight, thrust and drag",
+      "Lift, torque, power and pressure",
+      "Weight, density, Mach and drag",
+      "Thrust, fuel, gravity and temperature"
+    ],
+    "answer": 0,
+    "explanation": "แรงพื้นฐานที่พิจารณาในการบินคือ Lift, Weight, Thrust และ Drag ซึ่งเป็นสี่แรงหลักของเครื่องบิน",
+    "correct": "Lift, weight, thrust and drag",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 01 02",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "List",
+    "explanation_quick": "These are the four fundamental forces."
+  },
+  {
+    "id": 173,
+    "question": "The tailplane contributes to equilibrium mainly by:",
+    "options": [
+      "Providing a balancing pitching moment/force",
+      "Producing engine thrust",
+      "Controlling yaw only",
+      "Changing aircraft mass"
+    ],
+    "answer": 0,
+    "explanation": "Tail force ทำหน้าที่สร้าง pitching moment เพื่อสมดุลกับ moment จาก wing/weight/thrust และช่วยให้เครื่องบินอยู่ใน pitch equilibrium",
+    "correct": "Providing a balancing pitching moment/force",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 01 03",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Tail force balances pitching moments."
+  },
+  {
+    "id": 174,
+    "question": "Flight-path angle γ is the angle between:",
+    "options": [
+      "The flight path and the horizontal reference",
+      "The chord and airflow",
+      "The wing and fuselage",
+      "The propeller and engine"
+    ],
+    "answer": 0,
+    "explanation": "Flight-path angle หรือ γ ใช้กำหนดมุมระหว่างแนวการบินของเครื่องบินกับแนวระดับ จึงใช้แยก climb และ descent",
+    "correct": "The flight path and the horizontal reference",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 02 01",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "γ defines the flight-path inclination."
+  },
+  {
+    "id": 175,
+    "question": "In a steady climb, the component of weight along the flight path acts:",
+    "options": [
+      "Opposite the direction of motion",
+      "In the same direction as thrust",
+      "Perpendicular to the flight path",
+      "Vertically upward along the path"
+    ],
+    "answer": 0,
+    "explanation": "ในขณะ climb น้ำหนักมีองค์ประกอบที่ต้านการเคลื่อนที่ขึ้นตาม flight path จึงเป็นส่วนหนึ่งของแรงที่ต้องเอาชนะ",
+    "correct": "Opposite the direction of motion",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 02 04",
+    "difficulty": "Easy",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Weight has a component opposing climb motion."
+  },
+  {
+    "id": 176,
+    "question": "For a steady climb, the parallel force balance is:",
+    "options": [
+      "T = D + W sin γ",
+      "T = D − W sin γ",
+      "L = W sin γ",
+      "T = W + L"
+    ],
+    "answer": 0,
+    "explanation": "ในการ climb thrust ต้องเอาชนะแรง drag และองค์ประกอบของ weight ที่ชี้ลงตาม flight path จึงได้ความสัมพันธ์เชิงแรงตามแนวการบิน",
+    "correct": "T = D + W sin γ",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 02 04",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Apply",
+    "explanation_quick": "Thrust balances drag plus the downhill component of weight."
+  },
+  {
+    "id": 177,
+    "question": "For a steady climb, lift is approximately:",
+    "options": [
+      "L = W cos γ",
+      "L = W sin γ",
+      "L = T + D",
+      "L = W/cos γ"
+    ],
+    "answer": 0,
+    "explanation": "เมื่อเครื่องบิน climb ด้วย flight-path angle γ แรง lift ที่ตั้งฉากกับ flight path จะสมดุลกับองค์ประกอบของ weight ทำให้ L = W cosγ",
+    "correct": "L = W cos γ",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 02 04",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Apply",
+    "explanation_quick": "Perpendicular force balance gives L=W cosγ."
+  },
+  {
+    "id": 178,
+    "question": "In a steady climb, thrust is greater than drag because:",
+    "options": [
+      "Thrust must also overcome the component of weight along the flight path SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+      "Lift is zero",
+      "Weight disappears",
+      "Drag becomes negative"
+    ],
+    "answer": 0,
+    "explanation": "องค์ประกอบของ thrust ที่ชี้ไปตาม flight path ช่วยสนับสนุนการ climb และทำให้เครื่องบินสามารถเพิ่ม potential energy ได้",
+    "correct": "Thrust must also overcome the component of weight along the flight path SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 02 05",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "The additional thrust component supports climbing."
+  },
+  {
+    "id": 179,
+    "question": "In a steady descent, the component of weight along the flight path assists motion, so:",
+    "options": [
+      "Thrust can be less than drag",
+      "Thrust must exceed drag",
+      "Lift is zero",
+      "Weight is zero"
+    ],
+    "answer": 0,
+    "explanation": "ใน descent น้ำหนักมีองค์ประกอบตามแนว flight path ไปข้างหน้า/ลง จึงช่วยให้เครื่องบินเคลื่อนที่ไปตามแนวร่อน",
+    "correct": "Thrust can be less than drag",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 03 04",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Weight contributes a forward component in descent."
+  },
+  {
+    "id": 180,
+    "question": "For a steady descent at flight-path angle γ, the parallel force balance is:",
+    "options": [
+      "T = D − W sin γ",
+      "T = D + W sin γ",
+      "L = W sin γ",
+      "D = T + W"
+    ],
+    "answer": 0,
+    "explanation": "ใน descent องค์ประกอบของน้ำหนักตามแนว flight path ช่วยต้าน drag ดังนั้น thrust ที่ต้องการอาจลดลง",
+    "correct": "T = D − W sin γ",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 03 02",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Apply",
+    "explanation_quick": "The downhill weight component reduces required thrust."
+  },
+  {
+    "id": 181,
+    "question": "For a steady descent, lift is approximately:",
+    "options": [
+      "L = W cos γ",
+      "L = W sin γ",
+      "L = W/cos γ",
+      "L = T + D"
+    ],
+    "answer": 0,
+    "explanation": "แรงสมดุลที่ตั้งฉากกับ flight path ในการ climb ให้ L = W cosγ เพราะ lift ไม่จำเป็นต้องรับน้ำหนักทั้งหมดในแนวดิ่งโดยตรง",
+    "correct": "L = W cos γ",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 03 02",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Apply",
+    "explanation_quick": "Perpendicular force balance gives L=W cosγ."
+  },
+  {
+    "id": 182,
+    "question": "In a glide with negligible thrust, drag is balanced by:",
+    "options": [
+      "The component of weight along the flight path",
+      "Lift",
+      "Thrust",
+      "The vertical component of lift only"
+    ],
+    "answer": 0,
+    "explanation": "ในการ glide แรงโน้มถ่วงเป็นแหล่งพลังงานและมีองค์ประกอบตามแนว glide path ที่สมดุลกับ drag",
+    "correct": "The component of weight along the flight path",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 04 02",
+    "difficulty": "Easy",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "In a glide, gravity supplies the force component balancing drag."
+  },
+  {
+    "id": 183,
+    "question": "For a steady glide, the parallel force relationship is:",
+    "options": [
+      "D = W sin γ",
+      "D = W cos γ",
+      "L = W sin γ",
+      "T = W sin γ"
+    ],
+    "answer": 0,
+    "explanation": "องค์ประกอบของ weight ตามแนว glide path ทำหน้าที่สมดุลกับ drag ในการบินร่อนแบบ steady glide",
+    "correct": "D = W sin γ",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 04 02",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Apply",
+    "explanation_quick": "The component of weight along the glide path balances drag."
+  },
+  {
+    "id": 184,
+    "question": "For a steady glide, the perpendicular force relationship is:",
+    "options": [
+      "L = W cos γ",
+      "L = W sin γ",
+      "D = W cos γ",
+      "T = W cos γ"
+    ],
+    "answer": 0,
+    "explanation": "องค์ประกอบของ weight ที่ตั้งฉากกับ glide path จะสมดุลกับ lift ใน steady glide",
+    "correct": "L = W cos γ",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 04 02",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Apply",
+    "explanation_quick": "The perpendicular component of weight is balanced by lift."
+  },
+  {
+    "id": 185,
+    "question": "If L/D increases while height loss is fixed in still air, glide range generally:",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Becomes zero",
+      "Is unrelated to L/D"
+    ],
+    "answer": 0,
+    "explanation": "ค่า L/D ที่สูงขึ้นหมายถึงเครื่องบินสร้าง lift ได้มากเมื่อเทียบกับ drag จึงสามารถร่อนด้วยมุมที่ตื้นกว่าและทำระยะได้ไกลกว่า",
+    "correct": "Increases",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 04 03",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Higher L/D gives a shallower glide and greater range."
+  },
+  {
+    "id": 186,
+    "question": "For a simple small-angle glide with height 3000 ft and L/D=15, approximate still-air horizontal range is:",
+    "options": [
+      "45,000 ft",
+      "200 ft",
+      "3,015 ft",
+      "15,000 ft"
+    ],
+    "answer": 0,
+    "explanation": "สำหรับมุม glide เล็ก ๆ ระยะร่อนโดยประมาณคำนวณได้จาก Range ≈ height × L/D ดังนั้นความสูงและ L/D ที่มากขึ้นช่วยเพิ่มระยะร่อน",
+    "correct": "45,000 ft",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 04 03",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Calculate",
+    "explanation_quick": "For small angles, range ≈ height×L/D."
+  },
+  {
+    "id": 187,
+    "question": "VMD is the speed associated with:",
+    "options": [
+      "Minimum drag",
+      "Minimum power",
+      "Maximum Mach SUBJECT 081 | 200-QUESTION BANK | INSTRUCTOR / EXAMINER CONTROLLED",
+      "Maximum load factor"
+    ],
+    "answer": 0,
+    "explanation": "VMD คือความเร็วสำหรับ minimum drag หรือจุดที่ drag รวมมีค่าต่ำสุด ซึ่งเกี่ยวข้องกับ maximum L/D",
+    "correct": "Minimum drag",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 04 04",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "VMD is speed for minimum drag."
+  },
+  {
+    "id": 188,
+    "question": "At VMD, α is generally:",
+    "options": [
+      "Higher than at a faster speed because more CL is required",
+      "Lower than at all speeds",
+      "Exactly zero",
+      "Equal to critical Mach"
+    ],
+    "answer": 0,
+    "explanation": "ใน level flight หากบินช้าลงต้องเพิ่ม CL และ angle of attack เพื่อสร้าง lift ให้เพียงพอกับ weight",
+    "correct": "Higher than at a faster speed because more CL is required",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 04 04",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Lower speed in level flight requires higher CL and AoA."
+  },
+  {
+    "id": 189,
+    "question": "A headwind during a glide generally causes ground range to:",
+    "options": [
+      "Decrease for a given airspeed and height",
+      "Increase",
+      "Remain exactly unchanged",
+      "Become infinite"
+    ],
+    "answer": 0,
+    "explanation": "Headwind ทำให้ groundspeed ลดลงเมื่อ airspeed เท่าเดิม ดังนั้นใน glide ที่ความสูงเท่ากัน ground range จะลดลง",
+    "correct": "Decrease for a given airspeed and height",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 04 05",
+    "difficulty": "Medium",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Headwind reduces groundspeed."
+  },
+  {
+    "id": 190,
+    "question": "A tailwind during a glide generally causes ground range to:",
+    "options": [
+      "Increase for a given airspeed and height",
+      "Decrease to zero",
+      "Remain unchanged",
+      "Reverse direction"
+    ],
+    "answer": 0,
+    "explanation": "Tailwind ทำให้ groundspeed เพิ่มขึ้นเมื่อ airspeed เท่าเดิม ดังนั้น ground range ใน glide จะเพิ่มขึ้น",
+    "correct": "Increase for a given airspeed and height",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 04 05",
+    "difficulty": "Medium",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Tailwind increases groundspeed."
+  },
+  {
+    "id": 191,
+    "question": "At the same airspeed, increasing mass generally affects glide performance by:",
+    "options": [
+      "Changing the lift coefficient and required flight condition, while the glide angle for a given configuration is primarily governed by L/D",
+      "Making L/D infinite",
+      "Eliminating drag",
+      "Making the aircraft hover"
+    ],
+    "answer": 0,
+    "explanation": "มวลที่เพิ่มขึ้นเปลี่ยน speed, energy และ time characteristics ของการ glide แต่ glide angle สำหรับ configuration เดิมขึ้นกับ L/D เป็นหลัก",
+    "correct": "Changing the lift coefficient and required flight condition, while the glide angle for a given configuration is primarily governed by L/D",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 04 06",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Mass changes speed/energy/time characteristics; glide angle depends primarily on L/D."
+  },
+  {
+    "id": 192,
+    "question": "VMP is the speed for:",
+    "options": [
+      "Minimum power required",
+      "Minimum drag",
+      "Maximum Mach",
+      "Maximum lift coefficient"
+    ],
+    "answer": 0,
+    "explanation": "VMP คือความเร็วสำหรับ minimum power required ซึ่งสัมพันธ์กับสภาวะ minimum sink ในการ glide",
+    "correct": "Minimum power required",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 04 09",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "VMP is minimum-power speed."
+  },
+  {
+    "id": 193,
+    "question": "Minimum rate of descent in a glide occurs approximately at:",
+    "options": [
+      "VMP",
+      "VMD",
+      "VNE",
+      "VMC"
+    ],
+    "answer": 0,
+    "explanation": "ในการ glide แบบอุดมคติ minimum power required จะให้ minimum rate of descent หรือ minimum sink โดยประมาณที่ VMP",
+    "correct": "VMP",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 04 09",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Minimum power required corresponds to minimum sink in the idealised glide."
+  },
+  {
+    "id": 194,
+    "question": "A pilot might choose a speed different from still-air optimum glide speed because:",
+    "options": [
+      "Wind, speed stability, or operational priorities change the optimum",
+      "The laws of aerodynamics stop applying",
+      "Lift becomes zero",
+      "Drag disappears"
+    ],
+    "answer": 0,
+    "explanation": "นักบินอาจเลือกความเร็วต่างจาก still-air optimum glide speed เพราะ wind, speed stability หรือ operational priorities สามารถเปลี่ยนความเร็วที่เหมาะสม",
+    "correct": "Wind, speed stability, or operational priorities change the optimum",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 04 10",
+    "difficulty": "Hard",
+    "cognitive": "ANALYSE",
+    "verb": "Analyse",
+    "explanation_quick": "Operational conditions can favour different speeds."
+  },
+  {
+    "id": 195,
+    "question": "In a coordinated level turn, the vertical component of lift must:",
+    "options": [
+      "Balance weight",
+      "Balance drag",
+      "Equal thrust",
+      "Become zero"
+    ],
+    "answer": 0,
+    "explanation": "ใน coordinated level turn ต้องให้ vertical component ของ lift สมดุลกับ weight จึงทำให้เครื่องบินรักษาระดับความสูงได้",
+    "correct": "Balance weight",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 05 01",
+    "difficulty": "Easy",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Vertical lift component supports weight."
+  },
+  {
+    "id": 196,
+    "question": "The relationship tanφ=V²/(gR) shows that for fixed bank angle, increasing TAS causes turn radius to:",
+    "options": [
+      "Increase",
+      "Decrease",
+      "Remain fixed",
+      "Become zero"
+    ],
+    "answer": 0,
+    "explanation": "จาก tanφ = V²/(gR) หาก bank angle คงที่และ TAS เพิ่มขึ้น ค่า turn radius R ต้องเพิ่มขึ้นตามกำลังสองของความเร็ว",
+    "correct": "Increase",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 05 05",
+    "difficulty": "Medium",
+    "cognitive": "APPLY",
+    "verb": "Calculate",
+    "explanation_quick": "R=V²/(g tanφ)."
+  },
+  {
+    "id": 197,
+    "question": "For a given TAS and turn radius, bank angle is independent of:",
+    "options": [
+      "Aircraft mass",
+      "Gravity",
+      "TAS",
+      "Turn radius"
+    ],
+    "answer": 0,
+    "explanation": "สมการ tanφ = V²/(gR) มี V, g และ R เป็นตัวแปรหลัก และไม่มี aircraft mass ดังนั้นสำหรับ TAS และ radius เดิม bank angle ไม่ขึ้นกับมวล",
+    "correct": "Aircraft mass",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 05 04",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "The basic relation contains V, g and R, not mass."
+  },
+  {
+    "id": 198,
+    "question": "Angular velocity in a turn is:",
+    "options": [
+      "Rate of change of heading angle with time",
+      "Rate of climb",
+      "Rate of roll only",
+      "Rate of descent"
+    ],
+    "answer": 0,
+    "explanation": "Angular velocity คืออัตราการเปลี่ยนแปลงของ angular displacement ต่อเวลา ใน turn จึงหมายถึงอัตราการเปลี่ยน heading",
+    "correct": "Rate of change of heading angle with time",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 05 08",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "Angular velocity is angular displacement per unit time."
+  },
+  {
+    "id": 199,
+    "question": "A rate-1 turn is a standardised:",
+    "options": [
+      "Rate of turn used for instrument/flight references",
+      "Stall speed",
+      "Climb gradient",
+      "Propeller speed"
+    ],
+    "answer": 0,
+    "explanation": "Rate-1 turn คืออัตราการเลี้ยวมาตรฐานที่ใช้เป็น reference ในการบิน โดยเฉพาะใน instrument/flight references",
+    "correct": "Rate of turn used for instrument/flight references",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 05 09",
+    "difficulty": "Easy",
+    "cognitive": "KNOW",
+    "verb": "Define",
+    "explanation_quick": "Rate-1 is a standard rate of turn."
+  },
+  {
+    "id": 200,
+    "question": "For the same bank angle, increasing TAS generally causes rate of turn to:",
+    "options": [
+      "Decrease",
+      "Increase",
+      "Remain unchanged",
+      "Become infinite"
+    ],
+    "answer": 0,
+    "explanation": "ที่ bank angle เท่ากัน เมื่อ TAS เพิ่มขึ้น turn radius จะเพิ่มขึ้นและ angular rate หรือ rate of turn จะลดลง",
+    "correct": "Decrease",
+    "topic": "081 08",
+    "topicName": "Flight Mechanics",
+    "LO": "081 08 01 05 10",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": "Higher speed means lower angular rate for the same bank."
+  }
+]
