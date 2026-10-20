@@ -1,0 +1,806 @@
+[
+  {
+    "id": 1,
+    "question": "An aircraft is flying in straight and level flight at a constant mass. If its wing area is increased while the aircraft maintains the same configuration, altitude and lift coefficient, which statement is correct?",
+    "options": [
+      "The aircraft must increase its speed to maintain level flight.",
+      "The aircraft can maintain level flight at a lower speed.",
+      "The aircraft must increase its angle of attack to maintain the same lift.",
+      "The aircraft's induced drag must increase at the same speed and lift coefficient."
+    ],
+    "answer": 1,
+    "explanation": "",
+    "correct": "The aircraft can maintain level flight at a lower speed.",
+    "topic": "081 03",
+    "topicName": "Wing Area & Stall Speed",
+    "LO": "081 MOCK 01",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 2,
+    "question": "An aircraft has a wing span of 30 m and a wing area of 90 m². The wing is redesigned to have a span of 33 m while maintaining the same wing area. What is the new aspect ratio?",
+    "options": [
+      "9.0",
+      "10.0",
+      "12.1",
+      "11.0"
+    ],
+    "answer": 2,
+    "explanation": "AR = span² / wing area = 33² / 90 = 12.1.",
+    "correct": "12.1",
+    "topic": "081 01",
+    "topicName": "Aspect Ratio Calculation",
+    "LO": "081 MOCK 02",
+    "difficulty": "Hard",
+    "cognitive": "APPLY",
+    "verb": "Calculate",
+    "explanation_quick": "AR = span² / wing area = 33² / 90 = 12.1."
+  },
+  {
+    "id": 3,
+    "question": "Two aircraft of identical mass are flying in the same atmospheric conditions. Aircraft A has a higher wing loading than aircraft B. Assuming both aircraft have the same maximum lift coefficient and are in the same configuration, which statement is correct?",
+    "options": [
+      "Aircraft A has a lower stall speed because its wing produces more lift per unit area.",
+      "Aircraft A has a higher stall speed because it requires a greater dynamic pressure to produce the required lift.",
+      "Both aircraft have the same stall speed because their masses are identical.",
+      "Aircraft A has a lower stall speed because higher wing loading reduces induced drag."
+    ],
+    "answer": 1,
+    "explanation": "",
+    "correct": "Aircraft A has a higher stall speed because it requires a greater dynamic pressure to produce the required lift.",
+    "topic": "081 01",
+    "topicName": "Wing Loading",
+    "LO": "081 MOCK 03",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 4,
+    "question": "Which statement best describes a symmetrical airfoil compared with a positively cambered airfoil?",
+    "options": [
+      "A symmetrical airfoil produces no lift at any angle of attack.",
+      "A symmetrical airfoil generally has a zero-lift angle of attack of approximately 0°, whereas a positively cambered airfoil generally has a negative zero-lift angle of attack.",
+      "A positively cambered airfoil produces no lift at 0° angle of attack.",
+      "A symmetrical airfoil always has a higher maximum lift coefficient than a positively cambered airfoil."
+    ],
+    "answer": 1,
+    "explanation": "",
+    "correct": "A symmetrical airfoil generally has a zero-lift angle of attack of approximately 0°, whereas a positively cambered airfoil generally has a negative zero-lift angle of attack.",
+    "topic": "081 01",
+    "topicName": "Symmetrical and Non-symmetrical Airfoils",
+    "LO": "081 MOCK 04",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 5,
+    "question": "An aircraft is flying at a constant speed and altitude. The pilot increases the angle of attack while remaining below the critical angle of attack. Which statement is correct?",
+    "options": [
+      "The coefficient of lift generally increases, allowing the aircraft to produce more lift.",
+      "The coefficient of lift remains constant because the aircraft's speed has not changed.",
+      "The coefficient of lift decreases because the boundary layer becomes thicker.",
+      "The coefficient of lift increases only if the aircraft's airspeed increases."
+    ],
+    "answer": 0,
+    "explanation": "",
+    "correct": "The coefficient of lift generally increases, allowing the aircraft to produce more lift.",
+    "topic": "081 01",
+    "topicName": "Coefficient of Lift",
+    "LO": "081 MOCK 05",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 6,
+    "question": "An aircraft with positive dihedral experiences a sideslip to the right. Which aerodynamic effect generally contributes to its lateral stability?",
+    "options": [
+      "The lower wing experiences a lower effective angle of attack and produces less lift.",
+      "Both wings experience the same change in effective angle of attack, so no rolling moment develops.",
+      "The sideslip creates a difference in effective angle of attack between the wings, producing a restoring rolling moment.",
+      "The aircraft develops a restoring yawing moment but no rolling moment."
+    ],
+    "answer": 2,
+    "explanation": "",
+    "correct": "The sideslip creates a difference in effective angle of attack between the wings, producing a restoring rolling moment.",
+    "topic": "081 04",
+    "topicName": "Lateral Stability and Wing Dihedral",
+    "LO": "081 MOCK 06",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 7,
+    "question": "An aircraft is flying at a constant weight and altitude. The pilot retracts the flaps and slats, returning the aircraft to its clean configuration. Which statement best describes the likely effect on the stall speed?",
+    "options": [
+      "The stall speed decreases because parasite drag is reduced.",
+      "The stall speed remains unchanged because the aircraft's weight is constant.",
+      "The stall speed decreases because the clean configuration produces less induced drag.",
+      "The stall speed generally increases because the maximum lift coefficient is usually lower in the clean configuration."
+    ],
+    "answer": 3,
+    "explanation": "",
+    "correct": "The stall speed generally increases because the maximum lift coefficient is usually lower in the clean configuration.",
+    "topic": "081 01",
+    "topicName": "Clean Configuration",
+    "LO": "081 MOCK 07",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 8,
+    "question": "An aircraft is flying at the speed corresponding to its maximum lift-to-drag ratio. Which statement is correct?",
+    "options": [
+      "The aircraft is necessarily flying at its minimum power required speed.",
+      "The aircraft has the minimum drag for a given lift requirement and is at the speed of maximum aerodynamic efficiency.",
+      "The aircraft has zero induced drag.",
+      "The aircraft is necessarily flying at its maximum range speed under all operating conditions."
+    ],
+    "answer": 1,
+    "explanation": "",
+    "correct": "The aircraft has the minimum drag for a given lift requirement and is at the speed of maximum aerodynamic efficiency.",
+    "topic": "081 01",
+    "topicName": "Lift-to-Drag Ratio",
+    "LO": "081 MOCK 08",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 9,
+    "question": "A single-engine aircraft has a conventional clockwise-rotating propeller when viewed from the cockpit. The aircraft is flying at a high angle of attack with high engine power. What is the principal effect of P-factor?",
+    "options": [
+      "The descending blade produces less thrust, causing a yaw to the right.",
+      "Both blades produce equal thrust, but the aircraft yaws left because of torque alone.",
+      "The descending blade produces more thrust than the ascending blade, creating a yawing tendency to the left.",
+      "The ascending blade produces more thrust than the descending blade, creating a yawing tendency to the left."
+    ],
+    "answer": 2,
+    "explanation": "",
+    "correct": "The descending blade produces more thrust than the ascending blade, creating a yawing tendency to the left.",
+    "topic": "081 07",
+    "topicName": "Propeller P-Factor",
+    "LO": "081 MOCK 09",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 10,
+    "question": "An aircraft must make a landing with the flaps inoperative. Compared with a normal flap landing, what should the pilot generally expect, assuming the same aircraft weight and suitable operating procedures?",
+    "options": [
+      "A lower approach speed and a shorter landing distance.",
+      "A higher approach speed, a flatter approach path if flown conventionally, and a longer landing distance.",
+      "A higher maximum lift coefficient and a shorter landing distance.",
+      "The same approach speed but a lower stall speed."
+    ],
+    "answer": 1,
+    "explanation": "",
+    "correct": "A higher approach speed, a flatter approach path if flown conventionally, and a longer landing distance.",
+    "topic": "081 08",
+    "topicName": "Landing Without Flaps",
+    "LO": "081 MOCK 10",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 11,
+    "question": "A pilot applies right aileron to initiate a right turn. Before coordinated rudder input is applied, the aircraft initially yaws to the left. What is the principal cause?",
+    "options": [
+      "The left wing experiences increased drag as its lift increases, producing a yaw to the left.",
+      "The right wing experiences increased drag because its angle of attack decreases.",
+      "The aircraft's centre of gravity moves to the left.",
+      "The vertical stabiliser produces a yawing moment opposite to the direction of the turn because of increased sideslip."
+    ],
+    "answer": 0,
+    "explanation": "",
+    "correct": "The left wing experiences increased drag as its lift increases, producing a yaw to the left.",
+    "topic": "081 05",
+    "topicName": "Adverse Yaw",
+    "LO": "081 MOCK 11",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 12,
+    "question": "An aircraft encounters significant ice accretion on its wings. Which statement best describes the aerodynamic consequences?",
+    "options": [
+      "Ice increases the critical angle of attack by energising the boundary layer.",
+      "Ice affects drag but cannot significantly change the maximum lift coefficient.",
+      "Ice always increases the stall angle of attack because the effective wing area becomes larger.",
+      "Ice can cause earlier boundary-layer separation, increase drag, reduce maximum lift coefficient and increase stall speed."
+    ],
+    "answer": 3,
+    "explanation": "",
+    "correct": "Ice can cause earlier boundary-layer separation, increase drag, reduce maximum lift coefficient and increase stall speed.",
+    "topic": "081 03",
+    "topicName": "Wing Icing and Stall",
+    "LO": "081 MOCK 12",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 13,
+    "question": "An aircraft is flying at a free-stream Mach number of 0.78. Due to local acceleration over the wing, some airflow reaches Mach 1. Which statement is correct?",
+    "options": [
+      "The entire aircraft must already be flying at Mach 1.",
+      "The aircraft is necessarily in fully supersonic flight because part of the airflow is supersonic.",
+      "The aircraft can experience transonic effects, including local supersonic flow and shock-wave formation, even though its free-stream Mach number is below 1.",
+      "Shock waves can form only when the free-stream Mach number exceeds 1."
+    ],
+    "answer": 2,
+    "explanation": "",
+    "correct": "The aircraft can experience transonic effects, including local supersonic flow and shock-wave formation, even though its free-stream Mach number is below 1.",
+    "topic": "081 02",
+    "topicName": "Transonic Flight",
+    "LO": "081 MOCK 13",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 14,
+    "question": "For a propeller blade operating at a given rotational speed and forward speed, which relationship is correct?",
+    "options": [
+      "Blade angle of attack is equal to the blade pitch angle plus the helix angle.",
+      "Blade angle of attack is the angle between the blade chord line and the relative airflow, and is approximately the blade pitch angle minus the helix angle when the angles are defined consistently.",
+      "Blade angle of attack is determined exclusively by engine RPM.",
+      "Blade angle of attack is independent of aircraft forward speed."
+    ],
+    "answer": 1,
+    "explanation": "",
+    "correct": "Blade angle of attack is the angle between the blade chord line and the relative airflow, and is approximately the blade pitch angle minus the helix angle when the angles are defined consistently.",
+    "topic": "081 07",
+    "topicName": "Propeller Blade Angle of Attack",
+    "LO": "081 MOCK 14",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 15,
+    "question": "An aircraft has swept-back wings. During a sideslip, the effective airflow conditions at the two wings differ. Which statement best describes the contribution of sweep to lateral stability?",
+    "options": [
+      "Sweep has no effect on lateral stability because only dihedral can produce a rolling moment.",
+      "Sweep always produces negative lateral stability, regardless of the direction of sideslip.",
+      "Sweep affects directional stability only and cannot influence rolling behaviour.",
+      "Sweep can produce a dihedral effect: a sideslip changes the effective aerodynamic conditions at the two wings, potentially generating a restoring rolling moment."
+    ],
+    "answer": 3,
+    "explanation": "",
+    "correct": "Sweep can produce a dihedral effect: a sideslip changes the effective aerodynamic conditions at the two wings, potentially generating a restoring rolling moment.",
+    "topic": "081 04",
+    "topicName": "Swept Wings and Lateral Stability",
+    "LO": "081 MOCK 15",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 16,
+    "question": "An aircraft has a rectangular wing with an aspect ratio of 9.6 and a wingspan of 24 m. The wing is modified by increasing the wingspan by 15%, while the wing area is increased by 8%. What is the new aspect ratio?",
+    "options": [
+      "9.60",
+      "10.56",
+      "10.99",
+      "11.76",
+      "12.14"
+    ],
+    "answer": 3,
+    "explanation": "Original area = 24² / 9.6 = 60 m². New span = 27.6 m; new area = 64.8 m². New AR = 27.6² / 64.8 ≈ 11.76.",
+    "correct": "11.76",
+    "topic": "081 01",
+    "topicName": "Wing Geometry: Reverse Calculation",
+    "LO": "081 MOCK 16",
+    "difficulty": "Hard",
+    "cognitive": "APPLY",
+    "verb": "Calculate",
+    "explanation_quick": "Original area = 24² / 9.6 = 60 m². New span = 27.6 m; new area = 64.8 m². New AR = 27.6² / 64.8 ≈ 11.76."
+  },
+  {
+    "id": 17,
+    "question": "Two aircraft have identical weight, wing area and span, and are flying at the same speed in the same atmospheric conditions. Aircraft A has a wing with a higher aspect ratio than aircraft B, achieved through a more efficient spanwise lift distribution. Which statement is correct?",
+    "options": [
+      "Aircraft A generally has lower induced drag at the same lift, assuming comparable aerodynamic efficiency.",
+      "Aircraft A necessarily has higher parasite drag because of its higher aspect ratio.",
+      "Aircraft A has zero induced drag in straight and level flight.",
+      "Aspect ratio has no influence on induced drag if the wing area remains constant."
+    ],
+    "answer": 0,
+    "explanation": "",
+    "correct": "Aircraft A generally has lower induced drag at the same lift, assuming comparable aerodynamic efficiency.",
+    "topic": "081 01",
+    "topicName": "Aspect Ratio and Induced Drag",
+    "LO": "081 MOCK 17",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 18,
+    "question": "Air flows steadily through a horizontal Venturi tube. The cross-sectional area decreases towards the throat. Assuming incompressible flow for this question, which statement is correct?",
+    "options": [
+      "Velocity decreases and static pressure increases at the throat.",
+      "Velocity and static pressure both increase at the throat.",
+      "Velocity remains constant because mass flow is conserved.",
+      "Velocity increases and static pressure decreases at the throat."
+    ],
+    "answer": 3,
+    "explanation": "",
+    "correct": "Velocity increases and static pressure decreases at the throat.",
+    "topic": "081 01",
+    "topicName": "Venturi Throat",
+    "LO": "081 MOCK 18",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 19,
+    "question": "An aircraft is in straight and level flight. The pilot raises the nose relative to the horizon while the flight path remains momentarily unchanged. Which statement is correct?",
+    "options": [
+      "The pitch attitude increases, but the angle of attack remains unchanged because airspeed is constant.",
+      "The pitch attitude and angle of attack both increase, assuming the flight-path angle remains unchanged.",
+      "The angle of attack decreases because the aircraft's nose points further upwards.",
+      "The angle of attack is determined exclusively by pitch attitude."
+    ],
+    "answer": 1,
+    "explanation": "",
+    "correct": "The pitch attitude and angle of attack both increase, assuming the flight-path angle remains unchanged.",
+    "topic": "081 08",
+    "topicName": "Pitch Angle and Angle of Attack",
+    "LO": "081 MOCK 19",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 20,
+    "question": "An aircraft climbs at a constant IAS into decreasing air density. Assume negligible compressibility effects. Which statement is correct?",
+    "options": [
+      "TAS decreases because the air becomes less dense.",
+      "TAS remains constant because IAS is constant.",
+      "TAS increases because a higher true airspeed is required to maintain the same dynamic pressure.",
+      "Dynamic pressure decreases continuously because air density decreases."
+    ],
+    "answer": 2,
+    "explanation": "",
+    "correct": "TAS increases because a higher true airspeed is required to maintain the same dynamic pressure.",
+    "topic": "081 08",
+    "topicName": "Constant IAS Climb",
+    "LO": "081 MOCK 20",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 21,
+    "question": "An aircraft is flying close to the runway in ground effect, compared with flight out of ground effect at the same weight, speed and configuration. Which statement is generally correct?",
+    "options": [
+      "Induced drag is reduced because the ground alters the wing's downwash and trailing-vortex system.",
+      "Parasite drag becomes zero because the ground prevents airflow beneath the wing.",
+      "Induced drag increases because the wingtip vortices are forced upwards.",
+      "The aircraft's weight decreases as it enters ground effect."
+    ],
+    "answer": 0,
+    "explanation": "",
+    "correct": "Induced drag is reduced because the ground alters the wing's downwash and trailing-vortex system.",
+    "topic": "081 01",
+    "topicName": "Ground Effect",
+    "LO": "081 MOCK 21",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 22,
+    "question": "An aircraft encounters a microburst during the final approach. Which sequence best describes the potential aerodynamic hazard?",
+    "options": [
+      "A tailwind changes to a headwind, producing an immediate increase in lift, followed by a continuous increase in airspeed.",
+      "The wind shear affects ground speed only and has no significant effect on airspeed.",
+      "The aircraft experiences a decrease in tailwind, followed by a permanent increase in lift.",
+      "The aircraft may initially experience a headwind and increased performance, followed by a downdraft and tailwind that reduce airspeed and lift, creating a severe risk of loss of altitude."
+    ],
+    "answer": 3,
+    "explanation": "",
+    "correct": "The aircraft may initially experience a headwind and increased performance, followed by a downdraft and tailwind that reduce airspeed and lift, creating a severe risk of loss of altitude.",
+    "topic": "081 08",
+    "topicName": "Microburst",
+    "LO": "081 MOCK 22",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 23,
+    "question": "An aircraft's centre of gravity is moved forward, remaining within the approved operating envelope. Which statement best describes the likely aerodynamic effect in conventional aircraft?",
+    "options": [
+      "Longitudinal static stability necessarily decreases, and less tail downforce is required.",
+      "The aircraft generally becomes more longitudinally stable, but may require greater tail downforce and elevator authority to rotate or flare.",
+      "The aircraft becomes neutrally stable because the centre of gravity moves closer to the nose.",
+      "The aircraft's stall speed must decrease because the nose is heavier."
+    ],
+    "answer": 1,
+    "explanation": "",
+    "correct": "The aircraft generally becomes more longitudinally stable, but may require greater tail downforce and elevator authority to rotate or flare.",
+    "topic": "081 04",
+    "topicName": "Centre of Gravity",
+    "LO": "081 MOCK 23",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 24,
+    "question": "An aircraft experiences a small disturbance in pitch. It initially develops a pitching moment that tends to return it towards its original equilibrium attitude. However, the resulting oscillations gradually increase in amplitude. How should its stability be classified?",
+    "options": [
+      "Positively statically stable and dynamically stable.",
+      "Statically unstable and dynamically unstable.",
+      "Positively statically stable but dynamically unstable.",
+      "Neutrally statically stable and dynamically stable."
+    ],
+    "answer": 2,
+    "explanation": "",
+    "correct": "Positively statically stable but dynamically unstable.",
+    "topic": "081 04",
+    "topicName": "Stability",
+    "LO": "081 MOCK 24",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 25,
+    "question": "Which statement best explains why a turbulent boundary layer can sometimes remain attached to a wing longer than a laminar boundary layer under an adverse pressure gradient?",
+    "options": [
+      "A turbulent boundary layer generally has greater momentum exchange, allowing near-wall air to resist the adverse pressure gradient more effectively.",
+      "A turbulent boundary layer eliminates skin-friction drag.",
+      "A laminar boundary layer always has greater near-wall momentum than a turbulent boundary layer.",
+      "Turbulence prevents pressure from increasing in the direction of airflow."
+    ],
+    "answer": 0,
+    "explanation": "",
+    "correct": "A turbulent boundary layer generally has greater momentum exchange, allowing near-wall air to resist the adverse pressure gradient more effectively.",
+    "topic": "081 01",
+    "topicName": "Boundary Layer",
+    "LO": "081 MOCK 25",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 26,
+    "question": "An aircraft is flying at a TAS of 450 kt at an altitude where the local speed of sound is 295 m/s. Use: 1 kt = 0.514444 m/s. Calculate the aircraft's Mach number.",
+    "options": [
+      "0.72",
+      "0.75",
+      "0.78",
+      "0.81",
+      "0.84"
+    ],
+    "answer": 2,
+    "explanation": "Mach = TAS / local speed of sound = (450 × 0.514444) / 295 ≈ 0.785, closest to 0.78.",
+    "correct": "0.78",
+    "topic": "081 02",
+    "topicName": "TAS, Mach Number and Local Speed of Sound",
+    "LO": "081 MOCK 26",
+    "difficulty": "Hard",
+    "cognitive": "APPLY",
+    "verb": "Calculate",
+    "explanation_quick": "Mach = TAS / local speed of sound = (450 × 0.514444) / 295 ≈ 0.785, closest to 0.78."
+  },
+  {
+    "id": 27,
+    "question": "Which statement best distinguishes an incipient spin from a fully developed spin?",
+    "options": [
+      "An incipient spin always occurs below the critical angle of attack.",
+      "A fully developed spin is characterised by stable autorotation and a more established descent pattern, whereas an incipient spin is the transitional phase during which the spin is developing.",
+      "An incipient spin cannot involve yaw or roll.",
+      "A fully developed spin is simply a steep spiral dive with both wings unstalled."
+    ],
+    "answer": 1,
+    "explanation": "",
+    "correct": "A fully developed spin is characterised by stable autorotation and a more established descent pattern, whereas an incipient spin is the transitional phase during which the spin is developing.",
+    "topic": "081 03",
+    "topicName": "Incipient Spin and Fully Developed Spin",
+    "LO": "081 MOCK 27",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 28,
+    "question": "An aircraft is flying in the region of the power-required curve where a reduction in airspeed requires an increase in power to maintain level flight. This region is commonly known as:",
+    "options": [
+      "The region of reverse command.",
+      "The region of minimum parasite drag.",
+      "The region of constant thrust.",
+      "The region of maximum excess power."
+    ],
+    "answer": 0,
+    "explanation": "",
+    "correct": "The region of reverse command.",
+    "topic": "081 01",
+    "topicName": "Non-stable Speed Region",
+    "LO": "081 MOCK 28",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 29,
+    "question": "An aircraft is flying at Mach 0.78 in an atmosphere where the local speed of sound is 300 m/s. The aircraft then descends into warmer air where the local speed of sound increases to 330 m/s. Assume the aircraft maintains the same TAS throughout the descent. What is the new Mach number?",
+    "options": [
+      "0.71",
+      "0.75",
+      "0.79",
+      "0.83",
+      "0.87"
+    ],
+    "answer": 0,
+    "explanation": "Initial TAS = 0.78 × 300 = 234 m/s. New Mach = 234 / 330 ≈ 0.709.",
+    "correct": "0.71",
+    "topic": "081 02",
+    "topicName": "Mach Number and Temperature Change",
+    "LO": "081 MOCK 29",
+    "difficulty": "Hard",
+    "cognitive": "APPLY",
+    "verb": "Calculate",
+    "explanation_quick": "Initial TAS = 0.78 × 300 = 234 m/s. New Mach = 234 / 330 ≈ 0.709."
+  },
+  {
+    "id": 30,
+    "question": "An aircraft is approaching its critical angle of attack during a manoeuvre. Which statement is correct?",
+    "options": [
+      "The aircraft will stall at a particular IAS regardless of aircraft weight and load factor.",
+      "The aircraft stalls when the pitch attitude reaches a fixed value relative to the horizon.",
+      "The aircraft stalls when induced drag becomes zero.",
+      "The wing stalls when the critical angle of attack is exceeded, regardless of the pitch attitude or the particular airspeed at which that angle is reached."
+    ],
+    "answer": 3,
+    "explanation": "",
+    "correct": "The wing stalls when the critical angle of attack is exceeded, regardless of the pitch attitude or the particular airspeed at which that angle is reached.",
+    "topic": "081 03",
+    "topicName": "Critical Angle of Attack",
+    "LO": "081 MOCK 30",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 31,
+    "question": "Which statement best describes the effect of compressibility in subsonic airflow?",
+    "options": [
+      "Air density remains constant at all subsonic Mach numbers.",
+      "Compressibility effects become increasingly significant as Mach number increases, particularly as local airflow approaches the speed of sound.",
+      "Compressibility begins only after the free-stream Mach number exceeds 1.",
+      "The speed of sound is determined exclusively by the aircraft's airspeed."
+    ],
+    "answer": 1,
+    "explanation": "",
+    "correct": "Compressibility effects become increasingly significant as Mach number increases, particularly as local airflow approaches the speed of sound.",
+    "topic": "081 01",
+    "topicName": "Subsonic Airflow",
+    "LO": "081 MOCK 31",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 32,
+    "question": "An aircraft maintains level flight at a constant weight and altitude. The pilot reduces airspeed while maintaining level flight. Assuming the aircraft remains in the normal operating region and the aerodynamic configuration is unchanged, what generally happens to induced drag?",
+    "options": [
+      "It decreases because dynamic pressure decreases.",
+      "It remains constant because weight is unchanged.",
+      "It increases because a higher coefficient of lift is required to maintain the same lift.",
+      "It becomes zero when the aircraft reaches its stall speed."
+    ],
+    "answer": 2,
+    "explanation": "",
+    "correct": "It increases because a higher coefficient of lift is required to maintain the same lift.",
+    "topic": "081 01",
+    "topicName": "Induced Drag",
+    "LO": "081 MOCK 32",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 33,
+    "question": "Which expression best represents the conventional total aerodynamic drag of an aircraft in steady flight?",
+    "options": [
+      "Total drag equals parasite drag plus induced drag.",
+      "Total drag equals lift plus weight.",
+      "Total drag equals induced drag minus parasite drag.",
+      "Total drag equals dynamic pressure multiplied by wing area, independent of drag coefficients."
+    ],
+    "answer": 0,
+    "explanation": "",
+    "correct": "Total drag equals parasite drag plus induced drag.",
+    "topic": "081 01",
+    "topicName": "Total Drag",
+    "LO": "081 MOCK 33",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 34,
+    "question": "An aircraft flies at a constant altitude and weight. Its airspeed increases substantially, while its configuration remains unchanged. In the normal subsonic operating region, which statement is generally correct?",
+    "options": [
+      "Parasite drag decreases because the aircraft spends less time in the air.",
+      "Parasite drag remains constant because the aircraft's weight is unchanged.",
+      "Parasite drag becomes zero when the aircraft reaches its best-glide speed.",
+      "Parasite drag generally increases approximately with the square of airspeed when the drag coefficient is approximately constant."
+    ],
+    "answer": 3,
+    "explanation": "",
+    "correct": "Parasite drag generally increases approximately with the square of airspeed when the drag coefficient is approximately constant.",
+    "topic": "081 01",
+    "topicName": "Parasite Drag",
+    "LO": "081 MOCK 34",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 35,
+    "question": "An aircraft is flying in a condition where the lift coefficient increases significantly as the angle of attack increases. Which statement best describes the relationship between the coefficients of lift and drag?",
+    "options": [
+      "The coefficient of drag must decrease whenever the coefficient of lift increases.",
+      "The coefficient of lift and coefficient of drag are identical at the critical angle of attack.",
+      "The coefficient of drag generally increases as the coefficient of lift increases, with induced drag becoming particularly important at higher lift coefficients.",
+      "The coefficient of drag is independent of angle of attack in all flight conditions."
+    ],
+    "answer": 2,
+    "explanation": "",
+    "correct": "The coefficient of drag generally increases as the coefficient of lift increases, with induced drag becoming particularly important at higher lift coefficients.",
+    "topic": "081 01",
+    "topicName": "Coefficient of Lift and Coefficient of Drag",
+    "LO": "081 MOCK 35",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 36,
+    "question": "An aircraft is making a flapless approach. The pilot maintains a higher approach speed than would normally be used with flaps. Which statement best explains why the landing distance may increase?",
+    "options": [
+      "The aircraft's mass increases when the flaps are retracted.",
+      "The higher approach speed increases the kinetic energy that must be dissipated, while the clean configuration generally provides less drag.",
+      "The aircraft's coefficient of lift becomes zero when the flaps are retracted.",
+      "The aircraft experiences no induced drag in the clean configuration."
+    ],
+    "answer": 1,
+    "explanation": "",
+    "correct": "The higher approach speed increases the kinetic energy that must be dissipated, while the clean configuration generally provides less drag.",
+    "topic": "081 08",
+    "topicName": "Flapless Landing and Energy Management",
+    "LO": "081 MOCK 36",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 37,
+    "question": "An aircraft is in straight and level flight at a constant weight, altitude and airspeed. The pilot deploys a high-lift device, increasing the maximum available coefficient of lift. Assume the aircraft maintains its original flight condition and the device deployment does not change wing area significantly. Which statement is correct?",
+    "options": [
+      "The lift must increase above the aircraft's weight because the maximum coefficient of lift has increased.",
+      "The aircraft must accelerate to maintain level flight.",
+      "The aircraft's coefficient of lift must remain equal to its maximum value.",
+      "The aircraft can generally fly at a lower speed before reaching its new maximum lift coefficient, but the lift required in the original level-flight condition remains equal to its weight."
+    ],
+    "answer": 3,
+    "explanation": "",
+    "correct": "The aircraft can generally fly at a lower speed before reaching its new maximum lift coefficient, but the lift required in the original level-flight condition remains equal to its weight.",
+    "topic": "081 01",
+    "topicName": "Wing Area and Lift Coefficient",
+    "LO": "081 MOCK 37",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 38,
+    "question": "An aircraft is flying in straight and level flight with mass 12,000 kg, wing area 40 m², air density 0.90 kg/m³ and true airspeed 80 m/s. The aircraft then accelerates to 100 m/s at the same altitude and mass while maintaining straight and level flight. Calculate the percentage change in the coefficient of lift.",
+    "options": [
+      "Decreases by 20%",
+      "Decreases by 36%",
+      "Decreases by 44%",
+      "Increases by 25%",
+      "Decreases by 56%"
+    ],
+    "answer": 1,
+    "explanation": "At constant lift, density and wing area, CL is proportional to 1/V². CL₂/CL₁ = (80/100)² = 0.64, so CL decreases by 36%.",
+    "correct": "Decreases by 36%",
+    "topic": "081 01",
+    "topicName": "Lift Equation: Multiple Variables",
+    "LO": "081 MOCK 38",
+    "difficulty": "Hard",
+    "cognitive": "APPLY",
+    "verb": "Calculate",
+    "explanation_quick": "At constant lift, density and wing area, CL is proportional to 1/V². CL₂/CL₁ = (80/100)² = 0.64, so CL decreases by 36%."
+  },
+  {
+    "id": 39,
+    "question": "An aircraft with positive longitudinal static stability experiences a disturbance that increases its angle of attack. Which statement best describes the restoring aerodynamic tendency?",
+    "options": [
+      "The aircraft develops a pitching moment that tends to increase the angle of attack further.",
+      "The aircraft necessarily accelerates until it reaches its maximum operating speed.",
+      "The aircraft develops a pitching moment tending to reduce the disturbance and return towards its equilibrium angle of attack.",
+      "Positive static stability means the aircraft cannot experience a stall."
+    ],
+    "answer": 2,
+    "explanation": "",
+    "correct": "The aircraft develops a pitching moment tending to reduce the disturbance and return towards its equilibrium angle of attack.",
+    "topic": "081 04",
+    "topicName": "Longitudinal Static Stability and Speed",
+    "LO": "081 MOCK 39",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  },
+  {
+    "id": 40,
+    "question": "An aircraft is flying in straight and level flight at a constant weight. The pilot reduces airspeed while maintaining altitude. Assume the aircraft remains below the critical angle of attack and operates in the normal flight envelope. Which combination of changes is generally expected?",
+    "options": [
+      "Required lift decreases, coefficient of lift decreases, and induced drag decreases.",
+      "Required lift remains approximately constant, coefficient of lift increases, and induced drag increases.",
+      "Required lift remains constant, coefficient of lift decreases, and parasite drag increases.",
+      "Required lift increases, coefficient of lift remains constant, and total drag decreases."
+    ],
+    "answer": 1,
+    "explanation": "",
+    "correct": "Required lift remains approximately constant, coefficient of lift increases, and induced drag increases.",
+    "topic": "081 08",
+    "topicName": "Integrated Question: Lift, Drag and Flight Condition",
+    "LO": "081 MOCK 40",
+    "difficulty": "Medium",
+    "cognitive": "UNDERSTAND",
+    "verb": "Explain",
+    "explanation_quick": ""
+  }
+]

@@ -13,6 +13,7 @@
     close: '<path d="M6 6l12 12M18 6L6 18"/>',
     book: '<path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2V5z"/><path d="M4 19a2 2 0 0 1 2-2h13"/>',
     exam: '<path d="M9 3h6v3H9z"/><path d="M8 5H6a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1h-2"/><path d="M9 13l2 2 4-4"/>',
+    mock: '<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 3v2h6V3M8 10h8M8 14h8M8 18h5"/>',
   };
   const icon = (name, size = 22) =>
     `<svg viewBox="0 0 24 24" width="${size}" height="${size}" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[name]}</svg>`;
@@ -41,17 +42,30 @@
   }
   status?.remove();
 
-  const bank = raw.map((q, i) => ({
-    id: String(q.id ?? i + 1),
-    text: q.question,
-    options: q.options,
-    correct: q.answer,
-    explanation: (q.explanation ?? "").trim() === (q.explanation_quick ?? "").trim() ? "" : q.explanation,
-    quick: q.explanation_quick ?? "",
-    topic: q.topic ?? "",
-    topicName: q.topicName ?? "",
-    difficulty: q.difficulty ?? "",
-  }));
+  const mapBank = (list) =>
+    list.map((q, i) => ({
+      id: String(q.id ?? i + 1),
+      text: q.question,
+      options: q.options,
+      correct: q.answer,
+      explanation: (q.explanation ?? "").trim() === (q.explanation_quick ?? "").trim() ? "" : q.explanation,
+      quick: q.explanation_quick ?? "",
+      topic: q.topic ?? "",
+      topicName: q.topicName ?? "",
+      difficulty: q.difficulty ?? "",
+    }));
+
+  const bank = mapBank(raw);
+  let mockBank = [];
+  if (root.dataset.mock) {
+    try {
+      const res = await fetch(root.dataset.mock);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      mockBank = mapBank(await res.json());
+    } catch (err) {
+      console.warn("Could not load mock exam bank:", err);
+    }
+  }
 
   const topics = [];
   bank.forEach((item, i) => {
@@ -83,17 +97,21 @@
   let selected = new Set((store.selected ?? [...validTopics]).filter((c) => validTopics.has(c)));
   if (!selected.size) selected = new Set(validTopics);
   const prefs = Object.assign({ mode: "study", filter: "all", shuffle: true }, store.prefs);
+  if (prefs.mode === "mock" && !mockBank.length) prefs.mode = "study";
   store.prefs = prefs;
   const matchesFilter = (item) =>
     prefs.filter === "unattempted" ? !(item.id in store.history)
     : prefs.filter === "mistakes" ? store.history[item.id] === 0
     : true;
-  const pool = (forMode = prefs.mode) =>
-    forMode === "exam"
-      ? bank.map((_, i) => i)
-      : bank.map((_, i) => i).filter((i) => selected.has(bank[i].topic) && matchesFilter(bank[i]));
+  const sessionBank = (forMode = mode) => (forMode === "mock" ? mockBank : bank);
+  const timedMode = (forMode = mode) => forMode === "exam" || forMode === "mock";
+  const pool = (forMode = prefs.mode) => {
+    if (forMode === "mock") return mockBank.map((_, i) => i);
+    if (forMode === "exam") return bank.map((_, i) => i);
+    return bank.map((_, i) => i).filter((i) => selected.has(bank[i].topic) && matchesFilter(bank[i]));
+  };
   const examSizeFor = (n) => Math.min(EXAM_SIZE, n);
-  const examSecondsFor = (n) => Math.round((EXAM_SECONDS * examSizeFor(n)) / EXAM_SIZE / 60) * 60;
+  const examSecondsFor = (n) => Math.round((EXAM_SECONDS * n) / EXAM_SIZE / 60) * 60;
 
   // phase: "select" (subject dashboard) | "quiz" (answering or reviewing) | "result" (score)
   let mode = null;
@@ -124,17 +142,17 @@
   };
 
   function begin(newMode) {
-    bank.forEach(shuffleOptions);
-    const list = shuffle(pool(newMode));
+    const list = newMode === "mock" ? pool(newMode) : shuffle(pool(newMode));
     if (!list.length) return;
     mode = newMode;
+    sessionBank().forEach(shuffleOptions);
     order = mode === "exam" ? list.slice(0, examSizeFor(list.length)) : list;
     if (mode === "study" && !prefs.shuffle) order.sort((a, b) => a - b);
     current = 0;
     answers = new Map();
     submitted = false;
     timeUp = false;
-    examSeconds = examSecondsFor(list.length);
+    examSeconds = examSecondsFor(order.length);
     reviewFilter = null;
     startedAt = Date.now();
     endsAt = startedAt + examSeconds * 1000;
@@ -187,11 +205,22 @@
                     <small>Timed, ${Math.min(EXAM_SIZE, bank.length)} random questions from the whole bank. Answers are revealed after you submit.</small>
                   </span>
                 </button>
+                ${
+                  mockBank.length
+                    ? `<button type="button" class="pick-card" data-pick-mode="mock">
+                  <span class="pick-icon">${icon("mock", 22)}</span>
+                  <span class="pick-body">
+                    <strong>Mock Exam</strong>
+                    <small>Timed paper of ${mockBank.length} questions in the original order. Answers are revealed after you submit.</small>
+                  </span>
+                </button>`
+                    : ""
+                }
               </div>
             </section>
 
             <section class="dash-panel lockable" data-el="topicsPanel">
-              <p class="lock-note">Exam Mode uses ${Math.min(EXAM_SIZE, bank.length)} random questions from all topics. Topic selection applies to Study Mode only.</p>
+              <p class="lock-note">Exam Mode uses ${Math.min(EXAM_SIZE, bank.length)} random questions from all topics.${mockBank.length ? " Mock Exam uses a fixed paper." : ""} Topic selection applies to Study Mode only.</p>
               <div class="dash-head">
                 <h2><span class="step">2</span>Topics</h2>
                 <div class="dash-tools">
@@ -287,11 +316,11 @@
   const el = Object.fromEntries(
     Array.from(app.querySelectorAll("[data-el]")).map((n) => [n.dataset.el, n])
   );
-  const q = () => bank[order[current]];
-  const examRunning = () => mode === "exam" && phase === "quiz" && !submitted;
+  const q = () => sessionBank()[order[current]];
+  const examRunning = () => timedMode() && phase === "quiz" && !submitted;
   const isRevealed = (item) => (mode === "study" ? answers.has(item.id) : submitted);
   const correctCount = () =>
-    [...answers].filter(([id, i]) => bank.find((b) => b.id === id).correct === i).length;
+    [...answers].filter(([id, i]) => sessionBank().find((b) => b.id === id).correct === i).length;
   const secondsLeft = () => (endsAt - Date.now()) / 1000;
 
   function confirmDialog({ title, message, confirm, cancel = "Cancel" }) {
@@ -373,7 +402,7 @@
     const reviewing = mode === "study" || submitted;
     el.grid.innerHTML = order
       .map((idx, pos) => {
-        const item = bank[idx];
+        const item = sessionBank()[idx];
         const chosen = answers.get(item.id);
         let state = "";
         if (reviewing) {
@@ -393,11 +422,11 @@
       el.score.innerHTML = `<small>Study Mode</small><strong>${correct}</strong> correct of <strong>${answered}</strong> answered &middot; ${pct}%<br><small>${n - answered} remaining</small>`;
       el.legend.innerHTML = '<span class="dot correct"></span>Correct <span class="dot wrong"></span>Wrong';
     } else if (!submitted) {
-      el.score.innerHTML = `<small>Exam Mode</small><strong>${answered}</strong> of <strong>${n}</strong> answered<br><small>${n - answered} unanswered &middot; <span data-el="drawerClock">${formatTime(secondsLeft())}</span> left</small>`;
+      el.score.innerHTML = `<small>${mode === "mock" ? "Mock Exam" : "Exam Mode"}</small><strong>${answered}</strong> of <strong>${n}</strong> answered<br><small>${n - answered} unanswered &middot; <span data-el="drawerClock">${formatTime(secondsLeft())}</span> left</small>`;
       el.legend.innerHTML = '<span class="dot answered"></span>Answered <span class="dot empty"></span>Unanswered';
     } else {
       const pct = Math.round((correct / n) * 100);
-      el.score.innerHTML = `<small>Exam result</small><strong>${pct}%</strong> &middot; ${passed() ? "Passed" : "Not passed"}<br><small>${correct} of ${n} correct &middot; pass mark ${PASS_MARK}%</small>`;
+      el.score.innerHTML = `<small>${mode === "mock" ? "Mock result" : "Exam result"}</small><strong>${pct}%</strong> &middot; ${passed() ? "Passed" : "Not passed"}<br><small>${correct} of ${n} correct &middot; pass mark ${PASS_MARK}%</small>`;
       el.legend.innerHTML = '<span class="dot correct"></span>Correct <span class="dot wrong"></span>Wrong <span class="dot skipped"></span>Unanswered';
     }
   }
@@ -411,7 +440,7 @@
 
   function renderReviewList() {
     const study = mode === "study";
-    const items = order.map((idx, pos) => ({ item: bank[idx], pos, state: reviewState(bank[idx]) }));
+    const items = order.map((idx, pos) => ({ item: sessionBank()[idx], pos, state: reviewState(sessionBank()[idx]) }));
     const count = (state) => items.filter((x) => x.state === state).length;
     const filters = [
       [study ? "answered" : "all", study ? "Attempted" : "All", study ? items.length - count("skipped") : items.length],
@@ -521,7 +550,7 @@
         </div>
         <div class="result-actions">
           <button type="button" class="result-btn primary" data-action="review">Review answers</button>
-          <button type="button" class="result-btn" data-action="retake">Retake exam</button>
+          <button type="button" class="result-btn" data-action="retake">${mode === "mock" ? "Retake mock" : "Retake exam"}</button>
           <button type="button" class="result-btn" data-action="change-mode">Back to dashboard</button>
         </div>
       </div>
@@ -575,18 +604,20 @@
     el.optMistakes.textContent = `${plural(inTopics.filter((b) => history[b.id] === 0).length, "question")} answered wrong`;
 
     const n = pool().length;
-    const exam = prefs.mode === "exam";
-    const count = exam ? examSizeFor(n) : n;
-    el.topicsPanel.classList.toggle("is-locked", exam);
-    el.optionsPanel.classList.toggle("is-locked", exam);
-    el.topicsPanel.inert = el.optionsPanel.inert = exam;
+    const timed = timedMode(prefs.mode);
+    const count = prefs.mode === "exam" ? examSizeFor(n) : n;
+    el.topicsPanel.classList.toggle("is-locked", timed);
+    el.optionsPanel.classList.toggle("is-locked", timed);
+    el.topicsPanel.inert = el.optionsPanel.inert = timed;
     el.readyCount.innerHTML = `<strong>${count}</strong> question${count === 1 ? "" : "s"}`;
     el.readyMeta.textContent = !n
       ? "No questions match. Select a topic or change the options."
-      : exam
-        ? `Random from all topics · ${examSecondsFor(n) / 60} min · pass mark ${PASS_MARK}%`
-        : `${selected.size} topic${selected.size === 1 ? "" : "s"} · no time limit`;
-    el.startBtn.textContent = exam ? "Start exam" : "Start studying";
+      : prefs.mode === "exam"
+        ? `Random from all topics · ${examSecondsFor(count) / 60} min · pass mark ${PASS_MARK}%`
+        : prefs.mode === "mock"
+          ? `Fixed paper · ${examSecondsFor(count) / 60} min · pass mark ${PASS_MARK}%`
+          : `${selected.size} topic${selected.size === 1 ? "" : "s"} · no time limit`;
+    el.startBtn.textContent = prefs.mode === "exam" ? "Start exam" : prefs.mode === "mock" ? "Start mock exam" : "Start studying";
     el.startBtn.disabled = n === 0;
   }
 
@@ -625,7 +656,8 @@
     el.diffChip.textContent = q().difficulty;
     el.diffChip.dataset.level = q().difficulty.toLowerCase();
     el.diffChip.hidden = !q().difficulty;
-    el.modeChip.textContent = mode === "study" ? "Study Mode" : submitted ? "Exam review" : "Exam Mode";
+    el.modeChip.textContent =
+      mode === "study" ? "Study Mode" : mode === "mock" ? (submitted ? "Mock review" : "Mock Exam") : submitted ? "Exam review" : "Exam Mode";
     el.clockChip.hidden = !examRunning();
     updateClock();
     renderOptions();
@@ -637,7 +669,7 @@
       el.dockAction.textContent = answers.size === n ? "See results" : "End study";
     } else {
       el.dockAction.dataset.action = submitted ? "results" : "submit";
-      el.dockAction.textContent = submitted ? "View results" : "Submit exam";
+      el.dockAction.textContent = submitted ? "View results" : mode === "mock" ? "Submit mock" : "Submit exam";
     }
   }
 
@@ -654,16 +686,18 @@
     submitted = true;
     timeUp = auto;
     finishedAt = Date.now();
-    answers.forEach((choice, id) => record(bank.find((b) => b.id === id), choice));
-    const correct = correctCount();
-    store.lastExam = {
-      pct: Math.round((correct / order.length) * 100),
-      correct,
-      total: order.length,
-      passed: passed(),
-      at: finishedAt,
-    };
-    saveStore();
+    if (mode !== "mock") {
+      answers.forEach((choice, id) => record(sessionBank().find((b) => b.id === id), choice));
+      const correct = correctCount();
+      store.lastExam = {
+        pct: Math.round((correct / order.length) * 100),
+        correct,
+        total: order.length,
+        passed: passed(),
+        at: finishedAt,
+      };
+      saveStore();
+    }
     phase = "result";
     setDrawer(false);
     render();
@@ -674,9 +708,9 @@
     const unanswered = order.length - answers.size;
     if (unanswered > 0) {
       const ok = await confirmDialog({
-        title: "Submit exam?",
+        title: mode === "mock" ? "Submit mock exam?" : "Submit exam?",
         message: `You still have ${unanswered} unanswered question${unanswered === 1 ? "" : "s"}. Unanswered questions will be marked as incorrect. Are you sure you want to submit?`,
-        confirm: "Submit exam",
+        confirm: mode === "mock" ? "Submit mock" : "Submit exam",
         cancel: "Keep answering",
       });
       if (!ok) return;
@@ -704,9 +738,9 @@
   async function confirmLeaveExam() {
     if (!examRunning()) return true;
     return confirmDialog({
-      title: "Leave the exam?",
+      title: mode === "mock" ? "Leave the mock exam?" : "Leave the exam?",
       message: "Your exam is still in progress. If you leave now, your answers will be lost.",
-      confirm: "Leave exam",
+      confirm: mode === "mock" ? "Leave mock" : "Leave exam",
       cancel: "Stay",
     });
   }
@@ -772,7 +806,7 @@
         case "menu": setDrawer(true); break;
         case "close": setDrawer(false); break;
         case "restart": setDrawer(false); begin("study"); break;
-        case "retake": setDrawer(false); begin("exam"); break;
+        case "retake": setDrawer(false); begin(mode === "mock" ? "mock" : "exam"); break;
         case "submit": setDrawer(false); requestSubmit(); break;
         case "end-study": setDrawer(false); requestEndStudy(); break;
         case "continue": {
